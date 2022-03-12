@@ -1,5 +1,5 @@
 ---
-title: Who
+title: About
 permalink: "/about/"
 position: 1
 Content:
