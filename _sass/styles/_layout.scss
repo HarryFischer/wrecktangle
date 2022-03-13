@@ -27,6 +27,13 @@ $table-text-align: left !default;
 $on-palm: 600px !default;
 $on-laptop: 800px !default;
 
+// VARS
+$wt-navy: #162b40;
+$wt-pink: #dc6094;
+$wt-green: #7cd0a4;
+$wt-yellow: #efc75c;
+$white: #ffffff;
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //   .wrapper {

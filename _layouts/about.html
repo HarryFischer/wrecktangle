@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<article class="post">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
+<article class="content about">
+  <header class="content__header">
+    <h1 class="content--title">{{ page.title | escape }}</h1>
   </header>
   {%- for content in page.Content -%}
-  <div class="post-content">{{content.introduction-text}}</div>
+  <div class="content__body">{{content.introduction-text}}</div>
   {%- endfor -%}
 </article>

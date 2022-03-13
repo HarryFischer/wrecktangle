@@ -35,9 +35,9 @@ body {
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
   font-kerning: normal;
-  display: flex;
+  // display: flex;
   min-height: 100vh;
-  flex-direction: column;
+  // flex-direction: column;
 }
 
 /**
@@ -126,7 +126,7 @@ a {
 
   &:hover {
     color: $text-color;
-    text-decoration: underline;
+    // text-decoration: underline;
   }
 
   .social-media-list &:hover {
@@ -186,13 +186,13 @@ pre {
 .wrapper {
   margin-right: auto;
   margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
+  padding-right: 15px;
+  padding-left: 15px;
   @extend %clearfix;
 
   @include media-query($on-laptop) {
-    padding-right: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 }
 
