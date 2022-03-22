@@ -38,15 +38,16 @@ a.site-title {
     font-family: "Work Sans", Arial, Helvetica, sans-serif;
 
     // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-      margin-right: 20px;
-    }
+    // &:not(:last-child) {
+    //   margin-right: 20px;
+    // }
   }
 
   // @include media-query($on-laptop) {
   position: absolute;
   top: 20px;
   right: $spacing-unit / 2;
+  right: 0;
   text-align: right;
 
   label[for="nav-trigger"] {
@@ -77,10 +78,38 @@ a.site-title {
 
   input ~ .trigger {
     clear: both;
-    // display: none;
-    display: flex;
+    display: none;
+    // display: flex;
+  }
+  input:checked ~ .trigger {
+    display: block;
+    padding-bottom: 5px;
+    @media (max-width: 600px) {
+      display: flex;
+      padding-bottom: 5px;
+      flex-direction: column;
+      width: 100vw;
+      align-items: flex-start;
+      padding-left: 15px;
+      top: 22px;
+      position: relative;
+      background: white;
+      .page-link {
+        font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+        text-align: left;
+        padding: 20px 15px;
+        font-size: 30px;
+        width: 100%;
+        border-bottom: 1px solid $wt-navy;
+      }
+    }
   }
   @include media-query($on-laptop) {
+    input ~ .trigger {
+      clear: both;
+      // display: none;
+      display: flex;
+    }
     input:checked ~ .trigger {
       display: block;
       padding-bottom: 5px;
@@ -88,18 +117,18 @@ a.site-title {
 
     .page-link {
       display: block;
-      padding: 5px 10px;
-      padding-bottom: 25px;
-      border-bottom: 4px solid transparent;
+      padding: 5px 20px;
+      padding-bottom: 24px;
+      border-bottom: 5px solid transparent;
       transition: border-bottom 0.5s ease;
       &:hover {
-        border-bottom: 4px solid $wt-green;
+        border-bottom: 5px solid $wt-green;
       }
 
       &:not(:last-child) {
         margin-right: 0;
       }
-      margin-left: 20px;
+      // margin-left: 20px;
     }
   }
 
