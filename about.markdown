@@ -2,10 +2,24 @@
 title: Approach
 permalink: "/about/"
 position: 1
-Content:
-- introduction-text: |-
-    Our passion for creating success stories across Tourism, the Arts and Culture, Education and Events, starts with a first-class operational model and exceptional customer experiences.
-    At wrecktangle we tease out the roadblocks, unlock the possibilities and help you focus on the important stuff. After all, it's important for a reason.
+who:
+- name: 'Jillian Wilson '
+  job-title: Founder and Managing Director
+  bio-text: 'Jillian has over a decade of executive-level experience driving and delivering
+    exemplary operations for two of the largest and most successful tourism venues
+    in Ireland: in Business Tourism, The Convention Centre Dublin (CCD) from start-up
+    to award-winning successes; in Leisure Tourism, Trinity College Dublin and The
+    Book of Kells through a period of exceptional growth.'
+  linked-in: 
+  image: 
 layout: about
 ---
 
+## **Disrupt | Discern | Discover**
+
+## Thinking wrecktangle? Then you are thinking strategically wrecktangle is a commercial and venue management consultancy
+
+Offering practical solutions, grounded in best practice, and centered on what you want to achieve.\
+We know what operational excellence looks like, and we know how to deliver it, bringing in-depth, lived experience, gained from operating top-tier venues and attractions, while delivering ambitious commercial targets.\
+Our industry knowledge spans the Tourism, Arts, Culture, Events & Education sectors, both Public and Private.\
+At wrecktangle we are passionate about creating success stories. We have expertise across product development, master planning, customer service excellence, and developing operational strategies.
