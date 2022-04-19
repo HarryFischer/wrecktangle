@@ -12,7 +12,7 @@ who:
     Book of Kells through a period of exceptional growth.'
   linked-in: 
   image: 
-layout: about
+layout: approach
 ---
 
 ## **Disrupt | Discern | Discover**
