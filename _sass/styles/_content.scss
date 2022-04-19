@@ -4,6 +4,11 @@
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
+  margin-top: 80px;
+  .wrapper {
+    h2 {
+    }
+  }
 }
 
 .page-heading {

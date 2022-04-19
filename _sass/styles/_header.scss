@@ -3,6 +3,12 @@
   border-bottom: 1px solid $wt-navy;
   font-family: "Work Sans";
   padding: 12px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: white;
 }
 
 a.site-title {

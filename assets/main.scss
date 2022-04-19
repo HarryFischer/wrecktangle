@@ -3,3 +3,52 @@
 
 // @import "styles/styles";
 @import "styles/layout", "styles/header", "styles/footer", "styles/content";
+
+$max-width: 700px;
+
+.page-content {
+  margin-top: 80px;
+  .wrapper {
+    padding-top: 20vh;
+    h1,
+    h2,
+    p {
+      margin: auto;
+      max-width: $max-width;
+      color: $wt-navy;
+    }
+    h1,
+    h2 {
+      font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+      text-align: center;
+    }
+    h1 {
+      font-size: 80px;
+      font-weight: bold;
+      line-height: 110%;
+      color: $wt-green;
+      margin-bottom: 60px;
+    }
+    h2 {
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 135%;
+      & strong {
+        font-weight: 700;
+      }
+      &:nth-child(1) {
+        margin-bottom: 20px;
+      }
+      &:nth-child(2) {
+        margin-bottom: 20vh;
+      }
+    }
+    p {
+      font-family: "Work Sans", Arial, Helvetica, sans-serif;
+      font-weight: 200;
+      font-size: 17px;
+      line-height: 140%;
+      margin-bottom: 14px;
+    }
+  }
+}
