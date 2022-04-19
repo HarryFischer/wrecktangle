@@ -1,5 +1,5 @@
 ---
-title: About
+title: Approach
 permalink: "/about/"
 position: 1
 Content:
