@@ -118,4 +118,17 @@
       line-height: 135%;
     }
   }
+
+  .add-quotes {
+    &:before {
+        content: '';
+        background-image: url(quotes.svg);
+        width: 60px;
+        height: 29px;
+        display: block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 20px;
+    }
+  }
 }
