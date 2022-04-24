@@ -1,0 +1,9 @@
+<div class="testimonials-wrapper">
+  {%- if page.testimonials -%} {%- for testimonials in page.testimonials -%}
+  <div class="inner">
+    <h3>{{ testimonials.quote-text }}</h3>
+    <p>{{ testimonials.quote-name }}</p>
+    <p>{{ testimonials.quote-company }} : quote-job</p>
+  </div>
+  {%- endfor -%}{%- endif -%}
+</div>

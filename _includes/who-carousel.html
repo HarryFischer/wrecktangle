@@ -1,0 +1,8 @@
+{%- if page.who -%} {%- for who in page.who -%}
+<div>
+  <h3>{{ who.name }}</h3>
+  <h3>{{ who.job-title }}</h3>
+  <p>{{ who.bio-text }}</p>
+  <p>{{ who.linked-in }}</p>
+</div>
+{%- endfor -%}{%- endif -%}

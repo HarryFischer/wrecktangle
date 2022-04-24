@@ -83,3 +83,39 @@
     }
   }
 }
+
+
+
+.flex-three {
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  margin: 20vh auto;
+  gap: 20px;
+  
+  li, .inner {
+    width: 300px;
+    color: $wt-navy;
+    list-style: none;
+
+    img {}
+  
+    h3 {
+      font-family: "Work Sans",
+        Arial,
+        Helvetica,
+        sans-serif;
+      font-size: 25px;
+      line-height: 135%;
+    }
+  
+    p, span {
+      font-family: "Work Sans",
+        Arial,
+        Helvetica,
+        sans-serif;
+      font-size: 17px;
+      line-height: 135%;
+    }
+  }
+}
