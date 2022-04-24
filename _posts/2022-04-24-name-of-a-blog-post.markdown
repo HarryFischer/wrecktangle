@@ -1,7 +1,7 @@
 ---
 title: Name of a blog post
 date: 2022-04-24 12:46:00 Z
-main-image: 
+main-image: "/uploads/kellen-riggin-zoQpeA_BK8M-unsplash.jpg"
 ---
 
 ## Wrecktangle's six-point checklist to support the re-opening process.
