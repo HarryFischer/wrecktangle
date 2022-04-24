@@ -6,8 +6,7 @@ categories:
 - update
 tags:
 - re-opening
-content:
-- main-image: "/uploads/kellen-riggin-zoQpeA_BK8M-unsplash.jpg"
+main-image: "/uploads/kellen-riggin-zoQpeA_BK8M-unsplash.jpg"
 layout: post
 ---
 
