@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="projects">
+  {%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%} {{ content }} {%- if site.projects.size > 0 -%}
+  <!-- <h2 class="post-list-heading">{{ page.list_title | default: "projects" }}</h2> -->
+
+  <ul class="flex-three posts">
+    {%- for post in site.projects -%}
+    <li>
+      <img
+        class="projects-image"
+        src="{{ post.main-image | relative_url }}"
+        alt=""
+      />
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
+      -%}
+      <span class="projects-meta">{{ post.date | date: date_format }}</span>
+      <h3>
+        <a class="projects-title" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+
+  {%- endif -%}
+</div>

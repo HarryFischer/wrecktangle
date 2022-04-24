@@ -1,6 +1,9 @@
 /**
  * Page content
  */
+
+
+
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
@@ -87,16 +90,33 @@
 
 
 .flex-three {
+  
+
   display: flex;
   flex-direction: row;
-  width: max-content;
   margin: 20vh auto;
-  gap: 20px;
+  width: 100vw;
+  overflow: scroll;
+  
+  @include media-query($on-laptop) {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    margin: 20vh auto;
+    gap: 20px;
+    overflow: unset;
+  }
   
   li, .inner {
-    width: 300px;
+    min-width: 300px;
     color: $wt-navy;
     list-style: none;
+    margin-right: 40px;
+    @include media-query($on-laptop) {
+      min-width: unset;
+      width: 300px;
+      margin-right: unset;
+    }
 
     img {}
   
