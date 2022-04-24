@@ -43,3 +43,5 @@ At wrecktangle, we believe in devising strategies that set you up for success. I
 We are committed to delivering quality interactions, quality systems, and quality experiences for your customers and across your organisation or project. We are skilled at navigating complex environments, messaging to, and enrolling your stakeholders, to ensure successful outcomes.
 
 [FIND OUT MORE](http://google.com)
+
+{% include testimonial.html %}
