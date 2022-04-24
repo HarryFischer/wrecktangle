@@ -1,7 +1,7 @@
 ---
 title: Index
 position: 0
-quotes:
+testimonials:
 - quote-text: Our passion for creating success stories across Tourism, the Arts and
     Culture, Education and Events, starts with a first-class operational model and
     exceptional customer experiences.
