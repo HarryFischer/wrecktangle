@@ -44,4 +44,4 @@ We are committed to delivering quality interactions, quality systems, and qualit
 
 [FIND OUT MORE](http://google.com)
 
-{% include testimonial.html %}
+{% include testimonials.html %}
