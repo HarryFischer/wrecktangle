@@ -1,6 +1,9 @@
 ---
 title: Trinity College Dublin
 date: 2022-03-12 16:33:00 Z
+categories:
+- strategy
+- experience
 tags:
 - Trinity College Dublin
 project-image: "/uploads/fallon-michael-cFrD6hBMTQI-unsplash.jpg"
