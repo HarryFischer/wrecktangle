@@ -4,7 +4,7 @@ date: 2022-03-12 16:33:00 Z
 tags:
 - Trinity College Dublin
 Field name:
-  project-image: "/uploads/kellen-riggin-zoQpeA_BK8M-unsplash.jpg"
+  project-image: "/uploads/fallon-michael-cFrD6hBMTQI-unsplash.jpg"
   project-description: How can we re-imagine the Trinity Visitor Experience?
 layout: projects
 ---
