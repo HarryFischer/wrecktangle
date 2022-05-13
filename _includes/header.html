@@ -17,12 +17,25 @@
         </label>
 
         <div class="trigger">
-          {%- for path in page_paths -%}
+          <!-- {% for node in site.pages %}
+          {%- assign my_page = site.pages | where: "path", path | first -%}
+            {% if page.url == node.url %}
+              <a href="{{node.url}}" class="page-link active">{{node.title}}</a>
+            {% else %}
+              <a href="{{node.url}}" class="page-link">{{node.title}}</a>
+            {% endif %}
+          {% endfor %} -->
+          <!-- {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | capitalize | escape }}</a>
             {%- endif -%}
-          {%- endfor -%}
+          {%- endfor -%} -->
+          {% assign current = page.url | downcase | split: '/' %}
+          <a href='/approach' {% if current[1] == 'approach' %} class='active'{% endif %}>Approach</a>
+          <a href='/news.html' {% if current[1] == 'news.html' %} class='active'{% endif %}>News</a>
+          <a href='/work.html' {% if current[1] == 'work.html' %} class='active'{% endif %}>Projects</a>
+          <a id="contact-nav" class="contact">Contact</a>
         </div>
       </nav>
     {%- endif -%}

@@ -2,13 +2,13 @@
 title: Trinity College Dublin
 date: 2022-03-12 16:33:00 Z
 categories:
-- strategy
-- experience
+  - strategy
+  - experience
 tags:
-- Trinity College Dublin
+  - Trinity College Dublin
 project-image: "/uploads/fallon-michael-cFrD6hBMTQI-unsplash.jpg"
 project-description: How can we re-imagine the Trinity Visitor Experience?
-layout: projects
+layout: project
 ---
 
 The tourism landscape across the world changed dramatically in 2020, and no less so in Trinity College. It became apparent that Trinity needed to diversify its product offer to appeal to a wider customer base and to build a sustainable model for Tourism on the Campus.
@@ -18,4 +18,3 @@ wrectangle are tasked with re-imagining what is on offer for visitors on Trinity
 "2020 brought acute challenges to the tourism model in Trinity. wrecktangle devised a strategy to develop products that would deliver sustainable, incremental revenue growth"
 Tony Keohane
 Acting Commercial Director, Trinity College Dublin
-

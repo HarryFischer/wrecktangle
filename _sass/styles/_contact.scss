@@ -1,0 +1,18 @@
+.contact-overlay {
+    position: fixed;
+    top: 80px;
+    right: -50vw;
+    bottom: 0;
+    left: 100vw;
+    z-index: 1000;
+    background-color: white;
+    padding: 20px;
+    transition: left 0.3s ease-in;
+    &.open {
+        left: 50vw;
+        right: -50vw;
+    }
+    li {
+        list-style: none;
+    }
+}

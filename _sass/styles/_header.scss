@@ -39,7 +39,7 @@ a.site-title {
     display: none;
   }
 
-  .page-link {
+  a {
     color: $text-color;
     line-height: $base-line-height;
     font-family: "Work Sans", Arial, Helvetica, sans-serif;
@@ -101,7 +101,7 @@ a.site-title {
       top: 22px;
       position: relative;
       background: white;
-      .page-link {
+      a {
         font-family: "Playfair Display", Arial, Helvetica, sans-serif;
         text-align: left;
         padding: 20px 15px;
@@ -122,14 +122,15 @@ a.site-title {
       padding-bottom: 5px;
     }
 
-    .page-link {
+    a {
       display: block;
       padding: 5px 20px;
       padding-bottom: 24px;
       border-bottom: 5px solid transparent;
       transition: border-bottom 0.5s ease;
-      &:hover {
+      &:hover, &.active {
         border-bottom: 5px solid $wt-green;
+        cursor: pointer;
       }
 
       &:not(:last-child) {

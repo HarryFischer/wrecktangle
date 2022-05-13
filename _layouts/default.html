@@ -11,10 +11,26 @@
       <div class="wrapper">
         {{ content }}
       </div>
+      <div class="contact-overlay" id="contact-nav-overlay">
+        <address>
+          <div>
+            {%- if site.address -%}
+            <li class="p-name"><p>{{ site.address | escape }}</p></li>
+            {%- endif -%}
+            {%- if site.email -%}
+              <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+            {%- if site.phone -%}
+              <li><a class="u-phone" href="mailto:{{ site.phone }}">{{ site.phone }}</a></li>
+            {%- endif -%}
+        
+          </div>
+        </address>
+      </div>
     </main>
 
     {%- include footer.html -%}
 
   </body>
-
+<script src="{{ base.url | prepend: site.url }}/assets/main.js"></script>
 </html>
