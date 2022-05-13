@@ -2,10 +2,10 @@
 title: A blog post
 date: 2022-02-21 15:56:00 Z
 categories:
-  - jekyll
-  - update
+- jekyll
+- update
 tags:
-  - re-opening
+- re-opening
 main-image: "/uploads/kellen-riggin-zoQpeA_BK8M-unsplash.jpg"
 layout: post
 ---

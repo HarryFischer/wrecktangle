@@ -21,11 +21,11 @@ instagram: Instagram
 twitter: Twitter
 facebook: Facebook
 description: Solutions outside the box
-baseurl:
-url:
-twitter_username:
+baseurl: 
+url: 
+twitter_username: 
 github_username: HarryFischer
 copyright: Wrecktangle
 theme: minima
 plugins:
-  - jekyll-feed
+- jekyll-feed
