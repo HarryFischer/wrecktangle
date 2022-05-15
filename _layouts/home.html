@@ -17,7 +17,7 @@ layout: default
       <a class="posts-title" href="{{ post.url | relative_url }}">
         <img
           class="posts-image"
-          src="{{ post.main-image | relative_url }}"
+          src="{{ site.base.url }}{{ post.main-image}}"
           alt=""
         />
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
