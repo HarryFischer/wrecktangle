@@ -15,7 +15,7 @@ layout: default
       <li>
         <img
           class="projects-image"
-          src="{{ post.project-image | relative_url }}"
+          src="{{ site.base.url }}{{ post.project-image | relative_url }}"
           alt=""
         />
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
