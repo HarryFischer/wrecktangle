@@ -23,9 +23,9 @@ facebook: Facebook
 description: Solutions outside the box
 baseurl: https://harryfischer.github.io
 url: https://harryfischer.github.io
-twitter_username:
+twitter_username: 
 github_username: HarryFischer
 copyright: Wrecktangle
 theme: minima
 plugins:
-  - jekyll-feed
+- jekyll-feed
