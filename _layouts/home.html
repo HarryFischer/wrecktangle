@@ -14,10 +14,10 @@ layout: default
   <ul class="flex-three posts">
     {%- for post in site.posts -%}
     <li>
-      <a class="posts-title" href="{{ post.url | relative_url }}">
+      <a class="posts-title" href="{{ site.baseurl }}{{ post.url }}">
         <img
           class="posts-image"
-          src="{{ site.base.url }}{{ post.main-image}}"
+          src="{{ site.baseurl }}{{ post.main-image}}"
           alt=""
         />
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"

@@ -13,14 +13,14 @@ layout: default
     <li>
       <img
         class="posts-image"
-        src="{{ post.main-image | relative_url }}"
+        src="{{ site.baseurl }}{{ post.main-image }}"
         alt=""
       />
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
       -%}
       <span class="posts-meta">{{ post.date | date: date_format }}</span>
       <h3>
-        <a class="posts-title" href="{{ post.url | relative_url }}">
+        <a class="posts-title" href="{{ site.baseurl }}{{ post.url }}">
           {{ post.title | escape }}
         </a>
       </h3>

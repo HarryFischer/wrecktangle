@@ -11,11 +11,11 @@ layout: default
 
   <ul class="posts">
     {%- for post in site.project -%}
-    <a class="project-title" href="{{ post.url | relative_url }}">
+    <a class="project-title" href="{{ site.baseurl }}{{ post.url }}">
       <li>
         <img
           class="project-image"
-          src="{{ post.project-image | relative_url }}"
+          src="{{ site.baseurl }}{{ post.project-image }}"
           alt=""
         />
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
