@@ -11,6 +11,35 @@
   .wrapper {
     h2 {
     }
+    p a {
+      display: flex;
+      align-items: center;
+      color: $wt-navy;
+      margin-top: 20px;
+      &::before {
+        // content:url("../assets/arrow.svg");
+        content:url("../assets/arrow.svg");
+        margin-right: 15px;
+        transform: translateY(2px);
+        display: inline;
+        width: 30px;
+        height: 30px;
+        border: 2px solid $wt-navy;
+        border-radius: 50%;
+        padding: 15px 3px 3px 15px;
+        transition: all 0.3s ease;
+      }
+      
+    }
+    p a:hover {
+       
+          &:before {
+            content:url("../assets/arrow-hover.svg");
+            background-color: $wt-navy;
+            // border: 2px solid $wt-yellow;
+          }
+        
+    }
   }
 }
 
