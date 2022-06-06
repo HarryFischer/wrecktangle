@@ -21,9 +21,13 @@ instagram: Instagram
 twitter: Twitter
 facebook: Facebook
 description: Solutions outside the box
+<<<<<<< HEAD
 baseurl: ""
+=======
+baseurl: wrecktangle/
+>>>>>>> 756fd0e8132a62c42266d2bce181b842f9dbca95
 url: https://harryfischer.github.io
-twitter_username:
+twitter_username: 
 github_username: HarryFischer
 copyright: Wrecktangle
 theme: minima
