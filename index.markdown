@@ -2,27 +2,24 @@
 title: Index
 position: 0
 testimonials:
-  - quote-text:
-      Our passion for creating success stories across Tourism, the Arts and
-      Culture, Education and Events, starts with a first-class operational model and
-      exceptional customer experiences.
-    quote-name: Firstname Surname
-    quote-company: Company name
-    quote-job: Job title
-  - quote-text:
-      Our passion for creating success stories across Tourism, the Arts and
-      Culture, Education and Events, starts with a first-class operational model and
-      exceptional customer experiences.
-    quote-name: Firstname Surname
-    quote-company: Company name
-    quote-job: Job title
-  - quote-text:
-      Our passion for creating success stories across Tourism, the Arts and
-      Culture, Education and Events, starts with a first-class operational model and
-      exceptional customer experiences.
-    quote-name: Firstname Surname
-    quote-company: Company name
-    quote-job: Job title
+- quote-text: Our passion for creating success stories across Tourism, the Arts and
+    Culture, Education and Events, starts with a first-class operational model and
+    exceptional customer experiences.
+  quote-name: Firstname Surname
+  quote-company: Company name
+  quote-job: Job title
+- quote-text: Our passion for creating success stories across Tourism, the Arts and
+    Culture, Education and Events, starts with a first-class operational model and
+    exceptional customer experiences.
+  quote-name: Firstname Surname
+  quote-company: Company name
+  quote-job: Job title
+- quote-text: Our passion for creating success stories across Tourism, the Arts and
+    Culture, Education and Events, starts with a first-class operational model and
+    exceptional customer experiences.
+  quote-name: Firstname Surname
+  quote-company: Company name
+  quote-job: Job title
 layout: home
 ---
 
