@@ -3,32 +3,30 @@ layout: default
 ---
 
 <div class="project">
-  <!-- {%- if page.title -%}
+  {%- if page.title -%}
   <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}  -->
-  {{ content }} {%- if site.project.size > 0 -%}
-  <!-- <h2 class="post-list-heading">{{ page.list_title | default: "project" }}</h2> -->
+  {%- endif -%} {{ content }} {%- if site.project.size > 0 -%}
 
   <ul class="posts">
-    {%- for post in site.project -%}
-    <a class="project-title" href="{{ site.baseurl }}{{ post.url }}">
+    {%- for project in site.projects -%}
+    <a class="project-title" href="{{ site.baseurl }}{{ project.url }}">
       <li>
         <img
           class="project-image"
-          src="{{ site.baseurl }}{{ post.project-image }}"
+          src="{{ site.baseurl }}{{ project.projects-image }}"
           alt=""
         />
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
         -%}
-        <!-- <span class="project-meta">{{ post.date | date: date_format }}</span> -->
+        <span class="project-meta">{{ project.date | date: date_format }}</span>
         <div class="text-wrapper">
           <h3>
-            {{ post.title | escape }}
-            <span>{{ post.project-description | escape }}</span>
+            {{ project.title | escape }}
+            <span>{{ project.project-description | escape }}</span>
           </h3>
         </div>
-        <!-- {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%} -->
-        {%- if post.categories -%} {{ post.catergories }} {%- endif -%}
+        <!-- {%- if site.show_excerpts -%} {{ project.excerpt }} {%- endif -%} -->
+        {%- if project.categories -%} {{ project.catergories }} {%- endif -%}
       </li>
     </a>
     {%- endfor -%}

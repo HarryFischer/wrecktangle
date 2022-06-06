@@ -7,7 +7,7 @@ layout: default
   <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%} -->
   <!-- content start -->
-  {{ content | markdownify }}
+  {{ content }}
   <!-- content end -->
   {%- if site.posts.size > 0 -%}
   <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
@@ -17,7 +17,7 @@ layout: default
       <a class="posts-title" href="{{ site.baseurl }}{{ post.url }}">
         <img
           class="posts-image"
-          src="{{ site.baseurl }}{{ post.main-image}}"
+          src="{{ site.baseurl }}{{ post.main-image }}"
           alt=""
         />
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
