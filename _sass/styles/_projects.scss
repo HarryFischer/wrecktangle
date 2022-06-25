@@ -4,7 +4,7 @@ $wt-green: #57cb8e;
 $wt-yellow: #efc75c;
 $white: #ffffff;
 
-$widthHeight: 40vw;
+$widthHeight: 45vw;
 
 .projects {
     .posts {
@@ -13,7 +13,8 @@ $widthHeight: 40vw;
         li {
             list-style: none;
             margin: 0;
-            width: 100%;
+            width: max-content;
+            margin: auto;
             
             // display: flex;
             // flex-direction: row-reverse;
