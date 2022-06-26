@@ -32,9 +32,7 @@ layout: home
 
 ## Wrecktangle is a strategic commercial consultancy, specialising in the Leisure and Tourism industry. We collaborate with you, so your big ideas can turn into the bigger picture
 
-<div>
 !\[alt text goes here\]({{ "/uploads/e71377_b6171e187eb740ef8a80908bca153001_mv2.jpeg.jpeg" | relative_url }})
-</div>
 
 # What we do
 
