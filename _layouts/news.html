@@ -16,14 +16,14 @@ layout: default
         src="{{ site.baseurl }}{{ post.main-image }}"
         alt=""
       />
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
-      -%}
-      <span class="posts-meta">{{ post.date | date: date_format }}</span>
       <h3>
         <a class="posts-title" href="{{ site.baseurl }}{{ post.url }}">
           {{ post.title | escape }}
         </a>
       </h3>
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
+      -%}
+      <span class="posts-meta">{{ post.date | date: date_format }}</span>
       {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
     </li>
     {%- endfor -%}

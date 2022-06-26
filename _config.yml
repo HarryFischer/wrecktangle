@@ -22,7 +22,7 @@ twitter: Twitter
 facebook: Facebook
 description: Solutions outside the box
 url: https://harryfischer.github.io/wrecktangle/
-twitter_username: 
+twitter_username:
 github_username: HarryFischer
 copyright: Wrecktangle
 theme: minima
@@ -30,5 +30,19 @@ sass:
   style: compressed
 markdown: kramdown
 plugins:
-- jekyll-feed
-- jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-seo-tag
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      - project-image:
+        project-description:
+        project-colour:
+          [
+            "wrecktangle yellow",
+            "wrecktangle navy",
+            "wrecktangle pink",
+            "wrecktangle green",
+          ]
