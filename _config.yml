@@ -14,6 +14,18 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: projects
+    type: pages
+  values:
+    project-image: 
+    project-description: 
+    colors:
+    - red
+    - green
+    - blue
+    layout: project
 email: your-email@example.com
 phone: 01234 567 890
 address: 28 Blackberry Hill, Carrickmines, Dublin 18. D18 H869
@@ -22,7 +34,7 @@ twitter: Twitter
 facebook: Facebook
 description: Solutions outside the box
 url: https://harryfischer.github.io/wrecktangle/
-twitter_username:
+twitter_username: 
 github_username: HarryFischer
 copyright: Wrecktangle
 theme: minima
@@ -30,14 +42,5 @@ sass:
   style: compressed
 markdown: kramdown
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-defaults:
-  - scope:
-      path: "projects"
-      type: "pages"
-    values:
-      project-image:
-      project-description:
-      colors: ["red", "green", "blue"]
-      layout: "project"
+- jekyll-feed
+- jekyll-seo-tag
