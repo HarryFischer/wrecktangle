@@ -30,7 +30,7 @@ Who is your customer? What is the customer need you are fulfilling? Does the exp
 
 I have noticed a real shift in business’ willingness to think creatively about new ways to engage with visitors and there are some fantastic ideas arising out of lockdown necessities. 
 
-![a-strategic-approach_2.jpg](/uploads/a-strategic-approach_2.jpg)
+![a-strategic-approach_2.jpg](/wrecktangle/uploads/a-strategic-approach_2.jpg)
 
 However, trying to develop and implement all these ideas at once will be incredibly challenging. 
 
@@ -47,7 +47,7 @@ In this way, everyone is clear on the roadmap and the steps to make the experien
 
 Be crystal clear on who will deliver the elements within the operational plan. Specify who will manage the operations and who will be accountable for its success.
 
-![a-strategic-approach_3.jpg](/uploads/a-strategic-approach_3.jpg)
+![a-strategic-approach_3.jpg](/wrecktangle/uploads/a-strategic-approach_3.jpg)
 
 ## Size of the Prize
 
