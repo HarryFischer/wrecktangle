@@ -51,5 +51,5 @@ defaults:
     values:
       project-image:
       project-description:
-      colors: ["red", "green", "blue"]
+      colors: 
       layout: "project"
