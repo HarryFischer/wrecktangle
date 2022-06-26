@@ -17,7 +17,7 @@ collections:
 defaults:
 - scope:
     path: projects
-    type: pages
+    type: project
   values:
     project-image: 
     project-description: 
@@ -42,14 +42,5 @@ sass:
   style: compressed
 markdown: kramdown
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-defaults:
-  - scope:
-      path: "projects"
-      type: "project"
-    values:
-      project-image:
-      project-description:
-      colors: ["red", "green", "blue"]
-      layout: "project"
+- jekyll-feed
+- jekyll-seo-tag
