@@ -60,5 +60,5 @@ However keep communications succinct and relevant to their needs.
 
 Focus on the above and you are building a sustainable platform for future customer engagement, whilst expanding your experience portfolio and customer demographics.
 
-At wrecktangle, we call this creating success stories.
+At Wrecktangle, we call this creating success stories.
 Contact us here if you would like any further information on the services we offer.
