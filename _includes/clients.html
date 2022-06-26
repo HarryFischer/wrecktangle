@@ -1,0 +1,9 @@
+<div class="flex-three clients-wrapper">
+  {%- if page.clients -%} {%- for clients in page.clients -%}
+  <div class="inner add-quotes">
+    <h3>{{ clients.quote-text }}</h3>
+    <p>{{ clients.quote-name }}</p>
+    <p><span>{{ clients.quote-company }} | {{quote-job}}</span></p>
+  </div>
+  {%- endfor -%}{%- endif -%}
+</div>

@@ -4,9 +4,9 @@ layout: default
 
 <article class="content about">
   {{ content | markdownify }}
-  <header class="content__header">
+  <!-- <header class="content__header">
     <h1 class="content--title">{{ page.title | escape }}</h1>
-  </header>
+  </header> -->
   {%- for content in page.Content -%}
   <div class="content__body">{{content.introduction-text}}</div>
   {%- endfor -%}

@@ -16,8 +16,8 @@ $widthHeight: 45vw;
             width: max-content;
             margin: auto;
             
-            // display: flex;
-            // flex-direction: row-reverse;
+            display: flex;
+            flex-direction: row-reverse;
             img.projects-image {
                 border-radius: 30px;
                 width: $widthHeight;
@@ -46,16 +46,21 @@ $widthHeight: 45vw;
                     }
                 }
             }
+        }
+
+        .projects-title {
             &:nth-child(odd) {
-                .text-wrapper {
-                    float: left;
+                li {
+                    flex-direction: row;
                 }
             }
-                        &:nth-child(even) {
-                            .text-wrapper {
-                                float: right;
-                            }
-                        }
+        
+            &:nth-child(even) {
+                li {
+                    flex-direction: row-reverse;
+                }
+            }
         }
+
     }
 }

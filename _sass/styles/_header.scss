@@ -126,8 +126,12 @@ a.site-title {
       display: block;
       padding: 5px 20px;
       padding-bottom: 24px;
-      border-bottom: 5px solid transparent;
+      border-bottom: 5px solid white;
       transition: border-bottom 0.5s ease;
+      // &:after {
+      //   content:'';
+      //   width: calc(100% + 10;
+      // }
       &:hover, &.active {
         border-bottom: 5px solid $wt-green;
         cursor: pointer;

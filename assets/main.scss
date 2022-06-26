@@ -2,7 +2,7 @@
 ---
 
 // @import "styles/styles";
-@import "styles/layout", "styles/header", "styles/footer", "styles/content", "styles/testimonials", "styles/news", "styles/projects", "styles/contact";
+@import "styles/layout", "styles/header", "styles/footer", "styles/content", "styles/testimonials", "styles/news", "styles/projects", "styles/contact", "styles/post";
 
 $max-width: 800px;
 
@@ -12,13 +12,14 @@ $max-width: 800px;
     padding-top: 25vh;
     h1,
     h2,
+    ul,
     p {
       margin: auto;
       max-width: $max-width;
       color: $wt-navy;
     }
     h1,
-    h2 {
+    h2, h3 {
       font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
       text-align: center;
     }
@@ -43,21 +44,35 @@ $max-width: 800px;
         margin-bottom: 25vh;
       }
     }
-    p {
+    h3 {
+      text-align: left;
+      margin: auto;
+    }
+    p, ul, h3 {
       font-family: "Work Sans", Arial, Helvetica, sans-serif;
       font-weight: 400;
       font-size: 17px;
       line-height: 140%;
       margin-bottom: 14px;
-          max-width: 620px;
+      max-width: 620px;
+    }
+    .image-wrapper {
+      max-width: 80vw;
+      max-height: 50vw;
+      overflow: hidden;
+      object-fit: cover;
+      margin-bottom: 25vh;
+      img {
+        width: 100%;
+        background-position: center;
+      }
     }
   }
 }
 
 
 .page-content {
-
-  p img, .posts li img {
+  .image-wrapper, .posts li img {
    border-radius: 30px;
  }
 }

@@ -1,10 +1,14 @@
-<div class="flex-three who-wrapper">
-  {%- if page.who -%} {%- for who in page.who -%}
+<div class="flex-three team-members-wrapper">
+  {%- if page.team-title -%}
+  <h1>{{ team-title.title }}</h1>
+  {%- endif -%} {%- if page.team-members -%} {%- for team-members in
+  page.team-members -%}
   <div class="inner">
-    <h3>{{ who.name }}</h3>
-    <h3>{{ who.job-title }}</h3>
-    <p>{{ who.bio-text }}</p>
-    <p>{{ who.linked-in }}</p>
+    <img src="{{ team-members.image }}" alt="" />
+    <h3>{{ team-members.name }}</h3>
+    <h3>{{ team-members.job-title }}</h3>
+    <small>{{ team-members.bio-text }}</small>
+    <a href="{{ team-members.linked-in }}" target="_blank">Linked-in</a>
   </div>
   {%- endfor -%}{%- endif -%}
 </div>

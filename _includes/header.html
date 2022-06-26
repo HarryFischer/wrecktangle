@@ -32,10 +32,10 @@
             {%- endif -%}
           {%- endfor -%} -->
           {% assign current = page.url | downcase | split: '/' %}
-          <a href='{{ site.baseurl }}/approach' {% if current[1] == 'approach' %} class='active'{% endif %}>Approach</a>
-          <a href='{{ site.baseurl }}/news.html' {% if current[1] == 'news.html' %} class='active'{% endif %}>News</a>
-          <a href='{{ site.baseurl }}/work.html' {% if current[1] == 'work.html' %} class='active'{% endif %}>Projects</a>
-          <a id="contact-nav" class="contact">Contact</a>
+          <a href='{{ site.baseurl }}/about.html' {% if current[1] == 'about.html' %} class='active'{% endif %}>ABOUT</a>
+          <a href='{{ site.baseurl }}/work.html' {% if current[1] == 'work.html' %} class='active'{% endif %}>PROJECTS</a>
+          <a href='{{ site.baseurl }}/news.html' {% if current[1] == 'news.html' %} class='active'{% endif %}>NEWS</a>
+          <a id="contact-nav" class="contact">CONTACT</a>
         </div>
       </nav>
     {%- endif -%}
