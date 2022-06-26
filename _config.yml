@@ -47,7 +47,7 @@ plugins:
 defaults:
   - scope:
       path: "projects"
-      type: "project"
+      type: "projects"
     values:
       project-image:
       project-description:
