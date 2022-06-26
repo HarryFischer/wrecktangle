@@ -1,5 +1,5 @@
 ---
-title: A blog post
+title: Creating a Frictionless Customer Journey
 date: 2022-02-21 15:56:00 Z
 categories:
 - jekyll
