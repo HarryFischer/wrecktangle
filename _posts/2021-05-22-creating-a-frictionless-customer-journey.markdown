@@ -7,7 +7,7 @@ tags:
 - proactive
 - sale
 - success
-main-image: "/wrecktangle/uploads/frictionless-customer-journey_3.jpg"
+main-image: "/uploads/frictionless-customer-journey_3.jpg"
 sub-title: How can businesses create quality visitor interactions when they are in
   survival mode?
 length: 2 min read
