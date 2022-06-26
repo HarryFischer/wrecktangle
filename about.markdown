@@ -1,5 +1,5 @@
 ---
-title: About us
+title: About
 permalink: about
 position: 1
 team-members:
@@ -11,7 +11,7 @@ team-members:
     to award-winning successes; in Leisure Tourism, Trinity College Dublin and The
     Book of Kells through a period of exceptional growth.'
   linked-in: www.google.com
-  image: "/uploads/e71377_b6171e187eb740ef8a80908bca153001_mv2.jpeg"
+  image: "/wrecktangle/uploads/jillian%20copy.jpg"
   image-alt: Image of persons name
 - name: 'Jillian Wilson '
   job-title: Founder and Managing Director
@@ -21,7 +21,7 @@ team-members:
     to award-winning successes; in Leisure Tourism, Trinity College Dublin and The
     Book of Kells through a period of exceptional growth.'
   linked-in: www.google.com
-  image: "/uploads/e71377_b6171e187eb740ef8a80908bca153001_mv2.jpeg"
+  image: "/wrecktangle/uploads/jillian%20copy.jpg"
   image-alt: Image of persons name
 - name: 'Jillian Wilson '
   job-title: Founder and Managing Director
@@ -31,7 +31,7 @@ team-members:
     to award-winning successes; in Leisure Tourism, Trinity College Dublin and The
     Book of Kells through a period of exceptional growth.'
   linked-in: www.google.com
-  image: "/uploads/e71377_b6171e187eb740ef8a80908bca153001_mv2.jpeg"
+  image: "/wrecktangle/uploads/jillian%20copy.jpg"
   image-alt: Image of persons name
 layout: approach
 ---
