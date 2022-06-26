@@ -36,13 +36,14 @@ layout: home
 
 # What we do
 
-Why wrecktangle and why solutions
-outside the box?
-At wrecktangle, we believe in devising strategies that set you up for success. In collaboration, we support you to develop and innovate within your business model, and to deliver against a structured framework.
-We are committed to delivering quality interactions, quality systems, and quality experiences for your customers and across your organisation or project. We are skilled at navigating complex environments, messaging to, and enrolling your stakeholders, to ensure successful outcomes.
+From concept creation to execution, we develop business plans and innovate within your operating models, to drive commercial returns.
+
+Wrecktangle creates the environment for you to innovate and re-imagine your visitor experience.
+
+We partner to bring your customer experiences to life: with you, with content designers, producers, and marketing experts; to create the framework to deliver on your commercial ambition. 
 
 {% include clients.html %}
 
-[FIND OUT MORE](/wrecktangle/projects)
+[See our work](/wrecktangle/projects)
 
 {% include testimonials.html %}
