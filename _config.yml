@@ -34,8 +34,8 @@ plugins:
   - jekyll-seo-tag
 defaults:
   - scope:
-      path: ""
-      type: "project"
+      path: "/projects"
+      type: ""
     values:
       - project-image:
         project-description:
