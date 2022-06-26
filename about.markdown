@@ -1,5 +1,5 @@
 ---
-title: About us
+title: About
 permalink: about
 position: 1
 team-members:
