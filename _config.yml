@@ -34,9 +34,10 @@ plugins:
   - jekyll-seo-tag
 defaults:
   - scope:
-      path: "/projects"
-      type: ""
+      path: "projects"
+      type: "pages"
     values:
-      - project-image:
-        project-description:
-        project-colour:
+      project-image:
+      project-description:
+      colors: ["red", "green", "blue"]
+      layout: "project"
