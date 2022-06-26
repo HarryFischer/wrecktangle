@@ -40,9 +40,3 @@ defaults:
       - project-image:
         project-description:
         project-colour:
-          [
-            "wrecktangle yellow",
-            "wrecktangle navy",
-            "wrecktangle pink",
-            "wrecktangle green",
-          ]
