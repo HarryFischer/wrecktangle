@@ -7,41 +7,51 @@ categories:
 tags:
 - re-opening
 main-image: "/uploads/kellen-riggin-zoQpeA_BK8M-unsplash.jpg"
+sub-title: How can businesses create quality visitor interactions when they are in
+  survival mode?
+length: 2 min read
 layout: post
 ---
 
-## Wrecktangle's six-point checklist to support the re-opening process.
+The current focus for the Hospitality, Tourism and Events industry is to motivate visitors to their venues, their attractions and their leisure locations. 
 
-At wrecktangle, we are working with clients on re-opening strategies to ensure they deliver a compelling offer to motivate people to visit. We have formulated this six-point checklist to support businesses.
+The routes to engaging with these experiences has changed and businesses need to focus on delivering a smooth, consistent visitor experience to their customers. 
 
-## Articulate your objectives for re-opening
+Many venues and attractions may have gone online for the first time to offer ticketing, both in order to manage capacity and also in many cases, to introduce timed entry. 
 
-It may sound obvious, but prioritising your ambition, objectives and outcomes for re-opening will support you to be very clear in what you are doing and why you are doing it.
+## Old style ticketing approaches are changing in 2021
 
-Sometimes we are so focused on the solutions and operations to deliver them, that we lose sight of why we are promoting a certain offer or developing a certain product.
+Other locations, such as hotels and restaurants, will have to capture enhanced customer details and also share information regarding their approach to managing Tourism and Events at this time. 
 
-Knowing what you want to achieve supports your prioritisation process and ensures you focus on the elements that will realise your ambition.
+It is important that these additional elements have been integrated seamlessly into the overall customer journey for your visitors. 
 
-Who is your customer? What is the customer need you are fulfilling? Does the experience meet that need? Will it motivate customers to engage with your product or venue?
+At wrecktangle, we are encouraging businesses to focus on the following five elements:
 
-I have noticed a real shift in business’ willingness to think creatively about new ways to engage with visitors and there are some fantastic ideas arising out of lockdown necessities.
+### Customer journey mapping
 
-However, trying to develop and implement all these ideas at once will be incredibly challenging.
+Understanding how your customers interact with your experience will lead to key insights. For example, touchpoints that existed in 2019 may no longer be possible, or in 2021 additional steps have been added to the journey, be that online or in person.
 
-Looking at your ideas through the lens of your audience and whether they know your brand, or are new to your brand, will support you to choose those ideas with the greatest likelihood of success.
+### Create signature experiences
 
-It is important to develop a robust operational plan to include all elements of the customer journey, from enquiry, to booking, to activation and follow up. This should also integrate any digital and human interventions and include any new processes due to Covid restrictions.
+Get to know what your brand or experience is best known for. What are your USPs, and why do people want to interact with you? Interweave these unique elements into all aspects of the customer journey to create your own signature experience. 
 
-In this way, everyone is clear on the roadmap and the steps to make the experience happen.
+### Expand your customer base 
 
-![kellen-riggin-zoQpeA_BK8M-unsplash.jpg](/uploads/kellen-riggin-zoQpeA_BK8M-unsplash.jpg)
+Building on your cohesive customer journey and signature experiences, think creatively about how you can appeal to a broader demographic. Tap into current zeitgeists or motivating factors and offer an appealing product to that market. 
 
-Be crystal clear on who will deliver the elements within the operational plan. Specify who will manage the operations and who will be accountable for its success.
+### Affiliation Selling
 
-As a business, you may decide to run an offer for PR purposes, or you may want to make a profit. Understanding what the commercial opportunity is, and modelling this alongside a detailed costs breakdown, is critical.
+Think about how you can engage your customers in a longer-term relationship with you. Offer opportunities for cross-selling and upselling to add value and enhance the customer experience. 
 
-Make a proactive decision on your approach, rather than reactively determining whether or not something was revenue generating. This will also inform your KPIs and objectives for re-opening.
+Focusing on the quality of the relationship rather than the quantity of relationships will provide a more sustainable model into the future. 
 
-Conduct weekly reviews of your KPIs and build in opportunities to capture lessons learned and to gather feedback throughout. In this way you can dynamically address issues or amplify wins during the process, rather than staying the course for the duration.
+### Timely and Relevant Customer Communication
 
-At wrecktangle, we are passionate about creating success stories, which is why we start with a first class operational model and exceptional customer experiences. Click here to find out more about what we do.
+Telling your visitors why you have made changes; how you are keeping them and your staff safe; how you are enhancing their overall experience is important. Your visitors will appreciate the assurances that you are taking capacity management, cleanliness and the safety of everyone seriously. 
+
+However keep communications succinct and relevant to their needs. 
+
+Focus on the above and you are building a sustainable platform for future customer engagement, whilst expanding your experience portfolio and customer demographics. 
+
+At wrecktangle, we call this creating success stories.
+Contact us here if you would like any further information on the services we offer. 
