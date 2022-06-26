@@ -2,8 +2,6 @@
 title: About us
 permalink: about
 position: 1
-team-title:
-  title: Who we are
 team-members:
 - name: 'Jillian Wilson '
   job-title: Founder and Managing Director
@@ -45,6 +43,8 @@ When you’re truly engaged in an experience, you become part of the story, and 
 Coming up with an idea can be either lightning fast or take days spent in a meeting room with an empty whiteboard. To bring these ideas to life, we offer practical solutions, grounded in best practice, and centred on what you want to achieve.
 
 We know what memorable experiences and operational excellence looks like, and we know how to deliver it, bringing in-depth, lived experience, gained from operating top-tier venues and attractions, that deliver ambitious commercial targets.
+
+# Who we are
 
 {% include who-carousel.html %}
 
