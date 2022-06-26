@@ -21,10 +21,7 @@ defaults:
   values:
     project-image: 
     project-description: 
-    colors:
-    - red
-    - green
-    - blue
+    colors: 
     layout: project
 email: your-email@example.com
 phone: 01234 567 890
@@ -42,14 +39,5 @@ sass:
   style: compressed
 markdown: kramdown
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-defaults:
-  - scope:
-      path: "projects"
-      type: "projects"
-    values:
-      project-image:
-      project-description:
-      colors: 
-      layout: "project"
+- jekyll-feed
+- jekyll-seo-tag
