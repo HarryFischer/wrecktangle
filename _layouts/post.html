@@ -8,9 +8,12 @@ layout: default
   itemtype="http://schema.org/BlogPosting"
 >
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">
-      {{ page.title | escape }}
-    </h1>
+    <div>
+      <img src="{{ site.baseurl }}{{ post.main-image }}" alt="" />
+      <h1 class="post-title p-name" itemprop="name headline">
+        {{ page.title | escape }}
+      </h1>
+    </div>
     <p class="post-meta">
       <time
         class="dt-published"
