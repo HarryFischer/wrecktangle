@@ -38,4 +38,23 @@ layout: default
   endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
+  <ul class="flex-three posts">
+    {%- for post in site.posts -%}
+    <li>
+      <a class="posts-title" href="{{ site.baseurl }}{{ post.url }}">
+        <img
+          class="posts-image"
+          src="{{ site.baseurl }}{{ post.main-image }}"
+          alt=""
+        />
+        <h3>{{ post.title | escape }}</h3>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
+        -%}
+        <span class="posts-meta">{{ post.date | date: date_format }}</span>
+      </a>
+      {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
 </article>
