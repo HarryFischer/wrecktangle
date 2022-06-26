@@ -6,7 +6,7 @@ categories:
 - update
 tags:
 - re-opening
-main-image: "/uploads/kellen-riggin-zoQpeA_BK8M-unsplash.jpg"
+main-image: "/wrecktangle/uploads/frictionless-customer-journey_3.webp"
 sub-title: How can businesses create quality visitor interactions when they are in
   survival mode?
 length: 2 min read
@@ -25,7 +25,9 @@ Other locations, such as hotels and restaurants, will have to capture enhanced c
 
 It is important that these additional elements have been integrated seamlessly into the overall customer journey for your visitors. 
 
-At wrecktangle, we are encouraging businesses to focus on the following five elements:
+![frictionless-customer-journey_main.jpg](/wrecktangle/uploads/frictionless-customer-journey_main.jpg)
+
+At Wrecktangle, we are encouraging businesses to focus on the following five elements:
 
 ### Customer journey mapping
 
@@ -34,6 +36,8 @@ Understanding how your customers interact with your experience will lead to key 
 ### Create signature experiences
 
 Get to know what your brand or experience is best known for. What are your USPs, and why do people want to interact with you? Interweave these unique elements into all aspects of the customer journey to create your own signature experience. 
+
+[frictionless-customer-journey_4.webp](/wrecktangle/uploads/frictionless-customer-journey_4.webp)
 
 ### Expand your customer base 
 
@@ -44,6 +48,8 @@ Building on your cohesive customer journey and signature experiences, think crea
 Think about how you can engage your customers in a longer-term relationship with you. Offer opportunities for cross-selling and upselling to add value and enhance the customer experience. 
 
 Focusing on the quality of the relationship rather than the quantity of relationships will provide a more sustainable model into the future. 
+
+[frictionless-customer-journey_2.webp](/wrecktangle/uploads/frictionless-customer-journey_2.webp)
 
 ### Timely and Relevant Customer Communication
 
