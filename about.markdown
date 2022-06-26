@@ -1,5 +1,5 @@
 ---
-title: Approach
+title: About us
 permalink: "/approach/"
 position: 1
 who:
@@ -15,33 +15,58 @@ who:
 layout: approach
 ---
 
-## **Disrupt | Discern | Discover**
+We use our expertise and experience in strategy and operations to support you step by step. This might look like taking care of all the details, financial planning, market research and accreditation processes. Or developing a visitor experience from scratch.
 
-## Thinking wrecktangle? Then you are thinking strategically wrecktangle is a commercial and venue management consultancy
+When you’re truly engaged in an experience, you become part of the story, and all the behind-the-scenes details are lost on us when we’re in the midst of it; but there are so many moving parts that go into creating a memorable, commercially successful experience.
 
-Offering practical solutions, grounded in best practice, and centered on what you want to achieve.\
-We know what operational excellence looks like, and we know how to deliver it, bringing in-depth, lived experience, gained from operating top-tier venues and attractions, while delivering ambitious commercial targets.
+Coming up with an idea can be either lightning fast or take days spent in a meeting room with an empty whiteboard. To bring these ideas to life, we offer practical solutions, grounded in best practice, and centred on what you want to achieve.
 
-Our industry knowledge spans the Tourism, Arts, Culture, Events & Education sectors, both Public and Private.
-
-At wrecktangle we are passionate about creating success stories. We have expertise across product development, master planning, customer service excellence, and developing operational strategies.
+We know what memorable experiences and operational excellence looks like, and we know how to deliver it, bringing in-depth, lived experience, gained from operating top-tier venues and attractions, that deliver ambitious commercial targets.
 
 {% include who-carousel.html %}
 
 ![e71377_b6171e187eb740ef8a80908bca153001_mv2.jpeg](/wrecktangle/uploads/e71377_b6171e187eb740ef8a80908bca153001_mv2.jpeg)
 
-# Lorem ipsum
+# Out services
 
-Offering practical solutions, grounded in best practice, and centered on what you want to achieve.\
-We know what operational excellence looks like, and we know how to deliver it, bringing in-depth, lived experience, gained from operating top-tier venues and attractions, while delivering ambitious commercial targets.
+### Commercial and Financial Strategy
 
-Our industry knowledge spans the Tourism, Arts, Culture, Events & Education sectors, both Public and Private.
+We come up with concepts and project plans from ideation to realisation, which means helping with:
 
-At wrecktangle we are passionate about creating success stories. We have expertise across product development, master planning, customer service excellence, and developing operational strategies.
+* Business modelling
 
-Offering practical solutions, grounded in best practice, and centered on what you want to achieve.\
-We know what operational excellence looks like, and we know how to deliver it, bringing in-depth, lived experience, gained from operating top-tier venues and attractions, while delivering ambitious commercial targets.
+* Financial planning
 
-Our industry knowledge spans the Tourism, Arts, Culture, Events & Education sectors, both Public and Private.
+### Developing corporate plans and strategies
 
-At wrecktangle we are passionate about creating success stories. We have expertise across product development, master planning, customer service excellence, and developing operational strategies.
+* Drafting funding applications
+
+* Presentations for investment
+
+* Resourcing models
+
+* Operational management plans
+
+### Product Development
+
+We seek out and develop opportunities for new experiences or improved approaches through:
+
+* Ideation sessions
+
+* Market research
+
+* Commercial assessments
+
+* Project management
+
+### Operational Strategy and Best Practice
+
+We review and innovate within your operational models and business plans by:
+
+* Conducting operational reviews and assessments
+
+* Benchmarking
+
+* Customer feedback
+
+* Process efficiency
