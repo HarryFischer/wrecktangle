@@ -1,11 +1,12 @@
 ---
 title: Creating a Frictionless Customer Journey
-date: 2022-02-21 15:56:00 Z
-categories:
-- jekyll
-- update
+date: 2021-05-22 15:56:00 Z
 tags:
-- re-opening
+- goal
+- network
+- proactive
+- sale
+- success
 main-image: "/wrecktangle/uploads/frictionless-customer-journey_3.webp"
 sub-title: How can businesses create quality visitor interactions when they are in
   survival mode?
