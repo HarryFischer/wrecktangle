@@ -2,7 +2,9 @@
 title: About us
 permalink: about
 position: 1
-who:
+team-title:
+  title: Who we are
+team-members:
 - name: 'Jillian Wilson '
   job-title: Founder and Managing Director
   bio-text: 'Jillian has over a decade of executive-level experience driving and delivering
@@ -12,6 +14,7 @@ who:
     Book of Kells through a period of exceptional growth.'
   linked-in: www.google.com
   image: "/uploads/e71377_b6171e187eb740ef8a80908bca153001_mv2.jpeg"
+  image-alt: Image of persons name
 - name: 'Jillian Wilson '
   job-title: Founder and Managing Director
   bio-text: 'Jillian has over a decade of executive-level experience driving and delivering
@@ -21,6 +24,7 @@ who:
     Book of Kells through a period of exceptional growth.'
   linked-in: www.google.com
   image: "/uploads/e71377_b6171e187eb740ef8a80908bca153001_mv2.jpeg"
+  image-alt: Image of persons name
 - name: 'Jillian Wilson '
   job-title: Founder and Managing Director
   bio-text: 'Jillian has over a decade of executive-level experience driving and delivering
@@ -30,6 +34,7 @@ who:
     Book of Kells through a period of exceptional growth.'
   linked-in: www.google.com
   image: "/uploads/e71377_b6171e187eb740ef8a80908bca153001_mv2.jpeg"
+  image-alt: Image of persons name
 layout: approach
 ---
 
