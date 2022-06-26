@@ -1,6 +1,6 @@
 ---
 title: About us
-permalink: "/approach/"
+permalink: about
 position: 1
 who:
 - name: 'Jillian Wilson '
