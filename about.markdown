@@ -10,8 +10,26 @@ who:
     in Ireland: in Business Tourism, The Convention Centre Dublin (CCD) from start-up
     to award-winning successes; in Leisure Tourism, Trinity College Dublin and The
     Book of Kells through a period of exceptional growth.'
-  linked-in: 
-  image: 
+  linked-in: www.google.com
+  image: "/uploads/e71377_b6171e187eb740ef8a80908bca153001_mv2.jpeg"
+- name: 'Jillian Wilson '
+  job-title: Founder and Managing Director
+  bio-text: 'Jillian has over a decade of executive-level experience driving and delivering
+    exemplary operations for two of the largest and most successful tourism venues
+    in Ireland: in Business Tourism, The Convention Centre Dublin (CCD) from start-up
+    to award-winning successes; in Leisure Tourism, Trinity College Dublin and The
+    Book of Kells through a period of exceptional growth.'
+  linked-in: www.google.com
+  image: "/uploads/e71377_b6171e187eb740ef8a80908bca153001_mv2.jpeg"
+- name: 'Jillian Wilson '
+  job-title: Founder and Managing Director
+  bio-text: 'Jillian has over a decade of executive-level experience driving and delivering
+    exemplary operations for two of the largest and most successful tourism venues
+    in Ireland: in Business Tourism, The Convention Centre Dublin (CCD) from start-up
+    to award-winning successes; in Leisure Tourism, Trinity College Dublin and The
+    Book of Kells through a period of exceptional growth.'
+  linked-in: www.google.com
+  image: "/uploads/e71377_b6171e187eb740ef8a80908bca153001_mv2.jpeg"
 layout: approach
 ---
 
