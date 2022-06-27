@@ -43,6 +43,7 @@ a.site-title {
     color: $text-color;
     line-height: $base-line-height;
     font-family: "Work Sans", Arial, Helvetica, sans-serif;
+    font-weight: 600;
 
     // Gaps between nav items, but not on the last one
     // &:not(:last-child) {
