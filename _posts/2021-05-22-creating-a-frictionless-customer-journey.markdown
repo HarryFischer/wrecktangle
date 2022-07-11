@@ -38,7 +38,7 @@ Understanding how your customers interact with your experience will lead to key 
 
 Get to know what your brand or experience is best known for. What are your USPs, and why do people want to interact with you? Interweave these unique elements into all aspects of the customer journey to create your own signature experience.
 
-![frictionless-customer-journey_4.webp](/wrecktangle/uploads/frictionless-customer-journey_4.jpg)
+![frictionless-customer-journey_4.webp](/uploads/frictionless-customer-journey_4.jpg)
 
 ### Expand your customer base
 
@@ -50,7 +50,7 @@ Think about how you can engage your customers in a longer-term relationship with
 
 Focusing on the quality of the relationship rather than the quantity of relationships will provide a more sustainable model into the future.
 
-![frictionless-customer-journey_2.webp](/wrecktangle/uploads/frictionless-customer-journey_2.jpg)
+![frictionless-customer-journey_2.webp](/uploads/frictionless-customer-journey_2.jpg)
 
 ### Timely and Relevant Customer Communication
 
