@@ -26,7 +26,7 @@ Other locations, such as hotels and restaurants, will have to capture enhanced c
 
 It is important that these additional elements have been integrated seamlessly into the overall customer journey for your visitors.
 
-![frictionless-customer-journey_main.jpg](/wrecktangle/uploads/frictionless-customer-journey_main.jpg)
+![frictionless-customer-journey_main.jpg](/uploads/frictionless-customer-journey_main.jpg)
 
 At Wrecktangle, we are encouraging businesses to focus on the following five elements:
 
