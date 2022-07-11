@@ -44,7 +44,8 @@ team-members:
 layout: approach
 ---
 
-## We know what memorable experiences and operational excellence looks like. And we know how to deliver it
+## **We know what memorable experiences and operational excellence looks like.** 
+## And we know how to deliver it
 
 We bring in-depth, lived experience, gained from operating top-tier venues and attractions, that deliver ambitious commercial targets.
 
