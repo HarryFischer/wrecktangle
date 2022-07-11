@@ -63,7 +63,7 @@ Our collective experience means clients benefit from a 360 degree perspective th
 
 {% include who-carousel.html %}
 
-![e71377_b6171e187eb740ef8a80908bca153001_mv2.jpeg](/wrecktangle/uploads/e71377_b6171e187eb740ef8a80908bca153001_mv2.jpeg)
+![e71377_b6171e187eb740ef8a80908bca153001_mv2.jpeg](/uploads/e71377_b6171e187eb740ef8a80908bca153001_mv2.jpeg)
 
 # Our services
 
