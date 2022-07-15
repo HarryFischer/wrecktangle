@@ -34,7 +34,7 @@ layout: default
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    {{ content | markdownify }}
+    {{ content | replace: "/uploads/", "/wrecktangle/uploads/" }}
   </div>
 
   {%- if site.disqus.shortname -%} {%- include disqus_comments.html -%} {%-
