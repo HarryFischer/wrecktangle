@@ -22,14 +22,31 @@ a.site-title {
   line-height: $base-line-height * $base-font-size * 2.25;
   margin-bottom: 0;
   float: left;
-  background-color: $white;
+  // background-color: $white;
   // background-image: url("../../assets/logo.svg");
   background-image: url("../assets/logo.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   color: transparent;
+  svg g {
+    height: 26px;
+    width: 0;
+    background: pink;
+    position: absolute;
+    z-index: -1;
+    left: -10px;
+    top: 0px;
+    transition: width 0.3s ease;
+  }
+   
+  &:hover { 
+    svg g {
+    width: 51px;
+  }
 }
+}
+
 
 .site-nav {
   float: right;

@@ -4,7 +4,9 @@
 // @import "styles/styles";
 @import "styles/layout", "styles/header", "styles/footer", "styles/content", "styles/testimonials", "styles/news", "styles/projects", "styles/contact", "styles/post";
 
-$max-width: 800px;
+@import 'animate.css';
+// $max-width: 800px;
+$max-width: 70vw;
 
 .page-content {
   margin-top: 80px;
@@ -33,6 +35,9 @@ $max-width: 800px;
     }
     h2 {
       font-size: 30px;
+      @media (min-width: 980px) {
+        font-size: 3vw;
+      }
       font-weight: 400;
       line-height: 135%;
       & strong {
