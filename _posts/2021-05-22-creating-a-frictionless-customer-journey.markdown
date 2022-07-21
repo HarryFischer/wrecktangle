@@ -11,6 +11,8 @@ main-image: "/uploads/frictionless-customer-journey_3.jpg"
 sub-title: How can businesses create quality visitor interactions when they are in
   survival mode?
 length: 2 min read
+is-extenal: false
+external-url: www.theguardian.com/uk
 layout: post
 ---
 
