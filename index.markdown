@@ -51,7 +51,7 @@ layout: home
 
 ## Wrecktangle is a strategic commercial consultancy, specialising in the Leisure and Tourism industry.  We collaborate with you, so your big ideas can turn into the bigger picture.
 
-![alt text](/uploads/e71377_b6171e187eb740ef8a80908bca153001_mv2.jpeg)
+![location-image-2.jpg](/uploads/location-image-2.jpg)
 
 # Where Innovation Meets Experience
 
