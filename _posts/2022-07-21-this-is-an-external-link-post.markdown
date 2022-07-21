@@ -5,6 +5,6 @@ main-image:
 sub-title: 
 length: 
 is-extenal: true
-external-link: 
+external-link: www.theguardian.com/uk
 ---
 
