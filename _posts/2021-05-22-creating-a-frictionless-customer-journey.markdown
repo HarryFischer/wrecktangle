@@ -12,7 +12,7 @@ sub-title: How can businesses create quality visitor interactions when they are 
   survival mode?
 length: 2 min read
 is-extenal: false
-external-url: www.theguardian.com/uk
+external-url: 
 layout: post
 ---
 
