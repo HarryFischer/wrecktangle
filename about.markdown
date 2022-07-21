@@ -15,7 +15,7 @@ team-members:
     College Dublin, and The Book of Kells as Head of Tourism during a period of exceptional
     growth. – and yes, her efforts earned her an award or two!'
   linked-in: 
-  image: "/wrecktangle/uploads/jillian%20copy.jpg"
+  image: "/uploads/jillian%20copy.jpg"
   image-alt: Image of Jillian Wilson
 - name: Killian Carroll
   job-title: Director (FCA)
@@ -27,7 +27,7 @@ team-members:
     process improvement and building team culture. To top it all off, he also holds
     qualifications in governance, internal auditing ISO & ESG. '
   linked-in: 
-  image: "/wrecktangle/uploads/jillian%20copy.jpg"
+  image: "/uploads/jillian%20copy.jpg"
   image-alt: Image of Killian Carroll
 - name: Antoinette O’Connor
   job-title: Associate
@@ -39,7 +39,7 @@ team-members:
     auditing and reporting on project and event-specific data which helps drive commercial
     decision making and strategic outcomes.
   linked-in: 
-  image: "/wrecktangle/uploads/jillian%20copy.jpg"
+  image: "/uploads/jillian%20copy.jpg"
   image-alt: Image of Antoinette O’Connor
 layout: approach
 ---
