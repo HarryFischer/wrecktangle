@@ -4,7 +4,7 @@ permalink: about
 position: 1
 team-members:
 - name: Jillian Wilson
-  job-title: Founder and Managing Director
+  job-title: Founder and MD
   bio-text: 'Jillian founded Wrecktangle in 2020. Working with executive teams in
     some of Ireland’s top tier venues and experiences (Trinity, RDS, Theatre of Light),
     Jillian leads by delivering clear and sustainable commercial strategies for all
