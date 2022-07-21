@@ -47,6 +47,8 @@ layout: approach
 ## **We know what memorable experiences and operational excellence looks like** 
 ## And we know how to deliver it
 
+![location-image.jpg](/uploads/location-image.jpg)
+
 We bring in-depth, lived experience, gained from operating top-tier venues and attractions, that deliver ambitious commercial targets.
 
 We use our expertise and experience in strategy and operations to support you step by step. This might look like taking care of all the details, financial planning, market research and accreditation processes. Or developing a visitor experience from scratch.
