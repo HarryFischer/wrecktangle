@@ -11,7 +11,7 @@ tags:
 main-image: "/uploads/a-strategic-approach_main.jpg"
 sub-title: Wrecktangle's six-point checklist to support the re-opening process
 length: 2 min read
-is-external: false
+is-external: 
 external-url: 
 layout: post
 ---
