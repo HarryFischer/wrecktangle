@@ -19,11 +19,31 @@ testimonials:
   quote-name: Fearghal Kelly
   quote-company: Digisoft
   quote-job: CEO
-Clients:
-- client-name: 
-  client-logo: 
-  client-case-study: 
-  Key: 
+clients:
+- client-name: Theatre of Light
+  client-logo: "/uploads/logo_theatre-of-light.png"
+- client-name: Ticketmaster
+  client-logo: "/uploads/logo_ticketmaster.png"
+- client-name: Trinity College
+  client-logo: "/uploads/logo_trinity-college.png"
+- client-name: Teaching Council
+  client-logo: "/uploads/logo_teching-council.png"
+- client-name: Creative Technology
+  client-logo: "/uploads/logo_creative-tech.png"
+- client-name: Catapult
+  client-logo: "/uploads/logo_catapult.png"
+- client-name: RDS
+  client-logo: "/uploads/logo_rds.png"
+- client-name: Féilte
+  client-logo: "/uploads/logo_feilte.png"
+- client-name: Van Gogh
+  client-logo: "/uploads/logo_van-gogh.png"
+- client-name: The Book of Kellis
+  client-logo: "/uploads/logo_bok.png"
+- client-name: DigiSoft.tv
+  client-logo: "/uploads/logo_digisoft.tv.png"
+- client-name: Ticketsolve
+  client-logo: "/uploads/logo_ticketsolve.png"
 layout: home
 ---
 
