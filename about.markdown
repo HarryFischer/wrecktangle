@@ -73,7 +73,7 @@ Coming up with an idea can be either lightning fast or take days spent in a meet
 
 ## Our Team
 
-## At Wrecktangle, we are all motivated by creating success stories for our clients and their projects. 
+### At Wrecktangle, we are all motivated by creating success stories for our clients and their projects. 
 
 Our collective experience means clients benefit from a 360 degree perspective that covers everything from commercial and strategic planning to concept development; systems and infrastructure to audit and review. As a team, everything we do is underpinned by an excellent operational approach and a focus on customer satisfaction.
 
