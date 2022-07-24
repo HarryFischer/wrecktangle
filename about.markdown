@@ -41,6 +41,19 @@ team-members:
   linked-in: 
   image: "/uploads/jillian%20copy.jpg"
   image-alt: Image of Antoinette O’Connor
+services:
+- title-text: Strategy
+  inner-text: 
+- Key 1: "### Commercial and Financial Strategy\nWe come up with concepts and project
+    plans from ideation to realisation, which means helping with:\n* Business modelling\n*
+    Financial planning \n* Developing corporate plans and strategies\n* Drafting funding
+    applications \n* Presentations for investment \n* Resourcing models\n* Operational
+    management plans\n\n### Product Development\nWe seek out and develop opportunities
+    for new experiences or improved approaches through:\n* Ideation sessions\n* Market
+    research \n* Commercial assessments\n* Project management \n\n### Operational
+    Strategy and Best Practice\nWe review and innovate within your operational models
+    and business plans by:\n* Conducting operational reviews and assessments\n* Benchmarking\n*
+    Customer feedback\n* Process efficiency \n"
 layout: approach
 ---
 
@@ -68,30 +81,7 @@ Our collective experience means clients benefit from a 360 degree perspective th
 ![e71377_b6171e187eb740ef8a80908bca153001_mv2.jpeg](/uploads/e71377_b6171e187eb740ef8a80908bca153001_mv2.jpeg)
 
 # Our services
-
-### Commercial and Financial Strategy
-We come up with concepts and project plans from ideation to realisation, which means helping with:
-* Business modelling
-* Financial planning 
-* Developing corporate plans and strategies
-* Drafting funding applications 
-* Presentations for investment 
-* Resourcing models
-* Operational management plans
-
-### Product Development
-We seek out and develop opportunities for new experiences or improved approaches through:
-* Ideation sessions
-* Market research 
-* Commercial assessments
-* Project management 
-
-### Operational Strategy and Best Practice
-We review and innovate within your operational models and business plans by:
-* Conducting operational reviews and assessments
-* Benchmarking
-* Customer feedback
-* Process efficiency 
+{% include services.html %}
 
 # How We Work
 ### We listen…
