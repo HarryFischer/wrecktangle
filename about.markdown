@@ -58,8 +58,8 @@ services:
 layout: approach
 ---
 
-## **We know what memorable experiences and operational excellence looks like** 
-## And we know how to deliver it
+### **We know what memorable experiences and operational excellence looks like** 
+### And we know how to deliver it
 
 ![location-image.jpg](/uploads/location-image.jpg)
 
@@ -71,7 +71,7 @@ When you’re truly engaged in an experience, you become part of the story, and 
 
 Coming up with an idea can be either lightning fast or take days spent in a meeting room with an empty whiteboard. To bring these ideas to life, we offer practical solutions, grounded in best practice, and centred on what you want to achieve.
 
-# Our Team
+## Our Team
 
 ## At Wrecktangle, we are all motivated by creating success stories for our clients and their projects. 
 
@@ -81,20 +81,20 @@ Our collective experience means clients benefit from a 360 degree perspective th
 
 ![e71377_b6171e187eb740ef8a80908bca153001_mv2.jpeg](/uploads/e71377_b6171e187eb740ef8a80908bca153001_mv2.jpeg)
 
-# Our services
+## Our services
 {% include services.html %}
 
-# How We Work
-### We listen…
+## How We Work
+*We listen…*
 We ask questions to understand what you want to achieve, why you want to achieve it and what resources you have to deliver your ambition.
 
-### We analyse…
+*We analyse…*
 ​We examine, we innovate, and we determine how we can weave past any roadblocks to unlock the opportunities, so you can realise your bigger picture objectives.
 
-### We offer a structured approach… 
+*We offer a structured approach…*
 We create the environment to allow for the development of your strategic approaches, be those financial, creative, or operational.
 
-### We make innovation stick…
+*We make innovation stick…*
 We offer ways to develop and embed approaches to make sure you continue to focus on the bigger picture. 
 
 We do this so you deliver exceptional customer experiences that will get people talking. 
