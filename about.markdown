@@ -43,17 +43,18 @@ team-members:
   image-alt: Image of Antoinette O’Connor
 services:
 - title-text: Strategy
-  inner-text: 
-- Key 1: "### Commercial and Financial Strategy\nWe come up with concepts and project
-    plans from ideation to realisation, which means helping with:\n* Business modelling\n*
-    Financial planning \n* Developing corporate plans and strategies\n* Drafting funding
-    applications \n* Presentations for investment \n* Resourcing models\n* Operational
-    management plans\n\n### Product Development\nWe seek out and develop opportunities
-    for new experiences or improved approaches through:\n* Ideation sessions\n* Market
-    research \n* Commercial assessments\n* Project management \n\n### Operational
-    Strategy and Best Practice\nWe review and innovate within your operational models
-    and business plans by:\n* Conducting operational reviews and assessments\n* Benchmarking\n*
-    Customer feedback\n* Process efficiency \n"
+  inner-text: "We come up with concepts and project plans from ideation to realisation,
+    which means helping with:\n* Business modelling\n* Financial planning \n* Developing
+    corporate plans and strategies\n* Drafting funding applications \n* Presentations
+    for investment \n* Resourcing models\n* Operational management plans"
+- title-text: Development
+  inner-text: "We seek out and develop opportunities for new experiences or improved
+    approaches through:\n* Ideation sessions\n* Market research \n* Commercial assessments\n*
+    Project management "
+- title-text: Strategy
+  inner-text: "We review and innovate within your operational models and business
+    plans by:\n* Conducting operational reviews and assessments\n* Benchmarking\n*
+    Customer feedback\n* Process efficiency "
 layout: approach
 ---
 
