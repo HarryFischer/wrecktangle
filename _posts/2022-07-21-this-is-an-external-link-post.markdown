@@ -5,6 +5,6 @@ main-image: "/uploads/frictionless-customer-journey_main.jpg"
 sub-title: 
 length: 
 is-external: true
-external-link: www.theguardian.com/uk
+external-url: www.theguardian.com/uk
 ---
 
