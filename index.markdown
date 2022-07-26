@@ -52,7 +52,7 @@ layout: home
 
 ![location-image-2.jpg](/uploads/location-image-2.jpg)
 
-# Where Innovation Meets Experience
+## Where Innovation Meets Experience
 
 From concept creation to execution, we develop business plans and innovate within your operating models, to drive commercial returns.
 
@@ -60,7 +60,7 @@ Wrecktangle creates the environment for you to innovate and re-imagine your visi
 
 We partner to bring your customer experiences to life: with you, with content designers, producers, and marketing experts; to create the framework to deliver on your commercial ambition.
 
-# Clients and Collaborators
+## Clients and Collaborators
 
 {% include clients.html %}
 
