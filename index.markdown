@@ -47,9 +47,8 @@ clients:
 layout: home
 ---
 
-## **Solutions outside of the box**
-
-## Wrecktangle is a strategic commercial consultancy, specialising in the Leisure and Tourism industry.  We collaborate with you, so your big ideas can turn into the bigger picture.
+### **Solutions outside of the box**
+### Wrecktangle is a strategic commercial consultancy, specialising in the Leisure and Tourism industry.  We collaborate with you, so your big ideas can turn into the bigger picture.
 
 ![location-image-2.jpg](/uploads/location-image-2.jpg)
 
