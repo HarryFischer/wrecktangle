@@ -10,6 +10,13 @@ content-block:
   image: "/uploads/location-image.jpg"
   image-caption: Caption of image here
   alt: image alt text
+  sub-title: Where Innovation Meets Experience
+  body-text: |-
+    From concept creation to execution, we develop business plans and innovate within your operating models, to drive commercial returns.
+
+    Wrecktangle creates the environment for you to innovate and re-imagine your visitor experience.
+
+    We partner to bring your customer experiences to life: with you, with content designers, producers, and marketing experts; to create the framework to deliver on your commercial ambition.
   left-color-name: pink
   right-color-name: green
   has-grey-background: true
@@ -60,21 +67,6 @@ layout: home
 ---
 
 {% include intro.html %}
-
 {% include content-block.html %}
-
-## Where Innovation Meets Experience
-
-From concept creation to execution, we develop business plans and innovate within your operating models, to drive commercial returns.
-
-Wrecktangle creates the environment for you to innovate and re-imagine your visitor experience.
-
-We partner to bring your customer experiences to life: with you, with content designers, producers, and marketing experts; to create the framework to deliver on your commercial ambition.
-
-## Clients and Collaborators
-
 {% include clients.html %}
-
-[See our work](/wrecktangle/projects)
-
 {% include testimonials.html %}
