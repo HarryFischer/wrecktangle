@@ -89,7 +89,6 @@ layout: approach
 {% include intro.html %}
 {% include content-block.html %}
 {% include team.html %}
-## Our services
 {% include services.html %}
 
 ## How We Work
