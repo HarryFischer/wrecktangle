@@ -8,3 +8,4 @@ intro:
 layout: projects
 ---
 
+{% include intro.html %}
