@@ -83,6 +83,23 @@ services:
   inner-text: "We review and innovate within your operational models and business
     plans by:\n* Conducting operational reviews and assessments\n* Benchmarking\n*
     Customer feedback\n* Process efficiency "
+how-we-work:
+- sub-title: How We Work
+  array:
+  - sub-title: We listen...
+    text: We ask questions to understand what you want to achieve, why you want to
+      achieve it and what resources you have to deliver your ambition.
+  - sub-title: We analyse...
+    text: "​We examine, we innovate, and we determine how we can weave past any roadblocks
+      to unlock the opportunities, so you can realise your bigger picture objectives."
+  - sub-title: We offer a structured approach…
+    text: We create the environment to allow for the development of your strategic
+      approaches, be those financial, creative, or operational.
+  - sub-title: We make innovation stick…
+    text: 'We offer ways to develop and embed approaches to make sure you continue
+      to focus on the bigger picture. '
+  text: 'We do this so you deliver exceptional customer experiences that will get
+    people talking. '
 layout: approach
 ---
 
@@ -90,18 +107,4 @@ layout: approach
 {% include content-block.html %}
 {% include team.html %}
 {% include services.html %}
-
-## How We Work
-*We listen…*
-We ask questions to understand what you want to achieve, why you want to achieve it and what resources you have to deliver your ambition.
-
-*We analyse…*
-​We examine, we innovate, and we determine how we can weave past any roadblocks to unlock the opportunities, so you can realise your bigger picture objectives.
-
-*We offer a structured approach…*
-We create the environment to allow for the development of your strategic approaches, be those financial, creative, or operational.
-
-*We make innovation stick…*
-We offer ways to develop and embed approaches to make sure you continue to focus on the bigger picture. 
-
-We do this so you deliver exceptional customer experiences that will get people talking. 
+{% include how-we-work.html %}
