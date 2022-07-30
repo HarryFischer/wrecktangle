@@ -30,6 +30,9 @@ team-block:
     planning to concept development; systems and infrastructure to audit and review.
     As a team, everything we do is underpinned by an excellent operational approach
     and a focus on customer satisfaction."
+  link-name: WANT TO COLLABORATE?
+  right-color-name: yellow
+  has-grey-background: 
 team-members:
 - name: Jillian Wilson
   job-title: Founder and MD
@@ -69,6 +72,11 @@ team-members:
   linked-in: 
   image: "/uploads/jillian%20copy.jpg"
   image-alt: Image of Antoinette O’Connor
+services-block:
+- sub-title: Services
+  left-color-name: green
+  right-color-name: pink
+  has-grey-background: true
 services:
 - title-text: Strategy
   inner-text: "We come up with concepts and project plans from ideation to realisation,
@@ -100,6 +108,8 @@ how-we-work:
       to focus on the bigger picture. '
   text: 'We do this so you deliver exceptional customer experiences that will get
     people talking. '
+  left-color-name: pink
+  has-grey-background: 
 layout: approach
 ---
 
