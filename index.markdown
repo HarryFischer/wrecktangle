@@ -60,6 +60,8 @@ layout: home
 
 {% include intro.html %}
 
+{% include image-left.html %}
+
 ## Where Innovation Meets Experience
 
 From concept creation to execution, we develop business plans and innovate within your operating models, to drive commercial returns.
