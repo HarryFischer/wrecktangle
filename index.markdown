@@ -5,11 +5,12 @@ intro:
 - text: |-
     ### **Solutions outside of the box**
     ### Wrecktangle is a strategic commercial consultancy, specialising in the Leisure and Tourism industry.  We collaborate with you, so your big ideas can turn into the bigger picture.
-  image: "/uploads/location-image.jpg"
+image-left:
+- image: "/uploads/location-image.jpg"
   image-caption: Caption of image here
   alt: image alt text
-  left-color: "#D6588D"
-  right-color: "#57CB8E"
+  left-color-name: pink
+  right-color-name: green
   has-grey-background: true
 testimonials:
 - quote-text: Wrecktangle have become an integral part in the concept design and strategic
