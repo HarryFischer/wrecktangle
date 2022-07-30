@@ -6,7 +6,7 @@ intro:
 - text: "### **We know what memorable experiences and operational excellence looks
     like** \n### And we know how to deliver it"
 content-block:
-- layout: right
+- layout: left
   image: "/uploads/location-image.jpg"
   image-caption: caption of image
   alt: alt text for image
