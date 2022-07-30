@@ -2,6 +2,26 @@
 title: About
 permalink: about
 position: 1
+intro:
+- text: "### **We know what memorable experiences and operational excellence looks
+    like** \n### And we know how to deliver it"
+content-block:
+- layout: right
+  image: "/uploads/location-image.jpg"
+  image-caption: caption of image
+  alt: alt text for image
+  sub-title: 
+  body-text: |-
+    We bring in-depth, lived experience, gained from operating top-tier venues and attractions, that deliver ambitious commercial targets.
+
+    We use our expertise and experience in strategy and operations to support you step by step. This might look like taking care of all the details, financial planning, market research and accreditation processes. Or developing a visitor experience from scratch.
+
+    When you’re truly engaged in an experience, you become part of the story, and all the behind-the-scenes details are lost on us when we’re in the midst of it; but there are so many moving parts that go into creating a memorable, commercially successful experience.
+
+    Coming up with an idea can be either lightning fast or take days spent in a meeting room with an empty whiteboard. To bring these ideas to life, we offer practical solutions, grounded in best practice, and centred on what you want to achieve.
+  left-color-name: yellow
+  right-color-name: navy
+  has-grey-background: false
 team-members:
 - name: Jillian Wilson
   job-title: Founder and MD
@@ -58,18 +78,12 @@ services:
 layout: approach
 ---
 
-### **We know what memorable experiences and operational excellence looks like** 
-### And we know how to deliver it
+{% include intro.html %}
+{% include content-block.html %}
 
 ![location-image.jpg](/uploads/location-image.jpg)
 
-We bring in-depth, lived experience, gained from operating top-tier venues and attractions, that deliver ambitious commercial targets.
 
-We use our expertise and experience in strategy and operations to support you step by step. This might look like taking care of all the details, financial planning, market research and accreditation processes. Or developing a visitor experience from scratch.
-
-When you’re truly engaged in an experience, you become part of the story, and all the behind-the-scenes details are lost on us when we’re in the midst of it; but there are so many moving parts that go into creating a memorable, commercially successful experience.
-
-Coming up with an idea can be either lightning fast or take days spent in a meeting room with an empty whiteboard. To bring these ideas to life, we offer practical solutions, grounded in best practice, and centred on what you want to achieve.
 
 ## Our Team
 
