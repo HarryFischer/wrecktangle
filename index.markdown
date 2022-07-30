@@ -60,7 +60,7 @@ layout: home
 
 {% include intro.html %}
 
-{% include image-left.html %}
+{% include content-block.html %}
 
 ## Where Innovation Meets Experience
 
