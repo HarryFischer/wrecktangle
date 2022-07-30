@@ -1,6 +1,16 @@
 ---
 title: Index
 position: 0
+intro:
+- text: |-
+    ### **Solutions outside of the box**
+    ### Wrecktangle is a strategic commercial consultancy, specialising in the Leisure and Tourism industry.  We collaborate with you, so your big ideas can turn into the bigger picture.
+  image: "/uploads/location-image.jpg"
+  image-caption: Caption of image here
+  alt: image alt text
+  left-color: "#D6588D"
+  right-color: "#57CB8E"
+  has-grey-background: true
 testimonials:
 - quote-text: Wrecktangle have become an integral part in the concept design and strategic
     development of the Theatre Of Light Project
@@ -47,10 +57,7 @@ clients:
 layout: home
 ---
 
-### **Solutions outside of the box**
-### Wrecktangle is a strategic commercial consultancy, specialising in the Leisure and Tourism industry.  We collaborate with you, so your big ideas can turn into the bigger picture.
-
-![location-image-2.jpg](/uploads/location-image-2.jpg)
+{% include intro.html %}
 
 ## Where Innovation Meets Experience
 
