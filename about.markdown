@@ -92,7 +92,10 @@ services:
     plans by:\n* Conducting operational reviews and assessments\n* Benchmarking\n*
     Customer feedback\n* Process efficiency "
 how-we-work:
-- sub-title: How We Work
+- image: "/uploads/location-image.jpg"
+  image-caption: image caption lorem ipsum
+  alt: image alt lorem ipsum
+  sub-title: How We Work
   array:
   - sub-title: We listen...
     text: We ask questions to understand what you want to achieve, why you want to
