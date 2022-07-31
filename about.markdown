@@ -87,7 +87,7 @@ services:
   inner-text: "We seek out and develop opportunities for new experiences or improved
     approaches through:\n* Ideation sessions\n* Market research \n* Commercial assessments\n*
     Project management "
-- title-text: Strategy
+- title-text: Operations
   inner-text: "We review and innovate within your operational models and business
     plans by:\n* Conducting operational reviews and assessments\n* Benchmarking\n*
     Customer feedback\n* Process efficiency "
