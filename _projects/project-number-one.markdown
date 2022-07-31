@@ -23,6 +23,9 @@ content-block:
   - question: The Answer
     answer: 
   video-url: https://www.youtube.com/embed/k641xx5UVGo
+  left-color-name: pink
+  right-color-name: green
+  has-grey-background: false
 layout: project
 ---
 
