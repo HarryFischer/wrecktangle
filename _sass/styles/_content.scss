@@ -149,6 +149,7 @@
         
 
         .clients-wrapper {
+          position: relative;
           margin-bottom: 10vh;
           display: flex;
           flex-direction: column;
@@ -215,6 +216,26 @@
                 }
           }
           
+        }
+        .rectangle {
+          position: absolute;
+          width: 300px;
+          height: 180px;
+          z-index: -1;
+          right: 0;
+          bottom: -100px;
+          @media (min-width:980px) {
+            width: 500px;
+          }
+
+          &.left {
+            width: 500px;
+            height: 180px;
+            position: absolute;
+            left: 0;
+            bottom: -80px;
+            z-index: -1;
+          }
         }
   }
 }

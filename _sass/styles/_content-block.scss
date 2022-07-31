@@ -47,6 +47,7 @@
     }
     }
     .rectangle {
+        z-index: -1;
         &.right {
             width: 320px;
             height: 100px;
@@ -60,11 +61,11 @@
         }
         &.left {
             width: 280px;
-                height: 120px;
-                position: absolute;
-                left: 0;
-                top: -70px;
-                z-index: 1;
+            height: 120px;
+            position: absolute;
+            left: 0;
+            top: -70px;
+            z-index: 1;
             @media (min-width: 980px) {
                 width: 500px;
                 height: 200px;
