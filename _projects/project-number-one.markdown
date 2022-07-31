@@ -10,16 +10,25 @@ project-image: "/uploads/fallon-michael-cFrD6hBMTQI-unsplash.jpg"
 project-description: How can we re-imagine the Trinity Visitor Experience?
 color-name: yellow
 intro:
-- text: "## *Trinity College Dublin*"
+- text: "## **Trinity College Dublin**"
   background-image: "/uploads/location-image.jpg"
 content-block:
 - layout: left
+  image: 
+  image-caption: 
+  alt: 
+  array:
+  - question: The Ask
+    answer-text: How can we re-imagine the Trinity Visitor Experience?
+  video-url: https://www.youtube.com/embed/k641xx5UVGo
+  left-color-name: pink
+  right-color-name: green
+  has-grey-background: false
+- layout: right
   image: "/uploads/location-image.jpg"
   image-caption: caption
   alt: alt
   array:
-  - question: The Ask
-    answer-text: How can we re-imagine the Trinity Visitor Experience?
   - question: The Answer
     answer-text: "With the tourism landscape dramatically changing over the past few
       years, Trinity College realised they need to adapt along with it. This meant
@@ -32,16 +41,25 @@ content-block:
       aim was to reinvent the tourism business model for Trinity by developing existing
       products and creating new experiences to encourage tourists and visitors to
       explore Trinity and its campus. "
+  video-url: 
+  left-color-name: pink
+  right-color-name: 
+  has-grey-background: true
+- layout: both-text
+  image: "/uploads/location-image.jpg"
+  image-caption: 
+  alt: 
+  array:
   - question: The Skills
     answer-text: |-
       * Sustainable tourism
       * Product development
       * Collaborative multi-stakeholder approach
       * Commercial Strategic planning
-  video-url: https://www.youtube.com/embed/k641xx5UVGo
-  left-color-name: pink
-  right-color-name: green
-  has-grey-background: false
+  video-url: 
+  left-color-name: 
+  right-color-name: 
+  has-grey-background: 
 layout: project
 ---
 
