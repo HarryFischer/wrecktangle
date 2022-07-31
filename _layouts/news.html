@@ -6,9 +6,9 @@ layout: default
   {%- if site.posts.size >= 3 -%}
   <div class="news-wrapper">
     {%- if page.title -%}
-    <h2 class="post-list-heading fade-me-in">{{ page.title }}</h2>
+    <h2 class="post-list-heading">{{ page.title }}</h2>
     {%- endif -%}
-    <ul class="flex-three posts fade-me-in">
+    <ul class="flex-three posts">
       {%- for post in site.posts -%} {% if post.is-external == true %}
       <li>
         <a class="posts-title" href="{{ post.external-url }}">
