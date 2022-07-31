@@ -2,38 +2,58 @@
 ---
 
 // @import "styles/styles";
-@import "styles/layout", "styles/header", "styles/footer", "styles/content", "styles/testimonials", "styles/news", "styles/projects", "styles/contact", "styles/post";
+@import 
+"styles/layout", 
+"styles/header", 
+"styles/footer", 
+"styles/content", 
+"styles/testimonials", 
+"styles/news", 
+"styles/projects", 
+"styles/contact", 
+"styles/post", 
+"styles/services",
+"styles/content-block",
+"styles/intro",
+"styles/team",
+"styles/how-we-work"
+;
 
-@import 'animate.css';
 // $max-width: 800px;
 $max-width: 70vw;
 
 .page-content {
   margin-top: 80px;
   .wrapper {
-    padding-top: 25vh;
     h1,
     h2,
+    h3,
     ul,
     p {
       margin: auto;
-      max-width: $max-width;
       color: $wt-navy;
+      @media (min-width: 980px) {
+        max-width: $max-width;
+        }
     }
     h1,
     h2, h3 {
       font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
-      text-align: center;
-    }
-    h1 {
-      font-size: 80px;
-      font-weight: 600;
-      line-height: 110%;
-      color: $wt-green;
-      margin-bottom: 60px;
-      letter-spacing: 4px;
+      // text-align: center;
+      
     }
     h2 {
+      // font-size: 80px;
+      // color: $wt-green;
+      // letter-spacing: 2
+      font-size: 50px;
+      line-height: 110%;
+      color: #162b40;
+      margin-bottom: 60px;
+      margin-top: 15vh;
+      text-align: left;
+      max-width: unset;    }
+    h3 {
       font-size: 30px;
       @media (min-width: 980px) {
         font-size: 3vw;
@@ -41,50 +61,138 @@ $max-width: 70vw;
       font-weight: 400;
       line-height: 135%;
       & strong {
-        font-weight: 600;
+        font-weight: 800;
       }
       &:nth-child(1) {
-        margin-bottom: 4px;
+        margin-bottom: 20px;
       }
       &:nth-child(2) {
-        margin-bottom: 25vh;
+        margin-bottom: 15vh;
       }
+
+      // max-width: 620px;
+      // text-align: left;
+      line-height: 115%;
+      font-size: 32px;
+      margin-bottom: 40px;
     }
     h3 {
-      text-align: left;
-      margin: auto;
+      // text-align: left;
+      // margin: auto;
     }
-    p, ul, h3 {
+    p, ul, p strong {
       font-family: "Work Sans", Arial, Helvetica, sans-serif;
       font-weight: 400;
-      font-size: 17px;
+      font-size: 16px;
       line-height: 140%;
       margin-bottom: 14px;
       max-width: 620px;
     }
-    h3 {
-      font-weight: 600;
-    }
+    // h3 {
+    //   font-weight: 600;
+    // }
     ul {
-      padding-left: 40px;
+      // padding-left: 40px;
     }
     .image-wrapper {
-      max-width: 80vw;
-      max-height: 50vw;
-      overflow: hidden;
-      object-fit: cover;
-      margin-bottom: 25vh;
+      margin-bottom: 10vh;
+      position: relative;
+      @media (min-width:980px) {
+        margin-bottom: 0;
+        
+      }
       img {
+        opacity: 0;
+        object-fit: cover;
+        aspect-ratio: 5 / 3;
         width: 100%;
         background-position: center;
+        height: 40vh;
+        transform: translateY(20px);
+        transition: all 1s ease;
+        @media (min-width: 980px) {
+          height: 100%;
+        }
+        &.in-view {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      // &::before {
+      //   content:'';
+      //   width: 300px;
+      //   height: 300px;
+      //   background-color: $wt-pink;
+      //   position: absolute;
+      //   left: -100px;
+      //   top: -80px;
+      //   z-index: -1;
+      // }
+
+      .left-shape {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        left: -100px;
+        top: -100px;
+        background-color: $wt-pink;
+        z-index: -1;
+      }
+      .right-shape {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        right: -100px;
+        bottom: 100px;
+        background-color: $wt-green;
+        z-index: -1;
       }
     }
   }
 }
 
+.image-wrapper {
+  position: relative;
+  margin: 0;
+  @media (min-width: 980px) {
+    width: 70vw;
+  }
+  // margin-left: -20px;
+}
+
+small {
+  position: absolute;
+  z-index: 2;
+  // bottom: 4px;
+  // left: 0;
+  bottom: 0px;
+  right: 0px;
+  background: #ffffff90;
+  padding: 6px 10px 5px;
+}
+
 
 .page-content {
   .image-wrapper, .posts li img {
-   border-radius: 30px;
+  //  border-radius: 30px;
  }
+}
+
+
+.rectangle {
+  &.green {
+    background: $wt-green;
+  }
+
+  &.yellow {
+    background: $wt-yellow;
+  }
+
+  &.pink {
+    background: $wt-pink;
+  }
+
+  &.navy {
+    background: $wt-navy;
+  }
 }

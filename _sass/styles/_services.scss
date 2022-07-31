@@ -1,0 +1,126 @@
+.page-content .wrapper .services {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15vh;
+    position: relative;
+    // margin: 0 -20px;
+    @media (min-width: 980px) {
+        flex-direction: row;
+    }
+    &.true {
+        background-color: $wt-pale-grey;
+    }
+    .rectangle {
+        position: absolute;
+        max-width: 200px;
+        height: 100px;
+        z-index: 5;
+        right: 0;
+        top: -100px;
+        &.left {
+            max-width: 350px;
+            height: 200px;
+            position: absolute;
+            left: 0;
+            top: -80px;
+        }
+    }
+    .left  {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        z-index: 2;
+        padding: 0 20px;
+        @media (min-width: 980px) {
+            padding: 0 80px;
+            width: 30vw;
+        }
+        h2 {
+            margin: unset;
+            text-align: left;
+            padding-bottom: 80px;
+            margin-top: 10vh;
+        }
+
+        button {
+            font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+            font-weight: 800;
+            color: $wt-navy;
+            text-align: left!important;
+            margin-bottom: 20px !important;
+            font-size: 34px !important;
+            background-color: transparent;
+            border: none;
+            position: relative;
+            width: max-content;
+            span {
+                background-color: $wt-pink;
+                height: 14px;
+                width: 0%;
+                bottom: -13px;
+                left: 0;
+                position: absolute;
+                z-index: -1;
+                transition: width 0.3s ease;
+            }
+            &:hover {
+                span {
+                        width: 100%;
+                    }
+            }
+            &.active {
+                span {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .right {
+        background: $wt-yellow;
+        min-height: 70vh;
+        padding-top: 0;
+        margin-top: 10vh;
+        @media (min-width: 980px) {
+            padding-top: 15vh;
+            width: 70vw;
+        }
+        .tabcontent {
+            display: none;
+            ul, p {
+                margin: 0;
+                padding: 0 20px;
+                @media (min-width: 980px) {
+                    padding: 0 60px;
+                }
+            }
+            li {
+                font-family: "Playfair Display";
+                font-size: 30px;
+                line-height: 110%;
+                margin-bottom: 16px;
+                &::marker {
+                    content: "";
+                }
+                &::before {
+                    content:'';
+                    width: 0.6em;
+                    height: 0.6em;
+                    margin-right: 8px;
+                    border: 2px solid $wt-navy;
+                    border-radius: 50%;
+                    display: inline-block;
+                }
+            }
+            ul {
+                padding-top: 20px;
+            }
+            p {
+                max-width:460px;
+            }
+        }
+    }
+}
+
+

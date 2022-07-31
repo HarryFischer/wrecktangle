@@ -22,10 +22,59 @@ contactNavElement.addEventListener('click', () => {
 
 // add class to image parent (<p>)
 const contentWrapper = document.querySelector('.page-content')
-console.log(contentWrapper)
-const contentImages = contentWrapper.querySelectorAll('p img')
-console.log(contentImages)
+const contentImages = contentWrapper.querySelectorAll('img')
 
-contentImages.forEach((el) => {
-    el.parentElement.classList.add('image-wrapper')
+let fadeMeIn 
+
+if (contentWrapper) {
+  fadeMeIn = contentWrapper.querySelectorAll('.fade-me-in')
+}
+
+
+const options = {
+  rootMargin: '0px 0px -30% 0px',
+  threshold: 0.000001,
+};
+const picObserver = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting === true) {
+      entry.target.classList.add('in-view');
+    }
+  });
+}, options);
+
+contentImages.forEach((el, i) => {
+    picObserver.observe(el);
 })
+
+
+// const leftShape = document.querySelectorAll('.left-shape')
+
+// document.addEventListener('scroll', () => {
+  
+  // })
+
+if (contentWrapper && fadeMeIn.length > 0) {
+  fadeMeIn.forEach((el) => {
+    picObserver.observe(el);
+  })  
+}
+
+
+function openCity(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}

@@ -1,0 +1,26 @@
+<div class="services true">
+  <div class="rectangle pink left"></div>
+  <div class="left">
+    <h2>Our services</h2>
+    {%- if page.services -%} {%- for services in page.services -%}
+
+    <button
+      onclick="openCity(event, '{{ services.title-text }}')"
+      class="tablinks"
+    >
+      {{ services.title-text }}
+      <span class="highlight"></span>
+    </button>
+
+    {%- endfor -%}{%- endif -%}
+  </div>
+  <div class="right">
+    {%- if page.services -%} {%- for services in page.services -%}
+
+    <div class="hide tabcontent" id="{{ services.title-text }}">
+      <p>{{ services.inner-text | markdownify }}</p>
+    </div>
+
+    {%- endfor -%}{%- endif -%}
+  </div>
+</div>

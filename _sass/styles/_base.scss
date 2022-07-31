@@ -65,13 +65,14 @@ figure,
  */
 main {
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+  // overflow: hidden;
 }
 
 /**
  * Images
  */
 img {
-  max-width: 100%;
+  width: 100%;
   vertical-align: middle;
 }
 
@@ -146,7 +147,6 @@ blockquote {
   border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
-  letter-spacing: -1px;
   font-style: italic;
 
   > :last-child {
@@ -186,14 +186,14 @@ pre {
 .wrapper {
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
   @extend %clearfix;
+  // padding-right: 15px;
+  // padding-left: 15px;
 
-  @include media-query($on-laptop) {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
+  // @include media-query($on-laptop) {
+  //   padding-right: 20px;
+  //   padding-left: 20px;
+  // }
 }
 
 /**

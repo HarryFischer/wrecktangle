@@ -1,0 +1,32 @@
+.page-content .wrapper .how-we-work {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;
+    position: relative;
+    @media (min-width: 980px) {
+        flex-direction: row;
+    }
+    &.true {
+        background-color: $wt-pale-grey;
+    }
+
+    .image-wrapper {
+        position: sticky;
+        top: 0;
+        @media (min-width: 980px) {
+            width: 70vw;
+        }
+    }
+    .text-wrapper {
+        width: 30vw;
+        padding: 0 80px;
+        
+        h2, h3 {
+            text-align: left;
+        }
+        h2 {
+            position: sticky;
+            top: 10vh;
+        }
+    }
+}

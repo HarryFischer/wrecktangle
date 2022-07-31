@@ -7,60 +7,75 @@ $white: #ffffff;
 $widthHeight: 45vw;
 
 .projects {
+    & > h3 {
+        margin: auto!important;
+        margin-bottom: 40vh!important;
+    }
     .posts {
-        margin-top: 20vh;
-        margin-left: 0;
+        margin-top: 20vh!important;
+        margin-left: 0!important;
+        max-width: unset!important;
+        // margin: -20px!important;
+        position: relative;
+        padding: 0!important;
+        // a {
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     right: 0;
+        //     bottom: 0;
+        // }
         li {
             list-style: none;
             margin: 0;
-            width: max-content;
             margin: auto;
-            
             display: flex;
-            flex-direction: row-reverse;
+            flex-direction: row;
             img.projects-image {
-                border-radius: 30px;
-                width: $widthHeight;
-                height: $widthHeight;
+                width: 50vw;
+                height: calc(100vh - 79px);
                 object-fit: cover;
                 position: relative;
                 z-index: 2;
-                margin-left: -10vw;
             }
             .text-wrapper {
                 // float: left;
-                background-color: $wt-yellow;
-                width: $widthHeight;
-                height: $widthHeight;
-                margin-left: -20px;
-                margin-top: 5vw;
+                // background-color: $wt-yellow;
+                // width: $widthHeight;
+                // height: $widthHeight;
+                // margin-left: -20px;
+                // margin-top: 5vw;
+                background-color: #efc75c;
+                width: 50vw;
+                height: calc(100vh - 79px);
+                position: absolute;
                 h3 {
                     padding: 20px;
-                    padding-right: calc(10vw + 20px);
+                    padding: 40px;
                     font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
                     font-size: 40px;
                     color: $wt-navy;
                     line-height: 120%;
+                    text-align: left;
+                    font-weight: 800;
+                    margin-top: 320px;
+                    margin-top: 45vh;
+                    transform: translateY(-50%);
                     span {
                         display: block;
+                        font-weight: 100;
                     }
                 }
             }
         }
-
-        .projects-title {
-            &:nth-child(odd) {
-                li {
-                    flex-direction: row;
-                }
-            }
-        
-            &:nth-child(even) {
-                li {
-                    flex-direction: row-reverse;
-                }
+        & li:nth-child(odd) {
+            flex-direction: row;
+        }
+        & li:nth-child(even) {
+            flex-direction: row-reverse;
+            .text-wrapper {
+                left: 0;
             }
         }
-
     }
 }

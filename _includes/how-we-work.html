@@ -1,0 +1,22 @@
+{%- if page.how-we-work -%} {%- for howWeWork in page.how-we-work -%}
+<div
+  class="how-we-work {{ howWeWork.has-grey-background }} {{ howWeWork.layout }}"
+>
+  <div class="image-wrapper">
+    <img src="{{ howWeWork.image }}" alt="{{ howWeWork.alt }} logo" />
+    <small> {{ howWeWork.image-caption }} </small>
+    <div class="rectangle left {{ howWeWork.left-color-name }}"></div>
+  </div>
+
+  <div class="text-wrapper">
+    <h2>{{ howWeWork.sub-title }}</h2>
+    {%- for array in howWeWork.array -%}
+    <div>
+      <h3>{{ array.sub-title }}</h3>
+      <p>{{ array.text }}</p>
+    </div>
+    {%- endfor -%}
+    <p>{{ howWeWork.text | markdownify }}</p>
+  </div>
+</div>
+{%- endfor -%} {%- endif -%}

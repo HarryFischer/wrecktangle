@@ -7,28 +7,47 @@ layout: default
   <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%} -->
   <!-- content start -->
-  {{ content | replace: "/uploads/", "/wrecktangle/uploads/" }}
+  {{ content }}
   <!-- content end -->
-  {%- if site.posts.size > 0 -%}
-  <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
-  <ul class="flex-three posts">
-    {%- for post in site.posts -%}
-    <li>
-      <a class="posts-title" href="{{ site.baseurl }}{{ post.url }}">
-        <img
-          class="posts-image"
-          src="{{ site.baseurl }}{{ post.main-image }}"
-          alt=""
-        />
-        <h3>{{ post.title | escape }}</h3>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
-        -%}
-        <span class="posts-meta">{{ post.date | date: date_format }}</span>
-      </a>
-      {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
-    </li>
-    {%- endfor -%}
-  </ul>
+  {%- if site.posts.size >= 3 -%}
+  <div class="news-wrapper">
+
+    <h2 class="post-list-heading fade-me-in">Latest news</h1>
+    <ul class="flex-three posts fade-me-in">
+      {%- for post in site.posts -%} {% if post.is-external == true %}
+      <li>
+        <a class="posts-title " href="{{ post.external-url }}">
+          <img
+            class="posts-image"
+            src="{{ site.baseurl }}{{ post.main-image }}"
+            alt=""
+          />
+          <h3>{{ post.title | escape }}</h3>
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
+          -%}
+          <span class="posts-meta">{{ post.date | date: date_format }}</span>
+        </a>
+      </li>
+      {% else %}
+      <li>
+        <a class="posts-title" href="{{ site.baseurl }}{{ post.url }}">
+          <img
+            class="posts-image"
+            src="{{ site.baseurl }}{{ post.main-image }}"
+            alt=""
+          />
+          <h3>{{ post.title | escape }}</h3>
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
+          -%}
+          <span class="posts-meta">{{ post.date | date: date_format }}</span>
+        </a>
+      </li>
+      {% endif %}
+  
+      <!-- {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%} -->
+      {%- endfor -%}
+    </ul>
+  </div>
 
   <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
   {%- endif -%}

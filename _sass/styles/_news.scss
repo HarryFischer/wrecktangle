@@ -1,0 +1,19 @@
+.page-content .wrapper .news-wrapper {
+    margin-top:15vh;
+    margin-bottom: 15vh;
+    .post-list-heading {
+        padding: 0 20px;
+        max-width: unset;
+        @media (min-width: 980px) {
+            padding: 0 80px;
+        }
+    }
+    .posts {
+        margin: 0;
+        padding: 0 20px;
+        max-width: unset;
+        @media (min-width: 980px) {
+            padding: 0 80px;
+        }
+    }
+}

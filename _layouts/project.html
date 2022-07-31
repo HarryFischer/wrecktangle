@@ -5,8 +5,7 @@ layout: default
 <div class="project">
   {%- if page.title -%}
   <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%} {{ content | replace: "/uploads/", "/wrecktangle/uploads/" }}
-  {%- if site.project.size > 0 -%}
+  {%- endif -%} {{ content }} {%- if site.project.size > 0 -%}
 
   <ul class="posts">
     {%- for project in site.projects -%}
@@ -26,7 +25,6 @@ layout: default
             <span>{{ project.project-description | escape }}</span>
           </h3>
         </div>
-        <!-- {%- if site.show_excerpts -%} {{ project.excerpt }} {%- endif -%} -->
         {%- if project.categories -%} {{ project.catergories }} {%- endif -%}
       </li>
     </a>

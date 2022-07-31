@@ -3,12 +3,15 @@
  */
 .site-footer {
   border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0 10px;
+  padding: $spacing-unit 10px 10px;
   background-color: $wt-navy;
   color: white;
 
   font-family: "Work Sans", Arial, Helvetica, sans-serif;
   font-weight: 300;
+  @media (min-width: 980px) {
+    padding: $spacing-unit 20px 10px;
+  }
 
   .wrapper {
     display: flex;
@@ -20,7 +23,9 @@
   }
 
   .footer-left {
-    width: 40%;
+    @media (min-width: 980px) {
+      width: 50%;
+    }
     .footer-heading {
         background-image: url(../assets/logo_white.svg);
         background-position: center;
@@ -28,37 +33,51 @@
         background-repeat: no-repeat;
         color: transparent;
         width: auto;
-        width: 210px;
+        width: 220px;
         height: 110px;
         display: inline-block;
+        @media (min-width: 980px) {
+          width: 280px;
+          height: 130px;
+        }
     }
   }
 
   .footer-right {
     flex-grow: 1;
+    @media (min-width: 980px) {
+        width: 50%;
+      }
     
     ul.contact-list {
       display: flex;
-      justify-content: space-evenly;
+      margin-left: 0;
+      flex-wrap: wrap;
+      margin-bottom:8vh;
+      @media (min-width: 980px) {
+        margin-bottom: 0;
+        gap: 40px;
+        justify-content: space-evenly;
+      }
       li,
       span {
-        width: 33%;
-        margin-right: 10px;
         list-style: none;
+        width: 100%;
+        @media (min-width: 980px) {
+          width: 29%;
+        }
       }
             li {
               list-style: none;
               display: block;
-              width: 80%;
+              // width: 80%;
               font-style: normal;
               font-family: "Work Sans";
               font-weight: 600;
-              margin-bottom: 4vh;
               font-size: 14px;
-              margin-top: 15px;
-      
-              &:nth-child(1) {
-                margin-bottom: 8vh;
+              margin-top: 24px;
+              @media (min-width: 980px) {
+                margin-bottom: 4vh;
               }
             }
       
@@ -66,13 +85,13 @@
             p {
               display: block;
               font-style: normal;
-              width: max-content;
+              // width: max-content;
               font-size: 20px;
               font-family: "PlayFair Display";
               font-weight: 400;
               color: white;
               position: relative;
-              margin-top: 20px;
+              margin-top: 13px;
             }
       
             a {
@@ -98,8 +117,13 @@
   }
   .footer-extras {
     display: flex;
-    gap: 8px;
+    flex-direction: column;
+    gap: 4px;
     color: white;
+    width: 100%;
+    @media (min-width: 980px) {
+      flex-direction: row;
+    }
     a, li, p {
       font-family: "Work Sans";
       font-weight: 400;
@@ -108,6 +132,9 @@
     }
     li {
       list-style: none;
+      @media (min-width: 980px) {
+        width: 50%;
+      }
     }
     a {
       color: white;

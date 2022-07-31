@@ -1,13 +1,16 @@
-<div class="flex-three testimonials-wrapper">
-  {%- if page.testimonials -%} {%- for testimonials in page.testimonials -%}
-  <div class="inner add-quotes">
-    <h3>{{ testimonials.quote-text }}</h3>
-    <p>{{ testimonials.quote-name }}</p>
-    <p>
-      <span
-        >{{ testimonials.quote-company }} | {{ testimonials.quote-job }}</span
-      >
-    </p>
+<div class="testimonials-wrapper true">
+  <div class="flex-three fade-me-in">
+    {%- if page.testimonials -%} {%- for testimonials in page.testimonials -%}
+    <div class="inner add-quotes flex">
+      <h3>{{ testimonials.quote-text }}</h3>
+      <div class="flex">
+        <p>{{ testimonials.quote-name }}</p>
+        <p>
+          <span> {{ testimonials.quote-company }} </span>
+          <span> {{ testimonials.quote-job }} </span>
+        </p>
+      </div>
+    </div>
+    {%- endfor -%}{%- endif -%}
   </div>
-  {%- endfor -%}{%- endif -%}
 </div>

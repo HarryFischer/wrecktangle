@@ -9,29 +9,15 @@
   flex: 1;
   margin-top: 80px;
   .wrapper {
-    h2 {
-    }
+    h2, 
     h3 {
-      font-weight: 600;
+      font-weight: 800;
     }
-    p a {
-      display: flex;
-      align-items: center;
-      color: $wt-navy;
-      margin-top: 20px;
-      &::before {
-        // content:url("../assets/arrow.svg");
-        content:url("../assets/arrow.svg");
-        margin-right: 15px;
-        transform: translateY(2px);
-        display: inline;
-        width: 30px;
-        height: 30px;
-        border: 2px solid $wt-navy;
-        border-radius: 50%;
-        padding: 15px 3px 3px 15px;
-        transition: all 0.3s ease;
-      }
+    h2 + h3 {
+      text-align: left;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
       
     }
 
@@ -50,20 +36,25 @@
         .flex-three {
           display: flex;
           flex-direction: row;
-          margin: 20vh auto;
-          width: 100vw;
+          margin: auto!important;
           overflow: scroll;
-          margin-left: -15px;
-          padding-left: 15px;
+          // margin-left: -15px;
+          // padding-left: 15px;
           gap: 40px; 
     
           @include media-query($on-laptop) {
             display: flex;
             flex-direction: row;
-            width: max-content;
-            margin: 20vh auto;
-            gap: 40px;
+            // max-width: 70vw;
+            gap: 60px;
             overflow: unset;
+            padding: 0 80px;
+          }
+
+          &.posts {
+            @media (min-width: 980px) {
+              max-width: 70vw;
+            }
           }
     
           li,
@@ -75,22 +66,23 @@
     
             @include media-query($on-laptop) {
               min-width: unset;
-              width: 300px;
+              width: 33%;
               margin-right: unset;
             }
     
-            img {display: block;}
+            img {
+              display: block;              
+              object-fit: cover;
+            }
     
             h3 {
               font-family: "PlayFair Display",
                 Arial,
                 Helvetica,
                 sans-serif;
-              font-size: 25px;
+              font-size: 32px;
               line-height: 120%;
-              font-weight: 600;
-              margin-bottom: 30px;
-              margin-bottom: 30px;
+              font-weight: 400;
             }
     
             p,
@@ -99,13 +91,15 @@
                 Arial,
                 Helvetica,
                 sans-serif;
-              font-size: 17px;
+              font-size: 16px;
               line-height: 135%;
               font-weight: 600;
-              margin-bottom: 4px;
+              margin-bottom: 12px;
             }
             span {
               font-weight: 400;
+              display: block;
+              margin-bottom: 0;
             }
           }
     
@@ -139,6 +133,7 @@
                   sans-serif;
                 color: $wt-navy;
                 font-weight: 600;
+                text-align: left;
 
               }
               span {
@@ -147,55 +142,79 @@
               }
             }
           }
-          &.team-members-wrapper {
-            .inner {
-              img {
-                border-radius: 30px;
-                margin-bottom: 15px;
+          
+        }
+
+
+        
+
+        .clients-wrapper {
+          margin-bottom: 10vh;
+          display: flex;
+          flex-direction: column;
+          padding: 0 20px;
+          @media (min-width: 980px) {
+            margin-top: 15vh;
+            flex-direction: row;
+            padding: 0 80px;
+            
+          }
+          .flex-four {
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+              gap: 40px 20px;
+              margin: 10vh -10px;
+              justify-content: center;
+              .inner {
+                max-width: 30%;
+                max-width: 45%;
               }
-              h3, small, a {
-                margin: 0 10px;
-              }
-              h3 {
-                margin-bottom: 0;
-                font-weight: 600;
-                
-                &:nth-child(odd) {
-                  font-weight: 400;
-                }
-              }
-              small {
-                display: block;
-                font-family: "Work Sans", Arial, Helvetica, sans-serif;
-                line-height:130%;
-                margin-top: 15px;
-                margin-bottom: 15px;
-              }
-              a {
-                display: block;
-                text-decoration: none;
-                margin-bottom: 10px;
-                color: $wt-navy;
-                width: max-content;
-                position: relative;
-                &::after {
-                  content: '';
-                  width:100%;
-                  height: 1px;
-                  left: 0;
-                  bottom: 0;
-                  background-color: $wt-navy;
-                  position: absolute;
-                }
-                &:hover {
-                &::after {
-                    height: 2px;
-                  }
+              @media (min-width: 980px) {
+                width: 70vw;
+                gap: 60px 30px;
+                margin: 10vh auto;
+                justify-content: right;
+                .inner {
+                  max-width: calc(22%);
                 }
               }
               
+          
             }
+          .text-wrapper {
+            @media (min-width: 980px) {
+              width: 30vw;
+            }
+            h2 {
+              text-align: left;
+              font-size: 50px;
+                color: #162b40;
+                text-align: left;
+                max-width: unset;
+            }
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: left;
+                color: $wt-navy;
+                margin-top: 20px;
+            
+                &::before {
+                  // content:url("../assets/arrow.svg");
+                  content: url("../assets/arrow.svg");
+                  margin-right: 15px;
+                  transform: translateY(2px);
+                  display: inline;
+                  width: 30px;
+                  height: 30px;
+                  border: 2px solid $wt-navy;
+                  border-radius: 50%;
+                  padding: 15px 3px 3px 15px;
+                  transition: all 0.3s ease;
+                }
           }
+          
         }
   }
 }
@@ -235,15 +254,15 @@
   font-family: "Playfair Display";
 }
 
-.post-title {
-  @include relative-font-size(2.625);
-  letter-spacing: -1px;
-  line-height: 1;
+// .post-title {
+//   @include relative-font-size(2.625);
+//   letter-spacing: -1px;
+//   line-height: 1;
 
-  @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
-  }
-}
+//   @include media-query($on-laptop) {
+//     @include relative-font-size(2.25);
+//   }
+// }
 
 .post-content {
   margin-bottom: $spacing-unit;
@@ -275,3 +294,12 @@
 
 
 
+.fade-me-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 2s ease;
+  &.in-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

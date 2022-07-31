@@ -1,11 +1,16 @@
-<div class="flex-three clients-wrapper">
-  {%- if page.clients -%} {%- for clients in page.clients -%}
-  <div class="inner add-quotes">
-    <h3>{{ clients.quote-text }}</h3>
-    <p>{{ clients.quote-name }}</p>
-    <p>
-      <span>{{ clients.quote-company }} | {{ clients.quote-job }}</span>
-    </p>
+<div class="clients-wrapper">
+  <div class="text-wrapper">
+    <h2 class="fade-me-in">Clients and Collaborators</h2>
+    <a href="wrecktangle/projects" class="fade-me-in">See our work</a>
   </div>
-  {%- endfor -%}{%- endif -%}
+  <div class="flex-four">
+    {%- if page.clients -%} {%- for clients in page.clients -%}
+    <div class="inner fade-me-in">
+      <img
+        src="{{ clients.client-logo }}"
+        alt="{{ clients.client-name }} logo"
+      />
+    </div>
+    {%- endfor -%}{%- endif -%}
+  </div>
 </div>
