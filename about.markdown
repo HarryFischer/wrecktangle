@@ -112,7 +112,8 @@ how-we-work:
       to focus on the bigger picture. '
   text: 'We do this so you deliver exceptional customer experiences that will get
     people talking. '
-  left-color-name: pink
+  left-color-name: green
+  right-color-name: yellow
   has-grey-background: 
 layout: approach
 ---
