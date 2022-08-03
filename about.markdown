@@ -20,7 +20,7 @@ content-block:
 
     Coming up with an idea can be either lightning fast or take days spent in a meeting room with an empty whiteboard. To bring these ideas to life, we offer practical solutions, grounded in best practice, and centred on what you want to achieve.
   left-color-name: yellow
-  right-color-name: navy
+  right-color-name: pink
   has-grey-background: false
 team-block:
 - title: Our Team
