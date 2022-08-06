@@ -8,6 +8,7 @@ sub-title: How can businesses create quality visitor interactions when they are 
   survival mode?
 length: 2 min read
 is-extenal: false
+layout: post
 ---
 
 The current focus for the Hospitality, Tourism and Events industry is to motivate visitors to their venues, their attractions and their leisure locations.
