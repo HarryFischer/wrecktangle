@@ -1,6 +1,6 @@
 ---
 title: Covid’s impact on the future of Ireland’s World Famous Céad Míle Fáilte
-date: 2022-08-06 10:54:00 Z
+date: 2021-02-22 10:54:00 Z
 main-image: "/uploads/mask.jpg"
 alt: Person wearing face mask
 sub-title: 'How will your business still bring the essence of “a hundred thousand
