@@ -1,6 +1,9 @@
 ---
 title: Launching a Consultancy in a Global Pandemic
 date: 2021-03-12 12:00:00 Z
+main-image: "/uploads/pandemic.jpg"
+image-caption: A global pandemic announced 12 months ago
+alt: Two people bumping elbows
 length: 2 min read
 is-extenal: false
 ---
@@ -16,6 +19,9 @@ People thought I was mad to set up a Commercial and Venue Management Consultancy
 > If you are thinking wrecktangle, then you are thinking strategically.
 
 In order to survive and to thrive, there needs to be a deliberate move away from short-term, tactical responses to what the pandemic is doing to businesses right now. 
+
+![innovation.jpg](/uploads/innovation.jpg)
+*Innovation and flexibility are critical*
 
 The short-term outlook keeps changing, so keep focused on the future and make changes that leverage the opportunities that exist and will evolve in this period. 
 
