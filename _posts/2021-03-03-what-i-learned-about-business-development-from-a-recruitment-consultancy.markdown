@@ -1,6 +1,6 @@
 ---
 title: What I learned about business development from a recruitment consultancy
-date: 2022-08-06 11:18:00 Z
+date: 2021-03-03 11:18:00 Z
 main-image: "/uploads/recruitment-consultancy-crash-course.jpg"
 image-caption: Recruitment Consultancy Crash Course
 alt: Image of inside recruitment consultancy
