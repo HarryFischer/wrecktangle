@@ -5,6 +5,7 @@ main-image: "/uploads/main-image.jpg"
 alt: mother and child
 length: 1 min read
 is-extenal: false
+layout: post
 ---
 
 I was in the park with my 5 year old daughter and she was misbehaving. I lost my patience and I called her a spoiled brat.
