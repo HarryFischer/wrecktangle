@@ -6,6 +6,7 @@ image-caption: A global pandemic announced 12 months ago
 alt: Two people bumping elbows
 length: 2 min read
 is-extenal: false
+layout: post
 ---
 
 A year ago, this week, a global pandemic was declared and the impacts of Covid-19 on the Tourism, Events and Hospitality industries has been widespread and devastating for many.
