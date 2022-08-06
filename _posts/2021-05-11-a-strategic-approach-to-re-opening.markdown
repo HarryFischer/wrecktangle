@@ -1,7 +1,8 @@
 ---
 title: A Strategic Approach to Re-Opening
-date: 2022-08-06 12:23:00 Z
+date: 2021-05-11 12:23:00 Z
 sub-title: Wrecktangle's six-point checklist to support the re-opening process.
+layout: post
 ---
 
 At Wrecktangle, we are working with clients on re-opening strategies to ensure they deliver a compelling offer to motivate people to visit. We have formulated this six-point checklist to support businesses.
