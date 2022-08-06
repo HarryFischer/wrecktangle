@@ -27,6 +27,8 @@ defaults:
       type: posts
     values:
       main-image:
+      image-caption:
+      alt:
       sub-title:
       length:
       is-extenal:
