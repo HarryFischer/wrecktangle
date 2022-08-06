@@ -1,6 +1,6 @@
 ---
 title: Creating a Frictionless Customer Journey
-date: 2021-05-22 15:56:00 Z
+date: 2021-03-21 15:56:00 Z
 tags:
 - goal
 - network
@@ -12,7 +12,6 @@ sub-title: How can businesses create quality visitor interactions when they are 
   survival mode?
 length: 2 min read
 is-extenal: false
-external-url: 
 layout: post
 ---
 
