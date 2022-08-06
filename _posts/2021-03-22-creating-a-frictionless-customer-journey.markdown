@@ -1,6 +1,9 @@
 ---
 title: Creating a Frictionless Customer Journey
-date: 2022-08-06 12:16:00 Z
+date: 2021-03-22 12:16:00 Z
+main-image: "/uploads/suitcase.jpg"
+image-caption: Motivating visitors with quality interactions
+alt: Person with pile of suitcases
 sub-title: How can businesses create quality visitor interactions when they are in
   survival mode?
 length: 2 min read
@@ -17,6 +20,9 @@ Other locations, such as hotels and restaurants, will have to capture enhanced c
 
 It is important that these additional elements have been integrated seamlessly into the overall customer journey for your visitors. 
 
+![working.jpg](/uploads/working.jpg)
+*Customer journey mapping*
+
 At Wrecktangle, we are encouraging businesses to focus on the following five elements:
 
 ### Map your customer journey
@@ -30,6 +36,9 @@ Get to know what your brand or experience is best known for. What are your USPs,
 ### Expand your customer base 
 
 Building on your cohesive customer journey and signature experiences, think creatively about how you can appeal to a broader demographic. Tap into current zeitgeists or motivating factors and offer an appealing product to that market.
+
+![phone.jpg](/uploads/phone.jpg)
+*Communicating added value and important information*
 
 ### Affiliation Selling
 
