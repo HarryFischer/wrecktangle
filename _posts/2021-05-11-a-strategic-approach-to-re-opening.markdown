@@ -2,6 +2,8 @@
 title: A Strategic Approach to Re-Opening
 date: 2021-05-11 12:23:00 Z
 sub-title: Wrecktangle's six-point checklist to support the re-opening process.
+length: 2 min read
+is-extenal: false
 layout: post
 ---
 
