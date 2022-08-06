@@ -7,6 +7,7 @@ alt: Image of inside recruitment consultancy
 sub-title: 'When I was in my 20s I did a 6 month stint in a Recruitment Agency. '
 length: 2 min read
 is-extenal: false
+layout: post
 ---
 
 Whilst recruiting finance roles is not my passion and I haven’t worked in a “sales” role since then, I have deployed the fundamentals I learned about Business Development and Sales in every role I have undertaken.
