@@ -2,6 +2,8 @@
 title: A little insight with Founder and Managing Director at Wrecktangle - Jillian
   Wilson
 date: 2021-01-12 10:24:00 Z
+length: 1 min read
+is-extenal: false
 layout: post
 ---
 
