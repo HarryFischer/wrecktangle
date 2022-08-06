@@ -21,7 +21,7 @@ Covid-19 has altered this significantly. now human interactions must be minimise
 Firstly, you need to really understand how your customers interact with your experience. 
 
 ![exhibiton.jpg](/uploads/exhibiton.jpg)
-* Covid has halted tourism in Ireland for prolonged periods and will continue impact into future years.
+*Covid has halted tourism in Ireland for prolonged periods and will continue impact into future years.*
 
 Once you have forensically mapped this journey, you can then identify, for example, where you can substitute a human touchpoint with a digital one, or where improved signage will become an additional requirement, as there may no longer be a person directing your visitors at that location.
 
