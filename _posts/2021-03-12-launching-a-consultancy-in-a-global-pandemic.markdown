@@ -1,6 +1,8 @@
 ---
 title: Launching a Consultancy in a Global Pandemic
-date: 2022-08-06 12:00:00 Z
+date: 2021-03-12 12:00:00 Z
+length: 2 min read
+is-extenal: false
 ---
 
 A year ago, this week, a global pandemic was declared and the impacts of Covid-19 on the Tourism, Events and Hospitality industries has been widespread and devastating for many.
