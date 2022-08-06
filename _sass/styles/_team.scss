@@ -21,7 +21,7 @@
             margin: 0;                    
         }
         h2 {
-            padding-bottom: 80px;
+            padding-bottom: 48px;
         }
         p {
             padding-bottom: 16px;
@@ -36,10 +36,10 @@
         top: -100px;
     }
     .flex-three.team-members-wrapper {
-        overflow-x: scroll;
         gap: 20px;
-        padding: 0 0 0 20px;
-        width: 100%;
+        overflow-x: hidden;
+        padding: 0 20px 0 20px;
+        width: calc(100% - 40px);
         @media (min-width: 980px) {
             width: 70vw;
             gap: 40px;
@@ -128,15 +128,27 @@
                     }
 
             }    
+            .swiper-slide {
+                max-width: 490px;
+            }
         }
     }
-    .next-button {
-        position: absolute;
-        top: 50%;
+    .swiper-button-prev, .swiper-button-next {
+        color: $wt-navy;
+        // width: 30px;
+        // height: 30px;
+        // padding: 4px;
+        // border: 1px solid $wt-navy;
+        // border-radius: 50%;
+        top: unset;
+        bottom: -5vw;
+        left: unset;
+        right: unset;
+    }
+    .swiper-button-next {
         right: 20px;
-        transform: translateY(-50%);
-        border: none;
-        background-color: tomato;
-        z-index: 5;
+    }
+    .swiper-button-prev {
+        right: 100px;
     }
 }

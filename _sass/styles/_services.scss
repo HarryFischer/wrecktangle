@@ -10,6 +10,7 @@
     &.true {
         background-color: $wt-pale-grey;
     }
+    
     .rectangle {
         position: absolute;
         max-width: 200px;
@@ -22,7 +23,7 @@
             height: 200px;
             position: absolute;
             left: 0;
-            top: -80px;
+            top: 0;
             z-index: -1;
         }
     }
@@ -40,8 +41,10 @@
         h2 {
             margin: unset;
             text-align: left;
-            padding-bottom: 80px;
-            margin-top: 10vh;
+            // padding-bottom: 80px;
+            // margin-top: 10vh;
+            padding-bottom: 49px;
+            margin-top: 14vh;
         }
 
         button {
@@ -123,5 +126,3 @@
         }
     }
 }
-
-

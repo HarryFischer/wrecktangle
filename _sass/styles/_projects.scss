@@ -27,49 +27,97 @@ $widthHeight: 45vw;
         // }
         li {
             list-style: none;
-            margin: 0;
             margin: auto;
-            display: flex;
-            flex-direction: row;
+            position: relative;
+            // display: flex;
+            // flex-direction: colum;
+            .projects-title {
+                max-width: 80vw;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 5;
+                filter: drop-shadow(0 0 0.75rem #12121250);
+                h3 {
+                    color: white;
+                    text-align: center;
+                    font-weight: 800;
+                    span {
+                        font-weight: 300;
+                        display: block;
+                    }
+                }
+                &:hover {
+                    h3 {
+                        text-decoration: underline;
+                        text-underline-offset: 0.22em;
+                        text-decoration-thickness: 1px;
+                    }
+                }
+            }
             img.projects-image {
-                width: 50vw;
+                // width: 50vw;
                 height: calc(100vh - 79px);
                 object-fit: cover;
                 position: relative;
                 z-index: 2;
+                filter:brightness(60%);
             }
-            .text-wrapper {
-                // float: left;
-                // background-color: $wt-yellow;
-                // width: $widthHeight;
-                // height: $widthHeight;
-                // margin-left: -20px;
-                // margin-top: 5vw;
-                background-color: #efc75c;
-                width: 50vw;
-                height: calc(100vh - 79px);
-                position: absolute;
-                h3 {
-                    padding: 20px;
-                    padding: 40px;
-                    font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
-                    font-size: 40px;
-                    color: $wt-navy;
-                    line-height: 120%;
-                    text-align: left;
-                    font-weight: 800;
-                    margin-top: 320px;
-                    margin-top: 45vh;
-                    transform: translateY(-50%);
-                    span {
-                        display: block;
-                        font-weight: 100;
+            .rectangle {
+                &.right {
+                    width: 320px;
+                    height: 100px;
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+
+                    @media (min-width: 980px) {
+                        top: -80px;
+                        bottom: unset;
                     }
                 }
-            }
+                &.left {
+                    width: 280px;
+                    height: 120px;
+                    position: absolute;
+                    left: 0;
+                    top: -70px;
+                    z-index: 6;
+                    @media (min-width: 980px) {
+                        width: 500px;
+                        height: 200px;
+                        top: unset;
+                        bottom: -80px;
+                    }                    
+                }
+
+                &.green {
+                    background: $wt-green;
+                }
+
+                &.yellow {
+                    background: $wt-yellow;
+                }
+
+                &.pink {
+                    background: $wt-pink;
+                }
+
+                &.navy {
+                    background: $wt-navy;
+                }
+            }            
         }
         & li:nth-child(odd) {
             flex-direction: row;
+            .rectangle {
+                & {
+                    background: $wt-pink;
+                    right: 0;
+                    left: unset;
+                }
+            }
         }
         & li:nth-child(even) {
             flex-direction: row-reverse;
@@ -77,5 +125,7 @@ $widthHeight: 45vw;
                 left: 0;
             }
         }
+
+        
     }
 }

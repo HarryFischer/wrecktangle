@@ -1,5 +1,4 @@
 <div class="our-team flex">
-  <button class="next-button">NEXT</button>
   <div class="text-wrapper fade-me-in">
     {%- if page.team-block -%} {%- for teamBlock in page.team-block -%}
     <h2>{{ teamBlock.title }}</h2>
@@ -26,38 +25,45 @@
   <div class="rectangle {{ teamBlock.right-color-name }}"></div>
 
   {%- if page.team-members -%}
-  <div class="flex-three team-members-wrapper">
-    {%- if page.team-title -%}
-    <h1>{{ team-title.title }}</h1>
-    {%- endif -%} {%- for team-members in page.team-members -%}
-    <div class="inner">
-      <img src="{{ team-members.image }}" alt="" />
-      <div class="body-wrapper">
-        <details>
-          <summary>
-            <h3>{{ team-members.name }}</h3>
-            <h3>{{ team-members.job-title }}</h3>
-            <button class="expand-bio">
-              <svg
-                width="17"
-                height="17"
-                viewBox="0 0 17 17"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M9.42792 15.0625L9.42792 3.94375L13.4761 7.34688C13.57 7.42567 13.6784 7.48502 13.795 7.52153C13.9116 7.55806 14.0342 7.57102 14.1557 7.55971C14.4013 7.53685 14.6277 7.41646 14.7853 7.225C14.9429 7.03354 15.0187 6.78672 14.9961 6.53884C14.9734 6.29097 14.8542 6.06222 14.6646 5.90312L9.09366 1.21563C9.04935 1.18413 9.0028 1.15591 8.95439 1.13125C8.90796 1.13125 8.88011 1.08438 8.83368 1.06563C8.72722 1.02316 8.6139 1.00084 8.49943 1C8.38495 1.00084 8.27163 1.02316 8.16517 1.06563C8.11875 1.06563 8.09089 1.1125 8.04447 1.13125C7.99605 1.15591 7.94951 1.18413 7.90519 1.21563L2.33426 5.90313C2.22945 5.99125 2.14516 6.10169 2.08739 6.22638C2.02962 6.35116 1.99978 6.48728 2 6.625C1.99958 6.84405 2.07513 7.05634 2.21355 7.225C2.2915 7.31993 2.38723 7.3984 2.49525 7.45592C2.60328 7.51343 2.72149 7.54887 2.8431 7.56019C2.96471 7.57151 3.08734 7.5585 3.20395 7.5219C3.32058 7.48529 3.4289 7.42581 3.52272 7.34688L7.57094 3.94375L7.57094 15.0625C7.57094 15.3111 7.66876 15.5496 7.84289 15.7254C8.01701 15.9012 8.25318 16 8.49943 16C8.74568 16 8.98184 15.9012 9.15597 15.7254C9.33009 15.5496 9.42792 15.3111 9.42792 15.0625Z"
-                  fill="white"
-                />
-              </svg>
-            </button>
-          </summary>
-          <small>{{ team-members.bio-text }}</small>
-        </details>
+
+  <div class="swiper flex-three team-members-wrapper">
+    <div class="swiper-wrapper inner">
+      {%- for team-members in page.team-members -%}
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <img
+          src="{{ team-members.image }}"
+          alt="{{ team-members.name }}"
+          loading="lazy"
+        />
+        <div class="body-wrapper">
+          <details>
+            <summary>
+              <h3>{{ team-members.name }}</h3>
+              <h3>{{ team-members.job-title }}</h3>
+              <button class="expand-bio">
+                <svg
+                  width="17"
+                  height="17"
+                  viewBox="0 0 17 17"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.42792 15.0625L9.42792 3.94375L13.4761 7.34688C13.57 7.42567 13.6784 7.48502 13.795 7.52153C13.9116 7.55806 14.0342 7.57102 14.1557 7.55971C14.4013 7.53685 14.6277 7.41646 14.7853 7.225C14.9429 7.03354 15.0187 6.78672 14.9961 6.53884C14.9734 6.29097 14.8542 6.06222 14.6646 5.90312L9.09366 1.21563C9.04935 1.18413 9.0028 1.15591 8.95439 1.13125C8.90796 1.13125 8.88011 1.08438 8.83368 1.06563C8.72722 1.02316 8.6139 1.00084 8.49943 1C8.38495 1.00084 8.27163 1.02316 8.16517 1.06563C8.11875 1.06563 8.09089 1.1125 8.04447 1.13125C7.99605 1.15591 7.94951 1.18413 7.90519 1.21563L2.33426 5.90313C2.22945 5.99125 2.14516 6.10169 2.08739 6.22638C2.02962 6.35116 1.99978 6.48728 2 6.625C1.99958 6.84405 2.07513 7.05634 2.21355 7.225C2.2915 7.31993 2.38723 7.3984 2.49525 7.45592C2.60328 7.51343 2.72149 7.54887 2.8431 7.56019C2.96471 7.57151 3.08734 7.5585 3.20395 7.5219C3.32058 7.48529 3.4289 7.42581 3.52272 7.34688L7.57094 3.94375L7.57094 15.0625C7.57094 15.3111 7.66876 15.5496 7.84289 15.7254C8.01701 15.9012 8.25318 16 8.49943 16C8.74568 16 8.98184 15.9012 9.15597 15.7254C9.33009 15.5496 9.42792 15.3111 9.42792 15.0625Z"
+                    fill="white"
+                  />
+                </svg>
+              </button>
+            </summary>
+            <small>{{ team-members.bio-text }}</small>
+          </details>
+        </div>
       </div>
-      <!-- <a href="{{ team-members.linked-in }}" target="_blank">Linked-in</a> -->
+      {%- endfor -%}
     </div>
-    {%- endfor -%}
+    {%- endif -%}
   </div>
-  {%- endif -%}
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
 </div>

@@ -9,7 +9,11 @@ layout: default
 >
   <header class="post-header">
     <div>
-      <img src="{{ site.baseurl }}{{ post.main-image }}" alt="" />
+      <img
+        src="{{ site.baseurl }}{{ post.main-image }}"
+        alt=""
+        loading="lazy"
+      />
       <h1 class="post-title p-name" itemprop="name headline">
         {{ page.title | escape }}
       </h1>
@@ -48,6 +52,7 @@ layout: default
           class="posts-image"
           src="{{ site.baseurl }}{{ post.main-image }}"
           alt=""
+          loading="lazy"
         />
         <h3>{{ post.title | escape }}</h3>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"

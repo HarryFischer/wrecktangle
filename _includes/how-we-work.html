@@ -3,20 +3,25 @@
   class="how-we-work {{ howWeWork.has-grey-background }} {{ howWeWork.layout }}"
 >
   <div class="image-wrapper">
-    <img src="{{ howWeWork.image }}" alt="{{ howWeWork.alt }} logo" />
+    <img
+      src="{{ howWeWork.image }}"
+      alt="{{ howWeWork.alt }} logo"
+      loading="lazy"
+    />
     <small> {{ howWeWork.image-caption }} </small>
-    <div class="rectangle left {{ howWeWork.left-color-name }}"></div>
   </div>
 
   <div class="text-wrapper">
     <h2>{{ howWeWork.sub-title }}</h2>
     {%- for array in howWeWork.array -%}
-    <div>
+    <div class="hww-hide-me">
       <h3>{{ array.sub-title }}</h3>
       <p>{{ array.text }}</p>
     </div>
     {%- endfor -%}
     <p>{{ howWeWork.text | markdownify }}</p>
   </div>
+  <div class="rectangle right bottom {{ howWeWork.left-color-name }}"></div>
+  <div class="rectangle right {{ howWeWork.right-color-name }}"></div>
 </div>
 {%- endfor -%} {%- endif -%}

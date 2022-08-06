@@ -16,6 +16,7 @@ layout: default
             class="posts-image"
             src="{{ site.baseurl }}{{ post.main-image }}"
             alt=""
+            loading="lazy"
           />
           <h3>{{ post.title | escape }}</h3>
           {%- assign date_format = site.minima.date_format | default: "%b %-d,
@@ -30,6 +31,7 @@ layout: default
             class="posts-image"
             src="{{ site.baseurl }}{{ post.main-image }}"
             alt=""
+            loading="lazy"
           />
           <h3>{{ post.title | escape }}</h3>
           {%- assign date_format = site.minima.date_format | default: "%b %-d,

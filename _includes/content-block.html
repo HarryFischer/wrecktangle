@@ -4,7 +4,11 @@
 >
   <div class="image-wrapper">
     {%- if contentBlock.image -%}
-    <img src="{{ contentBlock.image }}" alt="{{ contentBlock.alt }} logo" />
+    <img
+      src="{{ contentBlock.image }}"
+      alt="{{ contentBlock.alt }} logo"
+      loading="lazy"
+    />
     <small> {{ contentBlock.image-caption }} </small>
     {%- endif -%} {%- if contentBlock.video-url -%}
     <iframe

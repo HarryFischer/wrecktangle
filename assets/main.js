@@ -76,16 +76,51 @@ window.addEventListener('scroll', () => {
         scrollAmount++;
       }
       if (rectangle.classList.contains("left")) {
-        rectangle.style.transform = `translateY(${scrollAmount * 0.15}px)`;
+        rectangle.style.transform = `translateY(${scrollAmount * 0.2}px)`;
       } else {
-        rectangle.style.transform = `translateY(${scrollAmount * -0.15}px)`;
+        rectangle.style.transform = `translateY(${scrollAmount * -0.25}px)`;
       }
     }  
   });
   oldScrollAmount = scrollTop;
 });
 
+  
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  // loop: true,
+  slidesPerView: "auto",
+  // slidesPerView: 1,
+  spaceBetween: 30,
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
 
+
+
+const howWeWorkItems = document.querySelectorAll('.hww-hide-me')
+
+const hWWOptions = {
+  rootMargin: '-50% 0px -40% 0px',
+  threshold: 0.000001,
+};
+const hWWObserver = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting === true) {
+      entry.target.classList.add('in-view');
+    } else {
+      // entry.target.classList.remove('in-view');
+    }
+  });
+}, hWWOptions);
+
+howWeWorkItems.forEach((el, i) => {
+    hWWObserver.observe(el);
+})
 
 
 

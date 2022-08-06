@@ -12,21 +12,91 @@
 
     .image-wrapper {
         position: sticky;
-        top: 0;
+        top: 70px;
+        height: calc(100vh - 70px);
         @media (min-width: 980px) {
             width: 70vw;
         }
     }
     .text-wrapper {
-        width: 30vw;
-        padding: 0 80px;
+        padding: 0 20px;
+        @media (min-width: 980px) {
+            width: 30vw;
+            padding: 0 80px 30vh;
+            
+        }
+        
+        .hww-hide-me {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            min-height: 40vh;
+            &.in-view {
+                opacity: 1;
+                transition: opacity 0.5s ease;
+            }
+            &:last-child {
+                margin-bottom: 40vh;
+            }
+        }
         
         h2, h3 {
             text-align: left;
         }
-        h2 {
-            position: sticky;
-            top: 10vh;
-        }
+        // h2 {
+        //     position: sticky;
+        //     top: 10vh;
+        // }
     }
+        .rectangle {
+            z-index: -1;
+    
+            &.right {
+                width: 320px;
+                height: 100px;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+    
+                @media (min-width: 980px) {
+                    top: -80px;
+                    bottom: unset;
+                }
+            }
+    
+            &.left {
+                width: 280px;
+                height: 120px;
+                position: absolute;
+                left: 0;
+                top: -70px;
+                z-index: 1;
+    
+                @media (min-width: 980px) {
+                    width: 500px;
+                    height: 200px;
+                    top: unset;
+                    bottom: -80px;
+                }
+            }
+
+            &.bottom {
+                margin-top: 80vh;
+            }
+    
+            &.green {
+                background: $wt-green;
+            }
+    
+            &.yellow {
+                background: $wt-yellow;
+            }
+    
+            &.pink {
+                background: $wt-pink;
+            }
+    
+            &.navy {
+                background: $wt-navy;
+            }
+        }
 }

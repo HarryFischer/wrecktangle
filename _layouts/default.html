@@ -9,7 +9,7 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        {{ content | replace: "/uploads/", "/wrecktangle/uploads/" }}
+        {{ content }}
 <!-- | replace: "/uploads/", "/wrecktangle/uploads/" -->
       </div>
       <div class="contact-overlay" id="contact-nav-overlay">
@@ -33,5 +33,5 @@
     {%- include footer.html -%}
 
   </body>
-<script src="{{ site.baseurl }}/assets/main.js"></script>
+  <script src="{{ site.baseurl }}/assets/main.js"></script>
 </html>

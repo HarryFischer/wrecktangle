@@ -1,9 +1,14 @@
 .page-content .wrapper .intro {
-    margin: 25vh auto;
-    @media (max-width: 980px) {
-        padding: 0 20px;
+    margin: 8vh auto 15vh;
+    padding: 0 20px;
+    h3 {
+        font-size: 11vw;
+    }
+    @media (min-width: 980px) {
+        margin: 20vh auto 25vh;
+        padding: 0;
         h3 {
-            font-size: 6vw;
+            font-size: 3.7vw;
         }
     }
     h3 {
