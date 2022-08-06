@@ -1,6 +1,8 @@
 ---
 title: A Strategic Approach to Re-Opening
 date: 2021-05-11 12:23:00 Z
+main-image: "/uploads/tickbox.jpg"
+alt: person ticking a check box
 sub-title: Wrecktangle's six-point checklist to support the re-opening process.
 length: 2 min read
 is-extenal: false
@@ -17,6 +19,8 @@ Sometimes we are so focused on the solutions and operations to deliver them, tha
 
 Knowing what you want to achieve supports your prioritisation process and ensures you focus on the elements that will realise your ambition.
 
+![work.jpg](/uploads/work.jpg)
+
 ### Know your audience
 
 Who is your customer? What is the customer need you are fulfilling? Does the experience meet that need? Will it motivate customers to engage with your product or venue?
@@ -32,6 +36,8 @@ Looking at your ideas through the lens of your audience and whether they know yo
 It is important to develop a robust operational plan to include all elements of the customer journey, from enquiry, to booking, to activation and follow up. This should also integrate any digital and human interventions and include any new processes due to Covid restrictions.
 
 In this way, everyone is clear on the roadmap and the steps to make the experience happen.
+
+![immersive.jpg](/uploads/immersive.jpg)
 
 ### Management and Accountability
 
