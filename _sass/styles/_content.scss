@@ -49,6 +49,7 @@
             gap: 60px;
             overflow: unset;
             padding: 0 80px;
+            flex-wrap: wrap;
           }
 
           &.posts {
@@ -66,7 +67,7 @@
     
             @include media-query($on-laptop) {
               min-width: unset;
-              width: 33%;
+              width: 30%;
               margin-right: unset;
             }
     

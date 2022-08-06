@@ -14,13 +14,14 @@ layout: default
 
     <h2 class="post-list-heading fade-me-in">Latest news</h1>
     <ul class="flex-three posts fade-me-in">
-      {%- for post in site.posts -%} {% if post.is-external == true %}
+      {%- for post in site.posts limit:3 -%} {% if post.is-external == true %}
       <li>
         <a class="posts-title " href="{{ post.external-url }}">
           <img
             class="posts-image"
             src="{{ site.baseurl }}{{ post.main-image }}"
             alt=""
+            style="aspect-ratio: 5 / 3; object-fit: cover;"
             loading="lazy"
           />
           <h3>{{ post.title | escape }}</h3>
@@ -36,6 +37,7 @@ layout: default
             class="posts-image"
             src="{{ site.baseurl }}{{ post.main-image }}"
             alt=""
+            style="aspect-ratio: 5 / 3; object-fit: cover;"
             loading="lazy"
           />
           <h3>{{ post.title | escape }}</h3>

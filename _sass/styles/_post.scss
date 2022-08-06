@@ -4,5 +4,9 @@
             max-width: 620px;
             text-align: left;
         }
+        p img {
+            aspect-ratio: 5 / 3;
+            object-fit: cover;
+        }
     }
 }
