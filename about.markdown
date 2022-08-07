@@ -1,6 +1,6 @@
 ---
 title: About
-permalink: about
+permalink: "/about"
 position: 1
 intro:
 - text: "### **We know what memorable experiences and operational excellence looks
