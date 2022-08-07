@@ -41,8 +41,8 @@ content-block:
       * Collaborative multi-stakeholder approach
       * Commercial Strategic planning
   video-url: 
-  left-color-name: pink
-  right-color-name: 
+  left-color-name: yellow
+  right-color-name: green
   has-grey-background: true
 layout: project
 ---
