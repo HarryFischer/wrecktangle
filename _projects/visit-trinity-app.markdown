@@ -7,6 +7,9 @@ project-description: How do we drive digital innovation and storytelling that wi
 color-name: pink
 content-block:
 - layout: left
+  image: "/uploads/juliet-furst-vjniDz-rmpY-unsplash.jpg"
+  image-caption: 
+  alt: 
   array:
   - question: The Answer
     answer-text: "Driven by the prolonged impacts of Covid and lingering social distancing
@@ -26,11 +29,28 @@ content-block:
   - question: The Skills
     answer-text: "* Digital interventions \n* Tendering\n* Technology \n* Innovative
       content development"
+  video-url: 
+  left-color-name: 
+  right-color-name: 
+  has-grey-background: 
+- layout: left
+  image: "/uploads/ana-martin-vdyeDY-_ufw-unsplash%20(1).jpg"
+  image-caption: 
+  alt: 
+  array:
   - question: The Reaction
     answer-text: |-
       “Wrecktangle developed some fantastic content for our app platform. They were also focused on delivering an innovative product that could evolve and remain relevant for their client and the visitors in years to come.”
 
       Fearghal Kelly, CEO, Digisoft
+  - question: 
+    answer-text: 
+  - question: 
+    answer-text: 
+  video-url: 
+  left-color-name: 
+  right-color-name: 
+  has-grey-background: 
 layout: project
 ---
 
