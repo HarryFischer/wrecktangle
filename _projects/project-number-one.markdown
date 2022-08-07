@@ -10,21 +10,22 @@ project-image: "/uploads/fallon-michael-cFrD6hBMTQI-unsplash.jpg"
 project-description: How can we re-imagine the Trinity Visitor Experience?
 color-name: yellow
 intro:
-- background-image: "/uploads/location-image.jpg"
+- background-image: 
+  text: "# How can we re-imagine the Trinity Visitor Experience?"
 content-block:
 - layout: left
   image: 
   image-caption: 
   alt: 
   array:
-  - question: The Ask
-    answer-text: How can we re-imagine the Trinity Visitor Experience?
+  - question: 
+    answer-text: 
   video-url: https://www.youtube.com/embed/k641xx5UVGo
   left-color-name: pink
   right-color-name: green
   has-grey-background: false
 - layout: right
-  image: "/uploads/location-image.jpg"
+  image: "/uploads/jack-reichert-jFZjNKlWMwY-unsplash%20(1).jpg"
   image-caption: caption
   alt: alt
   array:
