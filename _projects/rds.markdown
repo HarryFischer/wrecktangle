@@ -7,6 +7,9 @@ project-description: How do we unlock the commercial opportunities in our Ballsb
 color-name: yellow
 content-block:
 - layout: left
+  image: "/uploads/RDS.jpg"
+  image-caption: 
+  alt: 
   array:
   - question: 
     answer-text: "Coming out of the pandemic in Summer 2021, RDS were looking to maximise
@@ -20,11 +23,28 @@ content-block:
   - question: The skills
     answer-text: "* Unlocking opportunities\n* Increasing footfall \n* Strategic thinking
       \n* Catering experiences"
+  video-url: 
+  left-color-name: 
+  right-color-name: 
+  has-grey-background: 
+- layout: 
+  image: "/uploads/bernard-hermant-u7VDgNGb78w-unsplash.jpg"
+  image-caption: 
+  alt: 
+  array:
   - question: The reaction
     answer-text: |-
-      ​“Wrecktangle’s intervention sparked discussion and drove more strategic thinking across our RDS team to use the Campus in different ways, to increase the footfall to the RDS, outside of those attending our rostered events, and to drive more revenue in quieter periods.”
+      ​> Wrecktangle’s intervention sparked discussion and drove more strategic thinking across our RDS team to use the Campus in different ways, to increase the footfall to the RDS, outside of those attending our rostered events, and to drive more revenue in quieter periods.
 
       Geraldine Ruane, CEO, RDS
+  - question: 
+    answer-text: 
+  - question: 
+    answer-text: 
+  video-url: 
+  left-color-name: 
+  right-color-name: 
+  has-grey-background: 
 layout: project
 ---
 
