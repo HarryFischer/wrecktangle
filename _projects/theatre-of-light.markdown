@@ -5,7 +5,8 @@ project-description: How do we develop the first immersive digital art destinati
   in Ireland that creates epic encounters and sparks public participation?
 color-name: pink
 content-block:
-- array:
+- layout: left
+  array:
   - question: The answer
     answer-text: "The Theatre of Light’s exhibition, Van Gogh Dublin at the RDS, was
       the first Immersive Digital Art destination in Ireland. Unlike traditional museum
