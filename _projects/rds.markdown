@@ -27,7 +27,7 @@ content-block:
   left-color-name: 
   right-color-name: 
   has-grey-background: 
-- layout: 
+- layout: left
   image: "/uploads/bernard-hermant-u7VDgNGb78w-unsplash.jpg"
   image-caption: 
   alt: 
