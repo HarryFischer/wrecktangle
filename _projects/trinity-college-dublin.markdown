@@ -45,15 +45,28 @@ content-block:
       * Product development
       * Collaborative multi-stakeholder approach
       * Commercial Strategic planning
-  - question: The Reaction
-    answer-text: |-
-      ​"2020 brought acute challenges to the tourism model in Trinity. Wrecktangle devised a strategy to develop products that would deliver sustainable, incremental revenue growth."
-
-      ​Tony Keohane, Acting Commercial Director, Trinity College Dublin
   video-url: 
   left-color-name: yellow
   right-color-name: green
   has-grey-background: true
+- layout: 
+  image: 
+  image-caption: 
+  alt: 
+  array:
+  - question: The Reaction
+    answer-text: |-
+      > 2020 brought acute challenges to the tourism model in Trinity. Wrecktangle devised a strategy to develop products that would deliver sustainable, incremental revenue growth.
+
+      ​Tony Keohane, Acting Commercial Director, Trinity College Dublin
+  - question: 
+    answer-text: 
+  - question: 
+    answer-text: 
+  video-url: 
+  left-color-name: 
+  right-color-name: 
+  has-grey-background: 
 layout: project
 ---
 
