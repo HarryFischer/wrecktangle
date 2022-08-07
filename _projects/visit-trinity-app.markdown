@@ -40,7 +40,7 @@ content-block:
   array:
   - question: The Reaction
     answer-text: |-
-      “Wrecktangle developed some fantastic content for our app platform. They were also focused on delivering an innovative product that could evolve and remain relevant for their client and the visitors in years to come.”
+      > Wrecktangle developed some fantastic content for our app platform. They were also focused on delivering an innovative product that could evolve and remain relevant for their client and the visitors in years to come.
 
       Fearghal Kelly, CEO, Digisoft
   - question: 
