@@ -28,8 +28,8 @@
   <div class="text-wrapper fade-me-in">
     {%- if contentBlock.array -%} {%- for array in contentBlock.array -%}
     <h2>{{ array.question }}</h2>
-    <p>{{ array.answer-text | markdownify }}</p>
-    {%- endfor -%} {%- endif -%} {%- if contentBlock.sub-title -%}
+    {{ array.answer-text | markdownify }} {%- endfor -%} {%- endif -%} {%- if
+    contentBlock.sub-title -%}
     <h2>{{ contentBlock.sub-title }}</h2>
     {%- endif -%} {%- if contentBlock.body-text -%}
     <p>{{ contentBlock.body-text | markdownify }}</p>

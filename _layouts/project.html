@@ -3,40 +3,20 @@ layout: default
 ---
 
 <div class="project">
-  {%- if page.title -%}
-  <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+  <div class="project--header-wrapper intro">
+    {%- if page.title -%}
+    <h1 class="page-heading">
+      {{ page.title }} <span>{{ page.project-description }}</span>
+    </h1>
 
-  <!-- {{ content }}  -->
-
-  {%- if site.project.size > 0 -%}
-
-  <ul class="posts">
-    {%- for project in site.projects -%}
-    <a class="project-title" href="{{ site.baseurl }}{{ project.url }}">
-      <li>
-        <img
-          class="project-image"
-          src="{{ site.baseurl }}{{ project.projects-image }}"
-          alt=""
-          style="aspect-ratio: 5 / 3; object-fit: cover"
-          loading="lazy"
-        />
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
-        -%}
-        <span class="project-meta">{{ project.date | date: date_format }}</span>
-        <div class="text-wrapper">
-          <h3>
-            {{ project.title | escape }}
-            <span>{{ project.project-description | escape }}</span>
-          </h3>
-        </div>
-        {%- if project.categories -%} {{ project.catergories }} {%- endif -%}
-      </li>
-    </a>
-    <div class="rectangle left yellow"></div>
-    {%- endfor -%}
-  </ul>
-
-  {%- endif -%}
+    {%- endif -%}
+  </div>
+  <!-- <img
+    class="project-image"
+    src="{{ page.project-image }}"
+    alt=""
+    style="aspect-ratio: 5 / 3; object-fit: cover"
+    loading="lazy"
+  /> -->
+  {{ content }}
 </div>

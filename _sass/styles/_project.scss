@@ -1,0 +1,85 @@
+.page-content .wrapper .project {
+    &--header-wrapper {
+        position: relative;
+        margin: 20vh auto 25vh;
+        padding: 0;
+        max-width: 65vw;
+        h1.page-heading {
+            font-size: 30px;
+            line-height: 115%;
+            text-align: center;
+            font-weight: 800;
+
+            // margin-top: 25vh;
+            // margin-left: 50%;
+            // transform: translate(-50%, -50%);
+
+
+            @media (min-width: 980px) {
+                font-size: 3.7vw;
+                max-width: 80vw;
+                width: 100%;
+            }
+            span {
+                display: block;
+            }
+        }
+    }
+    .content-block {
+        position: relative;
+        padding: 0;
+        &.true {
+            margin-bottom: 10vh;
+        }
+        .image-wrapper {
+            position: sticky;
+            top: 15vh;
+            height: 80vh;
+            // margin-top: 20vh;
+            iframe {
+                width: 100vw;
+                height: calc((100vw / 16) * 9);
+                max-height: 80vh;
+                position: relative;
+                z-index: 6;
+            }
+            .rectangle.left {
+                left: calc(-50vw + 80px);
+                top: -70px;
+                z-index: -1;
+                width: 570px;
+            }
+        }
+        .text-wrapper {
+            @media (min-width: 980px) {
+                padding: 30px 80px 15vh;
+            }
+            h2 {
+                margin: 10vh 0;
+            }
+            ul {
+                list-style: none;
+                li {
+                    margin-left: 10px;
+                    font-family: "Playfair Display";
+                    font-size: 30px;
+                    line-height: 110%;
+                    margin-bottom: 16px;
+                    &:before {
+                        content: '';
+                        width: 0.6em;
+                        height: 0.6em;
+                        margin-right: 8px;
+                        border: 2px solid #162b40;
+                        border-radius: 50%;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+        
+

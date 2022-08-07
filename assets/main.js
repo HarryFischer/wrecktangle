@@ -23,6 +23,10 @@ contactNavElement.addEventListener('click', () => {
 // add class to image parent (<p>)
 const contentWrapper = document.querySelector('.page-content')
 const contentImages = contentWrapper.querySelectorAll('img')
+const contentPImages = contentWrapper.querySelectorAll('p img')
+contentPImages.forEach((el) => {
+  el.parentElement.classList.add('image-wrapper')
+})
 
 let fadeMeIn 
 

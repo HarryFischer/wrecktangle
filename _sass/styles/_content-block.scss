@@ -17,6 +17,12 @@
     &.right {
         flex-direction: row-reverse;
     }
+    .image-wrapper {
+        iframe {
+            width: 70vw;
+            height: calc((70vw / 16) * 9);
+        }
+    }
     .text-wrapper {
         position: relative;
         display: flex;

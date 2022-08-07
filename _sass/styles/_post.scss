@@ -22,16 +22,26 @@
                 padding: 0 20px;
             }
             h3 {
-                text-align: left;
-                font-size: 40px;
-                margin-bottom: 48px;
-                margin-top: 16px;
+                font-size: 28px;
                 line-height: 115%;
+                text-align: left;
+                margin-bottom: 16px;
+                margin-top: 48px;
+                @media (min-width: 980px) {
+                    font-size: 40px;
+                }
+            }
+            img {
+                height: unset;
+                margin-bottom: 0;
+            }
+            .image-wrapper {
+                margin-bottom: 24px;
             }
             p img {
                 aspect-ratio: 5 / 3;
                 object-fit: cover;
-                margin-bottom: 48px;
+                margin-bottom: 20px;
             }
             p {
                 position: relative;
@@ -43,7 +53,7 @@
                     background: #ffffff90;
                     font-size: 12px;
                     line-height: 125%;
-                    margin: 0 20px 48px;
+                    margin: 0 20px 20px;
                 }
             }
             blockquote {
