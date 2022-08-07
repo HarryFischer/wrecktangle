@@ -1,6 +1,7 @@
 ---
 title: Visit Trinity App
 date: 2022-08-07 17:38:00 Z
+project-image: "/uploads/130622D_6005%20(1).jpg"
 project-description: How do we drive digital innovation and storytelling that will
   also deliver commercial returns?
 color-name: pink
