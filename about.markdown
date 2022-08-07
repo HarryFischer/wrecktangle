@@ -58,7 +58,7 @@ team-members:
     process improvement and building team culture. To top it all off, he also holds
     qualifications in governance, internal auditing ISO & ESG. '
   linked-in: 
-  image: "/uploads/jillian%20copy.jpg"
+  image: "/uploads/Headshot-Killian-(1).jpg"
   image-alt: Image of Killian Carroll
 - name: Antoinette O’Connor
   job-title: Associate
@@ -70,7 +70,7 @@ team-members:
     auditing and reporting on project and event-specific data which helps drive commercial
     decision making and strategic outcomes.
   linked-in: 
-  image: "/uploads/jillian%20copy.jpg"
+  image: "/uploads/toni.jpg"
   image-alt: Image of Antoinette O’Connor
 services-block:
 - sub-title: Services
