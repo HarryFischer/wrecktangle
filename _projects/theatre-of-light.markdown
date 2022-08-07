@@ -33,7 +33,7 @@ content-block:
   right-color-name: 
   has-grey-background: true
 - layout: left
-  image: 
+  image: "/uploads/VanGoghDublin_ph%20Roberto%20Conte-19%20(1).jpg"
   image-caption: 
   alt: 
   array:
