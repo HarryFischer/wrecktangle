@@ -8,6 +8,8 @@ color-name: pink
 content-block:
 - layout: left
   image: "/uploads/VanGoghDublin_ph%20Roberto%20Conte-8(1)%20(1).jpg"
+  image-caption: 
+  alt: 
   array:
   - question: The answer
     answer-text: "The Theatre of Light’s exhibition, Van Gogh Dublin at the RDS, was
@@ -26,12 +28,27 @@ content-block:
       * Innovation
       * Start up
       * Commercial operations
+  video-url: 
+  left-color-name: green
+  right-color-name: 
+  has-grey-background: true
+- layout: left
+  image: 
+  image-caption: 
+  alt: 
+  array:
   - question: The reaction
     answer-text: |-
       ​​"Wrecktangle have become an integral part in the concept design and strategic development of the Theatre Of Light Project."
       ​Daniel Gleeson, Founder, Theatre of Light
-  left-color-name: green
-  has-grey-background: true
+  - question: 
+    answer-text: 
+  - question: 
+    answer-text: 
+  video-url: 
+  left-color-name: 
+  right-color-name: 
+  has-grey-background: 
 layout: project
 ---
 
