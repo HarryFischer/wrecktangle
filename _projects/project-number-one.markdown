@@ -49,5 +49,4 @@ content-block:
 layout: project
 ---
 
-{% include intro.html %}
 {% include content-block.html %}
