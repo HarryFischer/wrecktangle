@@ -7,6 +7,7 @@ project-description: How do we develop the first immersive digital art destinati
 color-name: pink
 content-block:
 - layout: left
+  image: "/uploads/VanGoghDublin_ph%20Roberto%20Conte-8(1)%20(1).jpg"
   array:
   - question: The answer
     answer-text: "The Theatre of Light’s exhibition, Van Gogh Dublin at the RDS, was
