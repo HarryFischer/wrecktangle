@@ -9,9 +9,6 @@ tags:
 project-image: "/uploads/fallon-michael-cFrD6hBMTQI-unsplash.jpg"
 project-description: How can we re-imagine the Trinity Visitor Experience?
 color-name: yellow
-intro:
-- background-image: 
-  text: "# How can we re-imagine the Trinity Visitor Experience?"
 content-block:
 - layout: left
   image: 
