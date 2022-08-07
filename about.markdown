@@ -7,7 +7,7 @@ intro:
     like** \n### And we know how to deliver it"
 content-block:
 - layout: left
-  image: "/uploads/location-image.jpg"
+  image: "/uploads/image-one.jpg"
   image-caption: caption of image
   alt: alt text for image
   sub-title: 
@@ -93,7 +93,7 @@ services:
     Customer feedback\n* Process efficiency "
 how-we-work:
 - layout: right
-  image: "/uploads/location-image.jpg"
+  image: "/uploads/image-four.jpg"
   image-caption: image caption lorem ipsum
   alt: image alt lorem ipsum
   sub-title: How We Work
