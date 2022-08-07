@@ -50,7 +50,7 @@ content-block:
   right-color-name: green
   has-grey-background: true
 - layout: 
-  image: 
+  image: "/uploads/ana-martin-vdyeDY-_ufw-unsplash%20(1)-1defc5.jpg"
   image-caption: 
   alt: 
   array:
