@@ -14,7 +14,7 @@ layout: default
 
     <h2 class="post-list-heading fade-me-in">Latest News & Press</h1>
     <ul class="flex-three posts fade-me-in">
-      {%- for post in site.posts limit:3 -%} {% if post.is-external == true %}
+      {%- for post in site.posts limit:3 -%} {% if post.is-extenal %}
       <li>
         <a class="posts-title " href="{{ post.external-url }}">
           <img
