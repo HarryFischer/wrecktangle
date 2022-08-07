@@ -8,6 +8,7 @@ sub-title: Much of the focus around Tourism and Events recovery through Covid ha
   been about “when we return to normal” or “getting back to what we do best”
 length: 2 min read
 is-extenal: false
+layout: post
 ---
 
 Whilst I agree this is a helpful narrative in terms of motivating and supporting businesses in difficult times, it is also backward facing rather than future focused. 
