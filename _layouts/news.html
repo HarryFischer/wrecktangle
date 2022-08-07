@@ -14,7 +14,7 @@ layout: default
         <a class="posts-title" href="{{ post.external-url }}">
           <img
             class="posts-image"
-            src="{{ site.baseurl }}{{ post.main-image }}"
+            src="{{ post.main-image }}"
             alt=""
             style="aspect-ratio: 5 / 3; object-fit: cover"
             loading="lazy"
@@ -27,10 +27,10 @@ layout: default
       </li>
       {% else %}
       <li>
-        <a class="posts-title" href="{{ site.baseurl }}{{ post.url }}">
+        <a class="posts-title" href="{{ post.url }}">
           <img
             class="posts-image"
-            src="{{ site.baseurl }}{{ post.main-image }}"
+            src="{{ post.main-image }}"
             alt=""
             style="aspect-ratio: 5 / 3; object-fit: cover"
             loading="lazy"
