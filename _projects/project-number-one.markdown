@@ -10,8 +10,7 @@ project-image: "/uploads/fallon-michael-cFrD6hBMTQI-unsplash.jpg"
 project-description: How can we re-imagine the Trinity Visitor Experience?
 color-name: yellow
 intro:
-- text: "## **Trinity College Dublin**"
-  background-image: "/uploads/location-image.jpg"
+- background-image: "/uploads/location-image.jpg"
 content-block:
 - layout: left
   image: 
