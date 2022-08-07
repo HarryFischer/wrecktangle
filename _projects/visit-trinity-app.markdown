@@ -7,7 +7,7 @@ project-description: How do we drive digital innovation and storytelling that wi
 color-name: pink
 content-block:
 - layout: left
-  image: "/uploads/juliet-furst-vjniDz-rmpY-unsplash.jpg"
+  image: "/uploads/composite.jpg"
   image-caption: 
   alt: 
   array:
@@ -34,7 +34,7 @@ content-block:
   right-color-name: 
   has-grey-background: 
 - layout: left
-  image: "/uploads/ana-martin-vdyeDY-_ufw-unsplash%20(1).jpg"
+  image: "/uploads/juliet-furst-vjniDz-rmpY-unsplash.jpg"
   image-caption: 
   alt: 
   array:
