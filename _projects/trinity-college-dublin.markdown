@@ -57,4 +57,3 @@ content-block:
 layout: project
 ---
 
-{% include content-block.html %}
