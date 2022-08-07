@@ -19,8 +19,8 @@ content-block:
   - question: 
     answer-text: 
   video-url: https://www.youtube.com/embed/k641xx5UVGo
-  left-color-name: pink
-  right-color-name: green
+  left-color-name: 
+  right-color-name: 
   has-grey-background: false
 - layout: right
   image: "/uploads/jack-reichert-jFZjNKlWMwY-unsplash%20(1).jpg"
