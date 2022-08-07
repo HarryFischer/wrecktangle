@@ -3,6 +3,7 @@ title: Visit Trinity App
 date: 2022-08-07 17:38:00 Z
 project-description: How do we drive digital innovation and storytelling that will
   also deliver commercial returns?
+color-name: pink
 content-block:
 - array:
   - question: The Answer
