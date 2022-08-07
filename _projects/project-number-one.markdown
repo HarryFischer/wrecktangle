@@ -29,17 +29,12 @@ content-block:
   alt: alt
   array:
   - question: The Answer
-    answer-text: "With the tourism landscape dramatically changing over the past few
-      years, Trinity College realised they need to adapt along with it. This meant
-      diversifying what they offered to their visitors and building a more sustainable
-      model for tourism on campus. \n\nWe came up with a strategy that told all the
-      unique elements and experiences Trinity has to offer, from zoology to anatomy
-      and architecture to biodiversity, so they could attract a wider range of visitors.
-      We developed a range of guided and self-guided tours under the Visit Trinity
-      umbrella that uncovered hidden gems and standout tales of the campus. \n\nOur
-      aim was to reinvent the tourism business model for Trinity by developing existing
-      products and creating new experiences to encourage tourists and visitors to
-      explore Trinity and its campus. "
+    answer-text: |-
+      With the tourism landscape dramatically changing over the past few years, Trinity College realised they need to adapt along with it. This meant diversifying what they offered to their visitors and building a more sustainable model for tourism on campus.
+
+      We came up with a strategy that told all the unique elements and experiences Trinity has to offer, from zoology to anatomy and architecture to biodiversity, so they could attract a wider range of visitors. We developed a range of guided and self-guided tours under the Visit Trinity umbrella that uncovered hidden gems and standout tales of the campus.
+
+      Our aim was to reinvent the tourism business model for Trinity by developing existing products and creating new experiences to encourage tourists and visitors to explore Trinity and its campus.
   video-url: 
   left-color-name: pink
   right-color-name: 
