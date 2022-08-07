@@ -3,6 +3,7 @@ title: "​Theatre of Light"
 date: 2022-08-07 17:33:00 Z
 project-description: How do we develop the first immersive digital art destination
   in Ireland that creates epic encounters and sparks public participation?
+color-name: pink
 content-block:
 - array:
   - question: The answer
