@@ -9,12 +9,6 @@ layout: default
 >
   <header class="post-header">
     <div>
-      <img
-        src="{{ post.main-image }}"
-        alt=""
-        loading="lazy"
-        style="aspect-ratio: 5 / 3; object-fit: cover"
-      />
       <h1 class="post-title p-name" itemprop="name headline">
         {{ page.title | escape }}
       </h1>
@@ -25,8 +19,8 @@ layout: default
         datetime="{{ page.date | date_to_xmlschema }}"
         itemprop="datePublished"
       >
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
-        -%} {{ page.date | date: date_format }}
+        {%- assign date_format = site.minima.date_format | default: "%-d %B, %Y"
+        -%} {{ page.date | date: '%-d %B %Y' }}
       </time>
       {%- if page.author -%} •
       <span itemprop="author" itemscope itemtype="http://schema.org/Person"
@@ -36,6 +30,12 @@ layout: default
       >
       {%- endif -%}
     </p>
+    <img
+      src="{{ page.main-image }}"
+      alt=""
+      loading="lazy"
+      style="aspect-ratio: 5 / 3; object-fit: cover"
+    />
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">{{ content }}</div>

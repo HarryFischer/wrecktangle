@@ -1,12 +1,68 @@
-.wrapper {
+.page-content .wrapper {
     article.post {
-        h2 {
-            max-width: 620px;
-            text-align: left;
+        .post-header {
+            padding: 0 20px 80px;
+            margin: auto;
+            @media (min-width: 980px) {
+                padding: 0 80px 80px;
+            }
+            h1 {
+                font-size: 40px;
+                line-height: 115%;
+                padding-bottom: 12px;
+                max-width: 620px;
+                @media (min-width: 980px) {
+                    font-size: 50px;
+                }
+            }
         }
-        p img {
-            aspect-ratio: 5 / 3;
-            object-fit: cover;
+        .post-content {
+            h1, h2, h3, p {
+                max-width: 620px;
+                padding: 0 20px;
+            }
+            h3 {
+                text-align: left;
+                font-size: 40px;
+                margin-bottom: 48px;
+                margin-top: 16px;
+                line-height: 115%;
+            }
+            p img {
+                aspect-ratio: 5 / 3;
+                object-fit: cover;
+                margin-bottom: 48px;
+            }
+            p {
+                position: relative;
+                img+em {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    padding: 2px 7px;
+                    background: #ffffff90;
+                    font-size: 12px;
+                    line-height: 125%;
+                    margin: 0 20px 48px;
+                }
+            }
+            blockquote {
+                max-width: 600px;
+                margin: auto;
+                margin-bottom: 24px;
+                p {
+                    font-size: 20px;
+                    max-width: 90%;
+                    margin-left: 0;
+                    font-style: normal;
+                }
+            }
+        }
+        .posts {
+            padding: 20px 20px;
+            @media (min-width: 980px) {
+                padding-top: 180px;
+            }
         }
     }
 }

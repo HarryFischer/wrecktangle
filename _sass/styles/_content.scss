@@ -54,7 +54,7 @@
 
           &.posts {
             @media (min-width: 980px) {
-              max-width: 70vw;
+              max-width: unset;
             }
           }
     
@@ -230,12 +230,15 @@
           }
 
           &.left {
-            width: 500px;
+            width: 200px;
             height: 180px;
             position: absolute;
             left: 0;
             bottom: -80px;
             z-index: -1;
+            @media (min-width: 980px) {
+              width: 500px;
+            }
           }
         }
   }

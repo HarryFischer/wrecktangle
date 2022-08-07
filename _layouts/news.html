@@ -9,7 +9,7 @@ layout: default
     <h2 class="post-list-heading">{{ page.title }}</h2>
     {%- endif -%}
     <ul class="flex-three posts">
-      {%- for post in site.posts -%} {% if post.is-external == true %}
+      {%- for post in site.posts -%} {% if post.is-extenal %}
       <li>
         <a class="posts-title" href="{{ post.external-url }}">
           <img
@@ -20,9 +20,9 @@ layout: default
             loading="lazy"
           />
           <h3>{{ post.title | escape }}</h3>
-          {%- assign date_format = site.minima.date_format | default: "%b %-d,
+          {%- assign date_format = site.minima.date_format | default: "%-d %b,
           %Y" -%}
-          <span class="posts-meta">{{ post.date | date: date_format }}</span>
+          <span class="posts-meta">{{ page.date | date: '%-d %B %Y' }}</span>
         </a>
       </li>
       {% else %}
@@ -38,7 +38,7 @@ layout: default
           <h3>{{ post.title | escape }}</h3>
           {%- assign date_format = site.minima.date_format | default: "%b %-d,
           %Y" -%}
-          <span class="posts-meta">{{ post.date | date: date_format }}</span>
+          <span class="posts-meta">{{ page.date | date: '%-d %B %Y' }}</span>
         </a>
       </li>
       {% endif %}
@@ -51,4 +51,5 @@ layout: default
   <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
   {%- endif -%}
   <div class="rectangle left yellow"></div>
+  <div class="rectangle right green"></div>
 </div>
