@@ -5,7 +5,8 @@ project-description: How do we drive digital innovation and storytelling that wi
   also deliver commercial returns?
 color-name: pink
 content-block:
-- array:
+- layout: left
+  array:
   - question: The Answer
     answer-text: "Driven by the prolonged impacts of Covid and lingering social distancing
       requirements, Trinity College were looking to develop  a quality, low-touch,
