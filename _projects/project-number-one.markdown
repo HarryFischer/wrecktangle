@@ -36,15 +36,6 @@ content-block:
       We came up with a strategy that told all the unique elements and experiences Trinity has to offer, from zoology to anatomy and architecture to biodiversity, so they could attract a wider range of visitors. We developed a range of guided and self-guided tours under the Visit Trinity umbrella that uncovered hidden gems and standout tales of the campus.
 
       Our aim was to reinvent the tourism business model for Trinity by developing existing products and creating new experiences to encourage tourists and visitors to explore Trinity and its campus.
-  video-url: 
-  left-color-name: pink
-  right-color-name: 
-  has-grey-background: true
-- layout: both-text
-  image: "/uploads/location-image.jpg"
-  image-caption: 
-  alt: 
-  array:
   - question: The Skills
     answer-text: |-
       * Sustainable tourism
@@ -52,9 +43,9 @@ content-block:
       * Collaborative multi-stakeholder approach
       * Commercial Strategic planning
   video-url: 
-  left-color-name: 
+  left-color-name: pink
   right-color-name: 
-  has-grey-background: 
+  has-grey-background: true
 layout: project
 ---
 
