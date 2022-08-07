@@ -26,5 +26,6 @@ content-block:
     answer-text: |-
       ​​"Wrecktangle have become an integral part in the concept design and strategic development of the Theatre Of Light Project."
       ​Daniel Gleeson, Founder, Theatre of Light
+layout: project
 ---
 
