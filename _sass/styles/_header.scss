@@ -83,7 +83,7 @@ a.site-title {
     height: 36px;
     z-index: 2;
     cursor: pointer;
-    @include media-query($on-laptop) {
+    @media (min-width: 980px) {
       display: none;
     }
   }
@@ -110,27 +110,26 @@ a.site-title {
   input:checked ~ .trigger {
     display: block;
     padding-bottom: 5px;
-    @media (max-width: 600px) {
+    @media (max-width: 980px) {
       display: flex;
       padding-bottom: 5px;
       flex-direction: column;
       width: 100vw;
       align-items: flex-start;
-      padding-left: 15px;
       top: 22px;
       position: relative;
       background: white;
       a {
-        font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+        font-family: "Work Sans";
         text-align: left;
         padding: 20px 15px;
-        font-size: 30px;
+        font-size: 20px;
         width: 100%;
         border-bottom: 1px solid $wt-navy;
       }
     }
   }
-  @include media-query($on-laptop) {
+  @media (min-width: 980px) {
     input ~ .trigger {
       clear: both;
       // display: none;
