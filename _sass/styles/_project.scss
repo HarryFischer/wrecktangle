@@ -35,9 +35,11 @@
             margin-bottom: 10vh;
         }
         .image-wrapper {
-            position: sticky;
-            top: 15vh;
-            height: 80vh;
+            @media (min-width: 980px) {
+                top: 15vh;
+                position: sticky;
+                height: 80vh;
+            }
             // margin-top: 20vh;
             iframe {
                 width: 100vw;
@@ -58,7 +60,10 @@
                 padding: 30px 80px 15vh;
             }
             h2 {
-                margin: 10vh 0;
+                margin: 5vh 0;
+                @media (min-width: 980px) {
+                    margin: 10vh 0;
+                }
             }
             ul {
                 list-style: none;

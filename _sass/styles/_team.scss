@@ -26,6 +26,55 @@
         p {
             padding-bottom: 16px;
         }
+        p + a {
+            
+        }
+        details {
+            margin-bottom: 20px;
+        summary {
+            list-style: none;
+            &::before {
+                    // content:url("../assets/arrow.svg");
+                    content: url("../assets/arrow-down.svg");
+                    margin-right: 15px;
+                    transform: translateY(2px);
+                    display: inline;
+                    width: 30px;
+                    height: 30px;
+                    border: 2px solid $wt-navy;
+                    border-radius: 50%;
+                    padding: 10px 11px;
+                    transition: all 0.3s ease;
+                    transform: rotate(180deg);
+                }
+        }
+        li {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            p  {
+                font-family: "Work Sans", Arial, Helvetica, sans-serif;
+                font-weight: 700;
+                padding-bottom: 0;
+                &:first-child {
+                    padding-top: 12px;
+                }
+            };
+            a {
+                display: block;
+                font-size: 30px;
+                font-family: "PlayFair Display";
+                font-weight: 400;
+                color: $wt-navy;
+                padding-bottom: 12px;
+                max-width: max-content;
+                border-bottom: 1px solid white;
+                &:hover {
+                    border-bottom: 1px solid $wt-navy;
+                }
+            }
+        }
+        }
     }
     .rectangle {
         position: absolute;
@@ -47,9 +96,9 @@
         }
         .inner {
             position: relative;
-            min-height: 600px;
             min-width: 80vw;
             @media (min-width: 980px) {
+                min-height: 600px;
                 min-width: 30vw;
             }
             img {
@@ -144,6 +193,10 @@
         bottom: -5vw;
         left: unset;
         right: unset;
+        display: none;
+        @media (min-width: 980px) {
+            display: block;
+        }
     }
     .swiper-button-next {
         right: 20px;

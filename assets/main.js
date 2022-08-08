@@ -97,6 +97,14 @@ const swiper = new Swiper('.swiper', {
   slidesPerView: "auto",
   // slidesPerView: 1,
   spaceBetween: 30,
+  breakpoints: {
+    980: {
+      simulateTouch: false,
+      shortSwipes: false,
+      preventClicks: true,
+      allowTouchMove: false,
+    }
+  },
   // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',

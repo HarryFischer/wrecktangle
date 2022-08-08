@@ -42,7 +42,7 @@
           // padding-left: 15px;
           gap: 40px; 
     
-          @include media-query($on-laptop) {
+          @media (min-width: 980px) {
             display: flex;
             flex-direction: row;
             // max-width: 70vw;

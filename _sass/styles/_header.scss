@@ -111,6 +111,8 @@ a.site-title {
     display: block;
     padding-bottom: 5px;
     @media (max-width: 980px) {
+      height: calc(100vh - 80px);
+      overflow-y: scroll;
       display: flex;
       padding-bottom: 5px;
       flex-direction: column;
@@ -118,14 +120,15 @@ a.site-title {
       align-items: flex-start;
       top: 22px;
       position: relative;
-      background: white;
+      background: $wt-navy;
       a {
+        color: white;
         font-family: "Work Sans";
         text-align: left;
-        padding: 20px 15px;
+        padding: 20px;
         font-size: 20px;
-        width: 100%;
-        border-bottom: 1px solid $wt-navy;
+        width: calc(100% - 30px);
+        border-bottom: 1px solid white;
       }
     }
   }
@@ -139,6 +142,7 @@ a.site-title {
       display: block;
       padding-bottom: 5px;
     }
+    
 
     a {
       display: block;
@@ -146,10 +150,6 @@ a.site-title {
       padding-bottom: 24px;
       border-bottom: 5px solid white;
       transition: border-bottom 0.5s ease;
-      // &:after {
-      //   content:'';
-      //   width: calc(100% + 10;
-      // }
       &:hover, &.active {
         border-bottom: 5px solid $wt-green;
         cursor: pointer;
@@ -163,4 +163,32 @@ a.site-title {
   }
 
   // }
+
+  @media (max-width: 980px) {
+    .contact {
+      display: none;
+    }
+    .contact-overlay {
+        padding: 0 20px;
+        li {
+          margin-bottom: 8px;
+          &:first-child {
+            margin-bottom: 8px;
+          }
+        }
+        p {
+          margin: 0;
+          color: white;
+        }
+        a {
+          border-bottom: unset!important;
+          color: white;
+          font-size: 30px !important;
+          font-family: "PlayFair Display"!important;
+          font-weight: 500!important;
+          line-height: 125%!important;
+          padding: 0!important;
+        }
+      }
+  }
 }

@@ -1,57 +1,84 @@
-.contact-overlay {
-    position: fixed;
-    top: 79px;
-    right: -50vw;
-    bottom: 0;
-    left: 100vw;
-    z-index: 1000;
-    background-color: $wt-navy;
-    padding: 10vh 10vh;
-    transition: left 0.3s ease-in;
-    border-left: 1px solid $wt-navy;
-    &.open {
-        left: 50vw;
-        right: -50vw;
+.wrapper + .contact-overlay {
+    @media (max-width: 980px) {
+        display: none;
     }
+}
+
+.contact-overlay {
+    pointer-events: none;
     li {
         color: white;
         list-style: none;
         display: block;
-        width: 80%;
         font-style: normal;
         font-size: 14px;
-        font-family: "Work Sans";
+        font-family: "Work Sans", Arial, Helvetica, sans-serif;
         font-weight: 600;
         margin-bottom: 4vh;
+
         &:nth-child(1) {
             margin-bottom: 8vh;
         }
     }
-    a, p {
-        color: white;
+
+    a,
+    p {
+        color: $wt-navy;
         display: block;
         font-style: normal;
-        width: max-content;
-        font-size: 30px;
-        font-family: "PlayFair Display";
+        max-width: 370px;
         font-weight: 400;
         // color: $wt-navy;
         position: relative;
+        text-align: left;
     }
+
+    p {
+        font-style: normal;
+        font-family: "Work Sans", Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        margin-top: 24px;
+    }
+
     a {
-        &::after {
-            content: '';
-            width: 100%;
-            height: 1px;
-            position: absolute;
-            background-color: $wt-navy;
-            bottom: 0;
-            left: 0;
-        }
+        font-size: 30px;
+        font-family: "PlayFair Display";
+        width: max-content;
+        border-bottom: 1px solid $wt-navy;
+        padding: 0;
+
         &:hover {
-            &::after {
-                height: 2px;
-            }
+            border-bottom: 1px solid white;
         }
     }
+
+    p+p {
+        font-size: 30px;
+        font-family: "PlayFair Display";
+        font-weight: 500;
+        line-height: 125%;
+    }
+
+    @media (min-width: 980px) {
+        position: fixed;
+        top: 79px;
+        right: -50vw;
+        bottom: 0;
+        left: 100vw;
+        z-index: 1000;
+        background-color: $wt-navy;
+        padding: 10vh 10vh;
+        transition: left 0.3s ease-in;
+        border-left: 1px solid $wt-navy;
+        
+        &.open {
+            left: 50vw;
+            right: -50vw;
+        }
+        a,
+        p {
+            color: white;
+        }
+    }       
 }

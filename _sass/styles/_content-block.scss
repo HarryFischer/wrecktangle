@@ -2,8 +2,8 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    min-height: 130vh;
     @media (min-width: 980px) {
+        min-height: 130vh;
         flex-direction: row;
         padding-bottom: 10vh;
         min-height: unset;
@@ -15,7 +15,9 @@
         }
     }
     &.right {
-        flex-direction: row-reverse;
+        @media (min-width: 980px) {
+            flex-direction: row-reverse;
+        }
     }
     .image-wrapper {
         iframe {
@@ -71,8 +73,9 @@
             position: absolute;
             left: 0;
             top: -70px;
-            z-index: 1;
+            z-index: -1;
             @media (min-width: 980px) {
+                z-index: 1;
                 width: 500px;
                 height: 200px;
                 top: unset;
@@ -98,13 +101,18 @@
             &.right {
                 right: unset;
                 left: 0;
-                z-index: 1;
+                @media (min-width: 980px) {
+                    z-index: 1;
+                }
             }
             &.left {
                 left: unset;
-                right: -30vw;
+                
                 bottom: -38vh;
                 z-index: -1;
+                @media (min-width: 980px) {
+                    right: -30vw;
+                }
             }
         }
     }

@@ -44,6 +44,22 @@
           <a href='{{ site.baseurl }}/work.html' {% if current[1] == 'work.html' %} class='active'{% endif %}>PROJECTS</a>
           <a href='{{ site.baseurl }}/news.html' {% if current[1] == 'news.html' %} class='active'{% endif %}>NEWS</a>
           <a id="contact-nav" class="contact">CONTACT</a>
+          <div class="contact-overlay" id="contact-nav-overlay">
+        <address>
+          <div>
+            {%- if site.address -%}
+            <li class="p-name"><p>ADDRESS</p><p>{{ site.address | markdownify | remove: '<p>' | remove: '</p>' }}</p></li>
+            {%- endif -%}
+            {%- if site.email -%}
+              <li><p>EMAIL</p><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+            {%- if site.phone -%}
+              <li><p>PHONE</p><a class="u-phone" href="mailto:{{ site.phone }}">{{ site.phone }}</a></li>
+            {%- endif -%}
+        
+          </div>
+        </address>
+      </div>
         </div>
       </nav>
     {%- endif -%}

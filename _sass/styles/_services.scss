@@ -83,15 +83,20 @@
 
     .right {
         background: $wt-yellow;
-        min-height: 70vh;
         padding-top: 0;
-        margin-top: 10vh;
+        min-height: 60vh;
         @media (min-width: 980px) {
             padding-top: 15vh;
+            min-height: 70vh;
+            margin-top: 10vh;
             width: 70vw;
         }
         .tabcontent {
             display: none;
+            padding-top: 20px;
+            @media (min-width: 980px) {
+                padding-top: 0;
+            }
             ul, p {
                 margin: 0;
                 padding: 0 20px;

@@ -1,9 +1,9 @@
 .page-content .wrapper .how-we-work {
     display: flex;
     flex-direction: column;
-    margin-top: 15vh;
     position: relative;
     @media (min-width: 980px) {
+        margin-top: 15vh;
         flex-direction: row;
     }
     &.true {
@@ -11,25 +11,40 @@
     }
 
     .image-wrapper {
-        position: sticky;
-        top: 70px;
-        height: calc(100vh - 70px);
         @media (min-width: 980px) {
+            height: calc(100vh - 70px);
+            position: sticky;
+            top: 70px;
             width: 70vw;
         }
     }
     .text-wrapper {
         padding: 0 20px;
+        margin-bottom: 100px;
         @media (min-width: 980px) {
             width: 30vw;
             padding: 0 80px 30vh;
+            margin-bottom: 0;
             
+        }
+        h2 {
+            margin-top: 0;
         }
         
         .hww-hide-me {
             opacity: 0;
             transition: opacity 0.3s ease;
-            min-height: 40vh;
+            min-height: 20vh;
+            margin-bottom: 80px;
+            @media (min-width: 980px) {
+                min-height: 40vh;
+                margin-bottom: 0;
+            }
+            h3 {
+                @media (max-width: 980px) {
+                    font-size: 50px;
+                }
+            }
             &.in-view {
                 opacity: 1;
                 transition: opacity 0.5s ease;
