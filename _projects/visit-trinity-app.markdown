@@ -26,7 +26,7 @@ content-block:
       and accommodation information and upselling opportunities, and integrating beacon
       technology to allow targeted information to be sent to visitors as they take
       the tour on Trinity’s Campus."
-  - question: The Skills
+  - question: Our Expertise
     answer-text: "* Digital interventions \n* Tendering\n* Technology \n* Innovative
       content development"
   video-url: 
