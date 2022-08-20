@@ -11,7 +11,7 @@ content-block:
   image-caption: 
   alt: 
   array:
-  - question: The Answer
+  - question: Our Solution
     answer-text: "Coming out of the pandemic in Summer 2021, RDS were looking to maximise
       its commercial returns for the remainder of 2021.\n\nWrecktangle came on board
       to promote and drive strategic ideation sessions on how the campus could be
