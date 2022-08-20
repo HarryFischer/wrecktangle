@@ -22,7 +22,7 @@ content-block:
       project fundraising.\n\nThis included launching Van Gogh Dublin at the RDS in
       May 2022 for its summer exhibition and business modelling for further pop ups
       and permanent locations."
-  - question: The skills
+  - question: Our Expertise
     answer-text: |-
       * Immersive storytelling
       * Innovation
