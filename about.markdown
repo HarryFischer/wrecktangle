@@ -76,16 +76,16 @@ services-block:
   right-color-name: pink
   has-grey-background: true
 services:
-- title-text: Strategy
+- title-text: Commercial and Financial Strategy
   inner-text: "We come up with concepts and project plans from ideation to realisation,
     which means helping with:\n* Business modelling\n* Financial planning \n* Developing
     corporate plans and strategies\n* Drafting funding applications \n* Presentations
     for investment \n* Resourcing models\n* Operational management plans"
-- title-text: Development
+- title-text: Product Development
   inner-text: "We seek out and develop opportunities for new experiences or improved
     approaches through:\n* Ideation sessions\n* Market research \n* Commercial assessments\n*
     Project management "
-- title-text: Operations
+- title-text: Operational Strategy and Best Practice
   inner-text: "We review and innovate within your operational models and business
     plans by:\n* Conducting operational reviews and assessments\n* Benchmarking\n*
     Customer feedback\n* Process efficiency "
@@ -108,8 +108,8 @@ how-we-work:
   - sub-title: We make innovation stick…
     text: 'We offer ways to develop and embed approaches to make sure you continue
       to focus on the bigger picture. '
-  text: 'We do this so you deliver exceptional customer experiences that will get
-    people talking. '
+  text: "**We do this so you deliver exceptional customer experiences that will get
+    people talking.**"
   left-color-name: green
   right-color-name: yellow
   has-grey-background: 
