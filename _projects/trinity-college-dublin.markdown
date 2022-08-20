@@ -39,7 +39,7 @@ content-block:
       aim was to reinvent the tourism business model for Trinity by developing existing
       products and creating new experiences to encourage tourists and visitors to
       explore \n and its campus."
-  - question: The Skills
+  - question: Our Expertise
     answer-text: |-
       * Sustainable tourism
       * Product development
