@@ -27,7 +27,7 @@ content-block:
   image-caption: caption
   alt: alt
   array:
-  - question: The Answer
+  - question: Our Solution
     answer-text: "With the tourism landscape dramatically changing over the past few
       years, Trinity College realised they need to adapt along with it. This meant
       diversifying what they offered to their visitors and building a more sustainable
