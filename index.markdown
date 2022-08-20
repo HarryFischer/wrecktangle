@@ -8,8 +8,8 @@ intro:
 content-block:
 - layout: left
   image: "/uploads/location-image.jpg"
-  image-caption: Caption of image here
-  alt: image alt text
+  image-caption: 
+  alt: 
   sub-title: Where Innovation Meets Experience
   body-text: |-
     From concept creation to execution, we develop business plans and innovate within your operating models, to drive commercial returns.
