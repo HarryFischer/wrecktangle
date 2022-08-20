@@ -20,7 +20,7 @@ content-block:
       outdoor summer dining and events for RDS members and other visitors. These ideas
       then also contributed to scoping the Catering Tender for the RDS, where we also
       served on the evaluation team. "
-  - question: The Skills
+  - question: Our Expertise
     answer-text: "* Unlocking opportunities\n* Increasing footfall \n* Strategic thinking
       \n* Catering experiences"
   video-url: 
