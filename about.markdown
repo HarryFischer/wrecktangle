@@ -10,10 +10,8 @@ content-block:
   image: "/uploads/image-one.jpg"
   image-caption: 
   alt: 
-  sub-title: 
+  sub-title: We bring in-depth, lived experience
   body-text: |-
-    ## We bring in-depth, lived experience – bold and bigger writing
-
     We have operated top-tier venues and attractions that delivered ambitious commercial targets.
 
     We use our expertise and experience in strategy and operations to support you step by step. This might look like taking care of all the details, financial planning, market research and accreditation processes. Or developing a visitor experience from scratch.
