@@ -11,7 +11,7 @@ content-block:
   image-caption: 
   alt: 
   array:
-  - question: The Answer
+  - question: Our Solution
     answer-text: "Driven by the prolonged impacts of Covid and lingering social distancing
       requirements, Trinity College were looking to develop  a quality, low-touch,
       innovative and engaging self-guided tour option for visitors. Along with Trinity’s
