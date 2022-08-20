@@ -8,8 +8,8 @@ intro:
 content-block:
 - layout: left
   image: "/uploads/image-one.jpg"
-  image-caption: caption of image
-  alt: alt text for image
+  image-caption: 
+  alt: 
   sub-title: 
   body-text: |-
     We bring in-depth, lived experience, gained from operating top-tier venues and attractions, that deliver ambitious commercial targets.
@@ -31,7 +31,7 @@ team-block:
     As a team, everything we do is underpinned by an excellent operational approach
     and a focus on customer satisfaction."
   link-name: WANT TO COLLABORATE?
-  right-color-name: yellow
+  right-color-name: green
   has-grey-background: 
 team-members:
 - name: Jillian Wilson
@@ -94,8 +94,8 @@ services:
 how-we-work:
 - layout: right
   image: "/uploads/image-four.jpg"
-  image-caption: image caption lorem ipsum
-  alt: image alt lorem ipsum
+  image-caption: 
+  alt: 
   sub-title: How We Work
   array:
   - sub-title: We listen...
