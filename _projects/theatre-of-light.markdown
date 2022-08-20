@@ -11,7 +11,7 @@ content-block:
   image-caption: 
   alt: 
   array:
-  - question: The answer
+  - question: The Our Solution
     answer-text: "The Theatre of Light’s exhibition, Van Gogh Dublin at the RDS, was
       the first Immersive Digital Art destination in Ireland. Unlike traditional museum
       experiences, Theatre Of Light uses a blend of new technologies and media with
