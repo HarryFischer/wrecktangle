@@ -80,9 +80,9 @@ window.addEventListener('scroll', () => {
         scrollAmount++;
       }
       if (rectangle.classList.contains("left")) {
-        rectangle.style.transform = `translateY(${scrollAmount * 0.2}px)`;
+        rectangle.style.transform = `translateY(${oldScrollAmount * 0.2}px)`;
       } else {
-        rectangle.style.transform = `translateY(${scrollAmount * -0.25}px)`;
+        rectangle.style.transform = `translateY(${oldScrollAmount * -0.25}px)`;
       }
     }  
   });
