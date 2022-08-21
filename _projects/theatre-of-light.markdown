@@ -22,6 +22,15 @@ content-block:
       project fundraising.\n\nThis included launching Van Gogh Dublin at the RDS in
       May 2022 for its summer exhibition and business modelling for further pop ups
       and permanent locations."
+  video-url: 
+  left-color-name: green
+  right-color-name: 
+  has-grey-background: true
+- layout: left
+  image: 
+  image-caption: 
+  alt: 
+  array:
   - question: Our Expertise
     answer-text: |-
       * Immersive storytelling
@@ -29,8 +38,8 @@ content-block:
       * Start up
       * Commercial operations
   video-url: 741640400
-  left-color-name: green
-  right-color-name: 
+  left-color-name: 
+  right-color-name: pink
   has-grey-background: true
 - layout: left
   image: "/uploads/VanGoghDublin_ph%20Roberto%20Conte-19%20(1).jpg"
@@ -42,12 +51,8 @@ content-block:
       > ​​Wrecktangle have become an integral part in the concept design and strategic development of the Theatre Of Light Project.
 
       ​Daniel Gleeson, Founder, Theatre of Light
-  - question: 
-    answer-text: 
-  - question: 
-    answer-text: 
   video-url: 
-  left-color-name: 
+  left-color-name: yellow
   right-color-name: 
   has-grey-background: 
 layout: project
