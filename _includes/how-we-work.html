@@ -8,7 +8,9 @@
       alt="{{ howWeWork.alt }} logo"
       loading="lazy"
     />
+    {%- if howWeWork.image-caption -%}
     <small> {{ howWeWork.image-caption }} </small>
+    {%- endif -%}
   </div>
 
   <div class="text-wrapper">

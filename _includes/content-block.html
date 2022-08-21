@@ -9,8 +9,9 @@
       alt="{{ contentBlock.alt }} logo"
       loading="lazy"
     />
+    {%- if contentBlock.image-caption -%}
     <small> {{ contentBlock.image-caption }} </small>
-    {%- endif -%} {%- if contentBlock.video-url -%}
+    {%- endif -%} {%- endif -%} {%- if contentBlock.video-url -%}
     <iframe
       width="560"
       height="315"

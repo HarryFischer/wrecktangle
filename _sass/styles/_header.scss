@@ -31,7 +31,7 @@ a.site-title {
       position: absolute;
       height: 15px;
       
-      width: 0;
+      width: 230px;
       background-color: $wt-yellow;
       left: 15px;
       bottom: 2px;
@@ -42,7 +42,7 @@ a.site-title {
   
   &:hover { 
     svg + span {
-    width: 230px;
+    width: 0;
   }
    
 }

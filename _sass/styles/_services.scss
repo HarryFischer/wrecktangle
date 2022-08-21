@@ -57,7 +57,7 @@
             background-color: transparent;
             border: none;
             position: relative;
-            width: max-content;
+            // width: max-content;
             span {
                 background-color: $wt-pink;
                 height: 14px;
@@ -100,6 +100,7 @@
             ul, p {
                 margin: 0;
                 padding: 0 20px;
+                font-size: 20px;
                 @media (min-width: 980px) {
                     padding: 0 60px;
                 }
@@ -114,12 +115,14 @@
                 }
                 &::before {
                     content:'';
-                    width: 0.6em;
-                    height: 0.6em;
+                    width: 0.8em;
+                    height: 0.2em;
                     margin-right: 8px;
-                    border: 2px solid $wt-navy;
-                    border-radius: 50%;
+                    border: 2px solid #162b40;
+                    border-radius: 0;
                     display: inline-block;
+                    background: #162b40;
+                    margin-bottom: 4px;
                 }
             }
             ul {

@@ -15,41 +15,42 @@ collections:
     title: Uploads
     output: true
 defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    main-image: 
-    image-caption: 
-    alt: 
-    sub-title: 
-    length: 
-    is-extenal: 
-    external-url: 
-- scope:
-    path: ''
-    type: projects
-  values:
-    project-image: 
-    project-description: 
-    color-name: 
-    content-block:
-    - layout: 
-      image: 
-      image-caption: 
-      alt: 
-      array:
-      - question: 
-        answer-text: 
-      video-url: 
-      left-color-name: 
-      right-color-name: 
-      has-grey-background: 
-    layout: project
+  - scope:
+      path: ""
+      type: posts
+    values:
+      main-image:
+      image-caption:
+      alt:
+      sub-title:
+      length:
+      is-extenal:
+      external-url:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      project-image:
+      project-description:
+      color-name:
+      content-block:
+        - layout:
+          image:
+          image-caption:
+          alt:
+          array:
+            - question:
+              answer-text:
+          video-url:
+          left-color-name:
+          right-color-name:
+          has-grey-background:
+      layout: project
 email: info@wrecktangle.ie
 phone: "+353 86 95255"
 address: 51 Bracken Road, Sandyford, Dublin, D18&nbsp;CV48
-description: Solutions outside of the box. Wrecktangle is a strategic commercial consultancy,
+description:
+  Solutions outside of the box. Wrecktangle is a strategic commercial consultancy,
   specialising in the Leisure and Tourism industry. We collaborate with you, so your
   big ideas can turn into the bigger picture.
 url: https://harryfischer.github.io/wrecktangle/
@@ -60,5 +61,5 @@ sass:
   style: compressed
 markdown: kramdown
 plugins:
-- jekyll-feed
-- jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-seo-tag
