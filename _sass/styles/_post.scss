@@ -1,7 +1,7 @@
 .page-content .wrapper {
     article.post {
         .post-header {
-            padding: 0 20px 80px;
+            padding: 0 20px 20px;
             margin: auto;
             @media (min-width: 980px) {
                 padding: 0 80px 80px;
@@ -41,7 +41,9 @@
             p img {
                 aspect-ratio: 5 / 3;
                 object-fit: cover;
-                margin-bottom: 20px;
+                @media (min-width: 980px) {
+                    margin-bottom: 20px;
+                }
             }
             p {
                 position: relative;
@@ -58,8 +60,11 @@
             }
             blockquote {
                 max-width: 600px;
-                margin: auto;
+                margin: 0 20px;
                 margin-bottom: 24px;
+                @media (min-width: 980px) {
+                    margin: auto;
+                }
                 p {
                     font-size: 20px;
                     max-width: 90%;
