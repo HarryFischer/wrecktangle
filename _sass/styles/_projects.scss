@@ -108,6 +108,7 @@ $widthHeight: 45vw;
                 &.navy {
                     background: $wt-navy;
                 }
+                top: 0!important;
             }            
         }
         & li:nth-child(odd) {
