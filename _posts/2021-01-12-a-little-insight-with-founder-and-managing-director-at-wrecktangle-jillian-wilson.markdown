@@ -2,6 +2,12 @@
 title: A little insight with Founder and Managing Director at Wrecktangle - Jillian
   Wilson
 date: 2021-01-12 10:24:00 Z
+tags:
+- goal
+- networking
+- proactive
+- sale
+- success
 main-image: "/uploads/jillain.jpg"
 image-caption: Jillian in the Book of Kells Exhibition
 alt: Jillian in the Book of Kells Exhibition
