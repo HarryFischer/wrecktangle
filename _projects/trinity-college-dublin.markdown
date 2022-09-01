@@ -24,7 +24,7 @@ content-block:
   has-grey-background: false
 - layout: right
   image: "/uploads/jack-reichert-jFZjNKlWMwY-unsplash%20(1).jpg"
-  image-caption: caption
+  image-caption: 
   alt: alt
   array:
   - question: Our Solution
