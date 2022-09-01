@@ -34,8 +34,8 @@ content-block:
   array:
   - question: The Reaction
     answer-text: |-
-      ​> Wrecktangle’s intervention sparked discussion and drove more strategic thinking across our RDS team to use the Campus in different ways, to increase the footfall to the RDS, outside of those attending our rostered events, and to drive more revenue in quieter periods.
-
+      > ​Wrecktangle’s intervention sparked discussion and drove more strategic thinking across our RDS team to use the Campus in different ways, to increase the footfall to the RDS, outside of those attending our rostered events, and to drive more revenue in quieter periods.
+      >
       Geraldine Ruane, CEO, RDS
   - question: 
     answer-text: 
