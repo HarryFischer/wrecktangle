@@ -34,6 +34,9 @@
             margin-bottom: 20px;
         summary {
             list-style: none;
+            &::-webkit-details-marker {
+                display: none;
+            }
             &::before {
                     // content:url("../assets/arrow.svg");
                     content: url("../assets/arrow-down.svg");
@@ -121,6 +124,9 @@
                         summary {
                             display: flex;
                             flex-direction: column;
+                            // &::-webkit-details-marker {
+                            //     display: none;
+                            // }
                             &::marker {
                                 position: absolute;
                                 display: block;
