@@ -37,15 +37,11 @@ content-block:
       * Innovation
       * Start up
       * Commercial operations
-  video-url: |-
-    <iframe
-            src="https://player.vimeo.com/video/741640400?h=1b1f160751&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-            frameborder="0"
-            allow="autoplay; fullscreen; picture-in-picture"
-            allowfullscreen
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
-            title="VANGOGH_60s_square.mp4"
-          ></iframe>
+  video-url: "<iframe\n        src=\"https://player.vimeo.com/video/741640400?h=1b1f160751&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\"\n
+    \       frameborder=\"0\"\n        allow=\"autoplay; fullscreen; picture-in-picture\"\n
+    \       allowfullscreen\n        style=\"position: absolute; top: 0; left: 0;
+    width: 100%; height: 100%\"\n        title=\"VANGOGH_60s_square.mp4\"\n      ></iframe>
+    \n<script src=\"https://player.vimeo.com/api/player.js\"></script>"
   left-color-name: 
   right-color-name: pink
   has-grey-background: true
