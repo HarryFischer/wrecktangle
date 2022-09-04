@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    margin: 15vh auto;
+    margin: 15vh auto 5vh;
     @media (min-width: 980px) {
+        margin: 15vh auto;
         flex-direction: row;
     }
     .text-wrapper {
@@ -39,11 +40,11 @@
                     margin-right: 15px;
                     transform: translateY(2px);
                     display: inline;
-                    width: 30px;
-                    height: 30px;
-                    border: 2px solid $wt-navy;
+                    width: 20px;
+                    height: 20px;
+                    border: 2px solid #162b40;
                     border-radius: 50%;
-                    padding: 10px 11px;
+                    padding: 6px 8px;
                     transition: all 0.3s ease;
                     transform: rotate(180deg);
                 }
@@ -89,6 +90,7 @@
         overflow-x: hidden;
         padding: 0 20px 0 20px;
         width: calc(100% - 40px);
+        scroll-snap-type: x mandatory;
         @media (min-width: 980px) {
             width: 70vw;
             gap: 40px;
