@@ -4,7 +4,6 @@ date: 2022-08-07 17:35:00 Z
 project-image: "/uploads/cover.jpg"
 project-description: How do we unlock the commercial opportunities in our Ballsbridge
   campus for visitors to the RDS?
-color-name: yellow
 content-block:
 - layout: left
   image: "/uploads/RDS.jpg"
@@ -25,9 +24,9 @@ content-block:
       \n* Catering experiences"
   video-url: 
   left-color-name: 
-  right-color-name: 
+  right-color-name: green
   has-grey-background: 
-- layout: left
+- layout: right
   image: "/uploads/bernard-hermant-u7VDgNGb78w-unsplash.jpg"
   image-caption: 
   alt: 
@@ -37,10 +36,6 @@ content-block:
       > ​Wrecktangle’s intervention sparked discussion and drove more strategic thinking across our RDS team to use the Campus in different ways, to increase the footfall to the RDS, outside of those attending our rostered events, and to drive more revenue in quieter periods.
 
       Geraldine Ruane, CEO, RDS
-  - question: 
-    answer-text: 
-  - question: 
-    answer-text: 
   video-url: 
   left-color-name: 
   right-color-name: 
