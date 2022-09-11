@@ -1,5 +1,5 @@
 ---
-title: Index
+title: Home
 position: 0
 intro:
 - text: |-
