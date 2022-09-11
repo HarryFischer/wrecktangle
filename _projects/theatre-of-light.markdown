@@ -16,8 +16,8 @@ content-block:
     frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%" title="VANGOGH_60s_square.mp4"></iframe>
     <script src="https://player.vimeo.com/api/player.js"></script>'
-  left-color-name: 
-  right-color-name: pink
+  left-color-name: green
+  right-color-name: 
   has-grey-background: true
 - layout: right
   image: "/uploads/VanGoghDublin_ph%20Roberto%20Conte-8(1)%20(1).jpg"
@@ -42,8 +42,8 @@ content-block:
       * Start up
       * Commercial operations
   video-url: 
-  left-color-name: green
-  right-color-name: pink
+  left-color-name: 
+  right-color-name: 
   has-grey-background: true
 - layout: left
   image: "/uploads/VanGoghDublin_ph%20Roberto%20Conte-19%20(1).jpg"
