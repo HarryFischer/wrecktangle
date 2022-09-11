@@ -4,12 +4,25 @@ date: 2022-08-07 17:33:00 Z
 project-image: "/uploads/VanGoghDublin_ph%20Roberto%20Conte-11%20(1).jpg"
 project-description: How do we develop the first immersive digital art destination
   in Ireland that creates epic encounters and sparks public participation?
-color-name: pink
 content-block:
 - layout: left
-  image: "/uploads/VanGoghDublin_ph%20Roberto%20Conte-8(1)%20(1).jpg"
+  image: 
   image-caption: 
   alt: 
+  array:
+  - question: 
+    answer-text: 
+  video-url: '<iframe src="https://player.vimeo.com/video/741640400?h=1b1f160751&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+    frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%" title="VANGOGH_60s_square.mp4"></iframe>
+    <script src="https://player.vimeo.com/api/player.js"></script>'
+  left-color-name: 
+  right-color-name: pink
+  has-grey-background: true
+- layout: right
+  image: "/uploads/VanGoghDublin_ph%20Roberto%20Conte-8(1)%20(1).jpg"
+  image-caption: 
+  alt: Van Gogh artwork installation
   array:
   - question: Our Solution
     answer-text: "The Theatre of Light’s exhibition, Van Gogh Dublin at the RDS, was
@@ -22,32 +35,20 @@ content-block:
       project fundraising.\n\nThis included launching Van Gogh Dublin at the RDS in
       May 2022 for its summer exhibition and business modelling for further pop ups
       and permanent locations."
-  video-url: 
-  left-color-name: green
-  right-color-name: 
-  has-grey-background: true
-- layout: left
-  image: 
-  image-caption: 
-  alt: 
-  array:
   - question: Our Expertise
     answer-text: |-
       * Immersive storytelling
       * Innovation
       * Start up
       * Commercial operations
-  video-url: '<iframe src="https://player.vimeo.com/video/741640400?h=1b1f160751&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-    frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%" title="VANGOGH_60s_square.mp4"></iframe>
-    <script src="https://player.vimeo.com/api/player.js"></script>'
-  left-color-name: 
+  video-url: 
+  left-color-name: green
   right-color-name: pink
   has-grey-background: true
 - layout: left
   image: "/uploads/VanGoghDublin_ph%20Roberto%20Conte-19%20(1).jpg"
   image-caption: 
-  alt: 
+  alt: van gogh installation artwork
   array:
   - question: The reaction
     answer-text: |-
@@ -55,7 +56,7 @@ content-block:
 
       ​Daniel Gleeson, Founder, Theatre of Light
   video-url: 
-  left-color-name: yellow
+  left-color-name: 
   right-color-name: 
   has-grey-background: 
 layout: project
