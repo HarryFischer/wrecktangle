@@ -65,7 +65,8 @@
             min-width: 300px;
             color: $wt-navy;
             list-style: none;
-              scroll-snap-align: start;
+            list-style-type: none;
+            scroll-snap-align: start;
     
             @media (min-width: 980px) {
               min-width: unset;
@@ -192,10 +193,13 @@
             }
             h2 {
               text-align: left;
-              font-size: 50px;
-                color: #162b40;
-                text-align: left;
-                max-width: unset;
+              font-size: 38px;
+              color: #162b40;
+              text-align: left;
+              max-width: unset;
+              @media (min-width: 980px) {
+                font-size: 50px;
+              }
             }
             a {
                 display: flex;
@@ -257,6 +261,7 @@
 .post-list {
   margin-left: 0;
   list-style: none;
+  list-style-type: none;
 
   > li {
     margin-bottom: $spacing-unit;
