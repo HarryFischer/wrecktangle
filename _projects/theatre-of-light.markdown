@@ -21,7 +21,7 @@ content-block:
   has-grey-background: true
 - layout: right
   image: "/uploads/VanGoghDublin_ph%20Roberto%20Conte-8(1)%20(1).jpg"
-  image-caption: 
+  image-caption: Roberto Conte
   alt: Van Gogh artwork installation
   array:
   - question: Our Solution
@@ -47,7 +47,7 @@ content-block:
   has-grey-background: true
 - layout: left
   image: "/uploads/VanGoghDublin_ph%20Roberto%20Conte-19%20(1).jpg"
-  image-caption: 
+  image-caption: Roberto Conte
   alt: van gogh installation artwork
   array:
   - question: The reaction
