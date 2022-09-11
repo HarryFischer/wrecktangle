@@ -4,12 +4,11 @@ date: 2022-08-07 17:38:00 Z
 project-image: "/uploads/130622D_6005%20(1).jpg"
 project-description: How do we drive digital innovation and storytelling that will
   also deliver commercial returns?
-color-name: pink
 content-block:
 - layout: left
   image: "/uploads/composite.jpg"
   image-caption: 
-  alt: 
+  alt: image of trinity app design
   array:
   - question: Our Solution
     answer-text: "Driven by the prolonged impacts of Covid and lingering social distancing
@@ -33,7 +32,7 @@ content-block:
   left-color-name: 
   right-color-name: 
   has-grey-background: 
-- layout: left
+- layout: right
   image: "/uploads/juliet-furst-vjniDz-rmpY-unsplash.jpg"
   image-caption: 
   alt: 
@@ -43,10 +42,6 @@ content-block:
       > Wrecktangle developed some fantastic content for our app platform. They were also focused on delivering an innovative product that could evolve and remain relevant for their client and the visitors in years to come.
 
       Fearghal Kelly, CEO, Digisoft
-  - question: 
-    answer-text: 
-  - question: 
-    answer-text: 
   video-url: 
   left-color-name: 
   right-color-name: 
