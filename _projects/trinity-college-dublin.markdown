@@ -9,7 +9,6 @@ tags:
 - Trinity College Dublin
 project-image: "/uploads/fallon-michael-cFrD6hBMTQI-unsplash.jpg"
 project-description: How can we re-imagine the Trinity Visitor Experience?
-color-name: yellow
 content-block:
 - layout: left
   image: 
@@ -34,7 +33,7 @@ content-block:
 - layout: right
   image: "/uploads/jack-reichert-jFZjNKlWMwY-unsplash%20(1).jpg"
   image-caption: 
-  alt: alt
+  alt: Photo of inside Trintity College Dublin library
   array:
   - question: Our Solution
     answer-text: "With the tourism landscape dramatically changing over the past few
@@ -58,10 +57,10 @@ content-block:
   left-color-name: yellow
   right-color-name: green
   has-grey-background: true
-- layout: 
+- layout: left
   image: "/uploads/Walking%20in%20Front%20Square%20(1).jpg"
   image-caption: 
-  alt: 
+  alt: image of two people walking and talking
   array:
   - question: The Reaction
     answer-text: |-
