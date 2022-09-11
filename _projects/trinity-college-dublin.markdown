@@ -59,7 +59,7 @@ content-block:
   right-color-name: green
   has-grey-background: true
 - layout: 
-  image: "/uploads/ana-martin-vdyeDY-_ufw-unsplash%20(1)-1defc5.jpg"
+  image: "/uploads/Walking%20in%20Front%20Square%20(1).jpg"
   image-caption: 
   alt: 
   array:
@@ -68,10 +68,6 @@ content-block:
       > 2020 brought acute challenges to the tourism model in Trinity. Wrecktangle devised a strategy to develop products that would deliver sustainable, incremental revenue growth.
 
       ​Tony Keohane, Acting Commercial Director, Trinity College Dublin
-  - question: 
-    answer-text: 
-  - question: 
-    answer-text: 
   video-url: 
   left-color-name: 
   right-color-name: 
