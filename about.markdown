@@ -105,11 +105,12 @@ how-we-work:
   - sub-title: We make innovation stick…
     text: 'We offer ways to develop and embed approaches to make sure you continue
       to focus on the bigger picture. '
-  text: "### We do this so you deliver exceptional customer experiences that will
-    get people talking."
+  - sub-title: We do this so you deliver exceptional customer experiences that will
+      get people talking.
+    text: 
   left-color-name: green
   right-color-name: yellow
-  has-grey-background: 
+  has-grey-background: true
 layout: approach
 ---
 
