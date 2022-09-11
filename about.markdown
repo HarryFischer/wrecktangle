@@ -43,7 +43,6 @@ team-members:
     through mobilisation to operational success; and  in Leisure Tourism, at Trinity
     College Dublin, and The Book of Kells as Head of Tourism during a period of exceptional
     growth. – and yes, her efforts earned her an award or two!'
-  linked-in: 
   image: "/uploads/jillian%20copy.jpg"
   image-alt: Image of Jillian Wilson
 - name: Killian Carroll
@@ -55,7 +54,6 @@ team-members:
     with a head for numbers, Killian has proven experience in strategic planning,
     process improvement and building team culture. To top it all off, he also holds
     qualifications in governance, internal auditing ISO & ESG. '
-  linked-in: 
   image: "/uploads/Headshot-Killian-(1).jpg"
   image-alt: Image of Killian Carroll
 - name: Antoinette O’Connor
@@ -67,7 +65,6 @@ team-members:
     and operational reporting. Antoinette supports Wrecktangle by managing, analysing,
     auditing and reporting on project and event-specific data which helps drive commercial
     decision making and strategic outcomes.
-  linked-in: 
   image: "/uploads/toni.jpg"
   image-alt: Image of Antoinette O’Connor
 services-block:
@@ -108,8 +105,8 @@ how-we-work:
   - sub-title: We make innovation stick…
     text: 'We offer ways to develop and embed approaches to make sure you continue
       to focus on the bigger picture. '
-  text: "**We do this so you deliver exceptional customer experiences that will get
-    people talking.**"
+  text: "### We do this so you deliver exceptional customer experiences that will
+    get people talking."
   left-color-name: green
   right-color-name: yellow
   has-grey-background: 
