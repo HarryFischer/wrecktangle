@@ -42,7 +42,7 @@ content-block:
       * Start up
       * Commercial operations
   video-url: 
-  left-color-name: 
+  left-color-name: yellow
   right-color-name: 
   has-grey-background: true
 - layout: left
