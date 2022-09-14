@@ -27,7 +27,7 @@ content-block:
   right-color-name: green
   has-grey-background: 
 - layout: right
-  image: "/uploads/bernard-hermant-u7VDgNGb78w-unsplash.jpg"
+  image: "/uploads/photos-by-lanty-O38Id_cyV4M-unsplash%20(1).jpg"
   image-caption: 
   alt: 
   array:
