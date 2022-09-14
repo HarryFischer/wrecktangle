@@ -34,6 +34,7 @@
             margin-bottom: 20px;
         summary {
             list-style: none;
+            list-style-type: none;
             &::-webkit-details-marker {
                 display: none;
             }
@@ -54,6 +55,7 @@
         }
         li {
             list-style: none;
+            list-style-type: none;
             display: flex;
             flex-direction: column;
             p  {
@@ -63,7 +65,7 @@
                 &:first-child {
                     padding-top: 12px;
                 }
-            };
+            }
             a {
                 display: block;
                 font-size: 30px;
@@ -140,10 +142,43 @@
                             }
                         }
                         &[open] {
+                            overflow-y: scroll;
+                            height: calc(100vw - 20px);
+                            @media (min-width: 980px) {
+                                height: 400px;
+                            }
                             .expand-bio {
                                 transition: rotate 0.5s ease;
                                 transform: rotate(180deg);
                             }
+                        }
+                    }
+                    li {
+                        margin-bottom: 24px;
+
+                        margin-top: 24px;
+
+                        &:first-child {
+                            margin-bottom: 8px;
+                        }
+                    }
+
+                    p {
+                        margin: 0;
+                        color: white;
+                    }
+
+                    a {
+                        color: white;
+                        font-size: 30px !important;
+                        font-family: "PlayFair Display" !important;
+                        font-weight: 500 !important;
+                        line-height: 125% !important;
+                        padding: 0 !important;
+                        border-bottom: 1px solid white;
+                        
+                        &:hover {
+                            border-bottom: 1px solid $wt-navy;
                         }
                     }
                     h3 {
