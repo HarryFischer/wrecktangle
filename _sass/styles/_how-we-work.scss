@@ -30,6 +30,7 @@
         }
         h2 {
             margin-top: 0;
+            margin-bottom: 120px;
         }
         
         .hww-hide-me {
@@ -42,7 +43,8 @@
                 margin-bottom: 0;
             }
             h3 {
-                @media (max-width: 980px) {
+                font-size: 38px;
+                @media (min-width: 980px) {
                     font-size: 38px;
                 }
             }
