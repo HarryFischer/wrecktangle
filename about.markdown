@@ -3,6 +3,7 @@ title: About
 permalink: "/about"
 redirect_from:
   - /who-we-are
+  - /jillian-wilson
 position: 1
 intro:
   - text:
