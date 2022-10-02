@@ -5,7 +5,7 @@ project-image: "/uploads/130622D_6005%20(1).jpg"
 project-description: How do we drive digital innovation and storytelling that will
   also deliver commercial returns?
 content-block:
-- layout: left
+- layout: right
   image: "/uploads/composite.jpg"
   image-caption: 
   alt: image of trinity app design
@@ -32,7 +32,7 @@ content-block:
   left-color-name: 
   right-color-name: 
   has-grey-background: 
-- layout: right
+- layout: left
   image: "/uploads/juliet-furst-vjniDz-rmpY-unsplash.jpg"
   image-caption: 
   alt: 
