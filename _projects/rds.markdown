@@ -5,7 +5,7 @@ project-image: "/uploads/cover.jpg"
 project-description: How do we unlock the commercial opportunities in our Ballsbridge
   campus for visitors to the RDS?
 content-block:
-- layout: left
+- layout: right
   image: "/uploads/RDS.jpg"
   image-caption: 
   alt: 
@@ -26,7 +26,7 @@ content-block:
   left-color-name: 
   right-color-name: green
   has-grey-background: 
-- layout: right
+- layout: left
   image: "/uploads/photos-by-lanty-O38Id_cyV4M-unsplash%20(1).jpg"
   image-caption: 
   alt: 
