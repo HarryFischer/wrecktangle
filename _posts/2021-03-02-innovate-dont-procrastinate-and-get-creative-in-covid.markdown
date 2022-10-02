@@ -1,13 +1,12 @@
 ---
 title: Innovate! - Don’t Procrastinate And Get Creative In COVID
-redirect-from:
-  - "/post/don-t-procrastinate-innovate"
 date: 2021-03-02 11:05:00 Z
+redirect-from:
+- "/post/don-t-procrastinate-innovate"
 main-image: "/uploads/woman-laptop.jpg"
 image-caption: There will be pent-up demand for travel and experiences
 alt: Person sat working on laptop
-sub-title:
-  Much of the focus around Tourism and Events recovery through Covid has
+sub-title: Much of the focus around Tourism and Events recovery through Covid has
   been about “when we return to normal” or “getting back to what we do best”
 length: 2 min read
 is-extenal: false
