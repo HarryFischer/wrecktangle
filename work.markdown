@@ -5,7 +5,7 @@ position: 2
 redirect-from:
 - "/servicesmagazine"
 intro:
-- text: "### We are passionate about creating success, and we bring an enthusiastic
+- text: "# We are passionate about creating success, and we bring an enthusiastic
     approach to our work to enable us to deliver it."
 layout: projects
 ---
