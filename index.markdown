@@ -6,8 +6,8 @@ redirect_from:
 - "/servicesmagazine"
 intro:
 - text: |-
-    ### **Solutions outside the box**
-    ### Wrecktangle is a strategic commercial consultancy, specialising in the Leisure and Tourism industry.  We collaborate with you, so your big ideas can turn into the bigger picture.
+    # **Solutions outside the box**
+    # Wrecktangle is a strategic commercial consultancy, specialising in the Leisure and Tourism industry.  We collaborate with you, so your big ideas can turn into the bigger picture.
 content-block:
 - layout: left
   image: "/uploads/location-image.jpg"
