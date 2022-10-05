@@ -7,8 +7,8 @@ redirect_from:
 - "/what-we-do"
 - "/profile/19bf7838-178d-4fc8-9d7c-d390683f1e55/profile"
 intro:
-- text: "### **We know what memorable experiences and operational excellence looks
-    like** \n### And we know how to deliver it"
+- text: "# **We know what memorable experiences and operational excellence looks like**
+    \n# And we know how to deliver it"
 content-block:
 - layout: left
   image: "/uploads/image-one.jpg"
