@@ -1,12 +1,12 @@
 ---
 title: What I learned about business development from a recruitment consultancy
 date: 2021-03-03 11:18:00 Z
-redirect-from:
-- "/post/what-i-learned-about-business-development-from-a-recruitment-consultancy"
+redirect_from:
+  - "/post/what-i-learned-about-business-development-from-a-recruitment-consultancy"
 main-image: "/uploads/recruitment-consultancy-crash-course.jpg"
 image-caption: Recruitment Consultancy Crash Course
 alt: Image of inside recruitment consultancy
-sub-title: 'When I was in my 20s I did a 6 month stint in a Recruitment Agency. '
+sub-title: "When I was in my 20s I did a 6 month stint in a Recruitment Agency. "
 length: 2 min read
 is-extenal: false
 layout: post
