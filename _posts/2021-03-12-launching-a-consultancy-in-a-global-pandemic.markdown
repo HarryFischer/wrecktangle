@@ -2,7 +2,7 @@
 title: Launching a Consultancy in a Global Pandemic
 date: 2021-03-12 12:00:00 Z
 redirect_from:
-  - "/post/launching-a-commercial-and-venue-management-consultancy-in-a-global-pandemic"
+- "/post/launching-a-commercial-and-venue-management-consultancy-in-a-global-pandemic"
 main-image: "/uploads/pandemic.jpg"
 image-caption: A global pandemic announced 12 months ago
 alt: Two people bumping elbows
