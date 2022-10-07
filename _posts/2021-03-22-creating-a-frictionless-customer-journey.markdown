@@ -2,12 +2,11 @@
 title: Creating a Frictionless Customer Journey
 date: 2021-03-22 12:16:00 Z
 redirect_from:
-  - "/post/creating-a-frictionless-customer-journey"
+- "/post/creating-a-frictionless-customer-journey"
 main-image: "/uploads/suitcase.jpg"
 image-caption: Motivating visitors with quality interactions
 alt: Person with pile of suitcases
-sub-title:
-  How can businesses create quality visitor interactions when they are in
+sub-title: How can businesses create quality visitor interactions when they are in
   survival mode?
 length: 2 min read
 is-extenal: false

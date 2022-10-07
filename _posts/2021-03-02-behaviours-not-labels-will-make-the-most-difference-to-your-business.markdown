@@ -2,7 +2,7 @@
 title: Behaviours, not labels, will make the most difference to your business
 date: 2021-03-02 11:12:00 Z
 redirect_from:
-  - "/post/behaviours-not-labels-will-make-the-most-difference-to-your-business"
+- "/post/behaviours-not-labels-will-make-the-most-difference-to-your-business"
 main-image: "/uploads/main-image.jpg"
 alt: mother and child
 length: 1 min read
