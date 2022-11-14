@@ -20,9 +20,9 @@ layout: default
             loading="lazy"
           />
           <h3>{{ post.title | escape }}</h3>
-          {%- assign date_format = site.minima.date_format | default: "%-d %b,
+          {%- assign date_format = site.minima.date_format | default: "%b %-d,
           %Y" -%}
-          <span class="posts-meta">{{ page.date | date: '%-d %B %Y' }}</span>
+          <span class="posts-meta">{{ post.date | date: date_format }}</span>
           <svg
             width="20"
             height="20"
