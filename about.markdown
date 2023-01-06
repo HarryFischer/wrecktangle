@@ -82,10 +82,15 @@ services:
     which means helping with:\n* Business modelling\n* Financial planning \n* Developing
     corporate plans and strategies\n* Drafting funding applications \n* Presentations
     for investment \n* Commercial assessments\n* Feasibility\n"
+- title-text: Performance Optimisation
+  inner-text: "We seek out and develop opportunities for new experiences or improved
+    approaches through: \n* Ideation sessions\n* Market research\n* Process efficiency\n*
+    Operational management plans\n* Value for money audits\n* Resourcing models\n*
+    Tendering support  \n"
 - title-text: Operational Strategy and Best Practice
   inner-text: "We review and innovate within your operational models and business
     plans by: \n* Conducting operational reviews and assessments\n* Benchmarking\n*
-    Customer feedback\n* Governance\n* Stakeholder Engagement\n"
+    Customer feedback\n* Governance\n* Stakeholder Engagement"
 - title-text: Managed Services
   inner-text: |-
     We support your business to operate and thrive, providing:
@@ -93,8 +98,6 @@ services:
     * Accounting services
     * Board Support
     * Promotion
-- title-text: X
-  inner-text: X
 how-we-work:
 - layout: right
   image: "/uploads/image-four.jpg"
