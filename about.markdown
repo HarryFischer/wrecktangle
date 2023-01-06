@@ -81,15 +81,19 @@ services:
   inner-text: "We come up with concepts and project plans from ideation to realisation,
     which means helping with:\n* Business modelling\n* Financial planning \n* Developing
     corporate plans and strategies\n* Drafting funding applications \n* Presentations
-    for investment \n* Resourcing models\n* Operational management plans"
-- title-text: Product Development
+    for investment \n* Commercial assessments\n* Feasibility\n"
+- title-text: Performance Optimisation
   inner-text: "We seek out and develop opportunities for new experiences or improved
-    approaches through:\n* Ideation sessions\n* Market research \n* Commercial assessments\n*
-    Project management "
-- title-text: Operational Strategy and Best Practice
-  inner-text: "We review and innovate within your operational models and business
-    plans by:\n* Conducting operational reviews and assessments\n* Benchmarking\n*
-    Customer feedback\n* Process efficiency "
+    approaches through:\n* Ideation sessions\n* Market research \n* Operational management
+    plans\n* Process efficiency \n* Value for money audits\n* Tendering support \n*
+    Resourcing models"
+- title-text: Managed Services
+  inner-text: |-
+    We support your business to operate and thrive, providing:
+    * Membership management
+    * Accounting services
+    * Board Support
+    * Promotion
 how-we-work:
 - layout: right
   image: "/uploads/image-four.jpg"
