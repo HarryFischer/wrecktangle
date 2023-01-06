@@ -93,6 +93,8 @@ services:
     * Accounting services
     * Board Support
     * Promotion
+- title-text: X
+  inner-text: X
 how-we-work:
 - layout: right
   image: "/uploads/image-four.jpg"
