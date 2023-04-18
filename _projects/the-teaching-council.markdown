@@ -5,20 +5,19 @@ project-image: "/uploads/F%C3%89ILTE%202022%20(24)-89e5ba.jpg"
 project-description: How can we determine if FÉILTE, our flagship annual event promoting
   teaching as a profession, is value for money and delivering on its purpose?
 content-block:
-- layout: right
-  image: "/uploads/F%C3%89ILTE%202022%20(6).jpg"
+- layout: 
+  image: 
   image-caption: 
   alt: 
   array:
-  - question: Our Expertise
-    answer-text: "* Financial Audit \n* Customer Feedback Development & Analysis\n*
-      Benchmarking & Best Practice\n* Stakeholder Engagement\n"
+  - question: 
+    answer-text: "\n"
   video-url: 
   left-color-name: 
   right-color-name: green
   has-grey-background: 
 - layout: left
-  image: "/uploads/F%C3%89ILTE%202022%20(10).jpg"
+  image: 
   image-caption: 
   alt: 
   array:
