@@ -37,8 +37,8 @@ content-block:
   - question: Our Expertise
     answer-text: |
       * Financial Audit
-      * Customer Feedback Development & Analysis
-      * Benchmarking & Best Practice
+      * Customer Feedback Development and Analysis
+      * Benchmarking and Best Practice
       * Stakeholder Engagement
   video-url: 
   left-color-name: yellow
