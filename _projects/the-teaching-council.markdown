@@ -23,15 +23,24 @@ content-block:
     allowfullscreen
     ></iframe>
   left-color-name: 
-  right-color-name: green
-  has-grey-background: 
-- layout: left
-  image: 
-  image-caption: 
+  right-color-name: 
+  has-grey-background: false
+- layout: right
+  image: "/uploads/F%C3%89ILTE%202022%20(6)-6da5fd.jpg"
+  image-caption: Merchandise at FÉILTE
   alt: 
   array:
-  - question: 
-    answer-text: 
+  - question: Our Solution
+    answer-text: "In assessing Value for Money, it was critical Wrecktangle captured
+      insights and information from Stakeholders, Event Partners and Potential Attendees
+      of FÉILTE, alongside gathering and analysing information and data related to
+      the event. This took the form of qualitative analysis: interviews, structured
+      one-to-one sessions, surveying 106,000 registered members on the Register of
+      Teachers; and quantitative analysis: attendee data, debriefs, post event surveys,
+      financial reviews, and benchmarking.  \n \nWrecktangle identified and developed
+      relevant themes across Purpose, Communication, Event Impact, Barriers and Financial
+      & Governance and made observations and recommendations based on our findings,
+      to ascertain value for money and ensure the best outcomes for future events.\n"
   video-url: 
   left-color-name: 
   right-color-name: 
