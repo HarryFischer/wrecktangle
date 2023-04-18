@@ -53,11 +53,15 @@ content-block:
   has-grey-background: true
 - layout: left
   image: "/uploads/F%C3%89ILTE%202022%20(10)-463785.jpg"
-  image-caption: Registration band
+  image-caption: 'Putting registration band on wrist '
   alt: 
   array:
-  - question: 
-    answer-text: 
+  - question: 'The Reaction '
+    answer-text: "> It was a pleasure working with Wrecktangle on the review. They
+      brought a vigour and expertise to the audit, whilst at the same time never losing
+      sight of the overall purpose of the event. Their survey findings and financial
+      insights are invaluable to us, as we continue to promote and grow FÉILTE.\n\nPhil
+      Fox, Deputy Director, The Teaching Council, Ireland \n"
   - question: 
     answer-text: 
   video-url: 
