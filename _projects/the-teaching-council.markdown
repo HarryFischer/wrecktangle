@@ -50,6 +50,19 @@ content-block:
   video-url: 
   left-color-name: yellow
   right-color-name: green
+  has-grey-background: true
+- layout: left
+  image: "/uploads/F%C3%89ILTE%202022%20(10)-463785.jpg"
+  image-caption: Registration band
+  alt: 
+  array:
+  - question: 
+    answer-text: 
+  - question: 
+    answer-text: 
+  video-url: 
+  left-color-name: 
+  right-color-name: 
   has-grey-background: 
 ---
 
