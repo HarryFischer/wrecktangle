@@ -12,16 +12,9 @@ content-block:
   array:
   - question: 
     answer-text: "\n"
-  video-url: |-
-    >iframe
-    width="560"
-    height="315"
-    src+"https://vimeo.com/755513128"
-    title="Vimeo video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encyrpted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-    ></iframe>
+  video-url: 'https://vimeo.com/755513128
+
+'
   left-color-name: 
   right-color-name: 
   has-grey-background: false
