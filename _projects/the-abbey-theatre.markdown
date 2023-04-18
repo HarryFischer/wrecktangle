@@ -15,17 +15,27 @@ content-block:
   video-url: https://www.youtube.com/watch?v=VD0h1cxvjcs&t=21s
   left-color-name: 
   right-color-name: 
-  has-grey-background: 
-- layout: 
-  image: 
-  image-caption: 
+  has-grey-background: false
+- layout: right
+  image: "/uploads/CareerSiteContent2_AbbeyTheatre.jpg"
+  image-caption: Seating in the theatre
   alt: 
   array:
-  - question: 
-    answer-text: 
+  - question: Our Solution
+    answer-text: "Alongside the Abbey Theatre’s compelling theatrical programme, they
+      also offer ancillary products to customers, including Food & Beverage, Theatre
+      Skills for Business, Events and Venue Hire, Tours, and Membership. \n\nThis
+      project aimed to meaningfully interrogate and integrate the commercial potential
+      of the ancillary revenue streams within the overall Abbey Theatre Strategy,
+      and to ensure the ambition was matched by the operational infrastructure. \n\nWrecktangle
+      assessed and made strategic commercial and operational recommendations across
+      Planning, Process, Product Offer, Prioritisation and Promotion. We captured
+      insights and information from key stakeholders, employees, competitors, and
+      potential customers of the Abbey Theatre, alongside gathering and analysing
+      information and data related to ancillary revenues in theatres. \n"
   video-url: 
-  left-color-name: 
-  right-color-name: 
-  has-grey-background: 
+  left-color-name: pink
+  right-color-name: green
+  has-grey-background: true
 ---
 
