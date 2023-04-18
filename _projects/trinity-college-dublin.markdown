@@ -64,9 +64,9 @@ content-block:
   array:
   - question: The Reaction
     answer-text: |-
-      > 2020 brought acute challenges to the tourism model in Trinity. Wrecktangle devised a strategy to develop products that would deliver sustainable, incremental revenue growth.
+      > Wrecktangle recognised the importance of developing products to motivate visitors to explore more of Trinity’s Campus and engage them in new and meaningful ways. Their expertise at navigating the multi-dimensional stakeholder landscape in Trinity was incredibly important to the success of this project and it is fantastic to see its commercial impact since its launch.
 
-      ​Tony Keohane, Acting Commercial Director, Trinity College Dublin
+      ​Gerry Crawford Commercial Director, Trinity College Dublin
   video-url: 
   left-color-name: 
   right-color-name: 
