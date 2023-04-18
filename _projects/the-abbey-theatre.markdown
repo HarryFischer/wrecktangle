@@ -33,6 +33,9 @@ content-block:
       insights and information from key stakeholders, employees, competitors, and
       potential customers of the Abbey Theatre, alongside gathering and analysing
       information and data related to ancillary revenues in theatres. \n"
+  - question: Our Expertise
+    answer-text: "* Commercial assessment \n* Financial strategy\n* Performance optimisation\n*
+      Benchmarking\n"
   video-url: 
   left-color-name: pink
   right-color-name: green
