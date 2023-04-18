@@ -40,5 +40,21 @@ content-block:
   left-color-name: pink
   right-color-name: green
   has-grey-background: true
+- layout: right
+  image: "/uploads/CareerSiteContent1_AbbeyTheatre%20(1).jpg"
+  image-caption: Exterior Abbey Theatre
+  alt: 
+  array:
+  - question: The Reaction
+    answer-text: "> Wrecktangle brought a great breadth of experience across all commercial
+      and operational elements of the project. They delivered insights and recommendations
+      that were both rooted in best practice and relevant to our context.\n\nElaine
+      Mannion, General Manager, The Abbey Theatre \n"
+  - question: 
+    answer-text: 
+  video-url: 
+  left-color-name: 
+  right-color-name: 
+  has-grey-background: 
 ---
 
