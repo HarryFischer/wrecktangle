@@ -12,7 +12,9 @@ content-block:
   array:
   - question: 
     answer-text: "\n"
-  video-url: https://www.youtube.com/watch?v=VD0h1cxvjcs&t=21s
+  video-url: <iframe width="560" height="315" src="https://www.youtube.com/embed/VD0h1cxvjcs"
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+    encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   left-color-name: 
   right-color-name: 
   has-grey-background: false
