@@ -41,9 +41,15 @@ content-block:
       relevant themes across Purpose, Communication, Event Impact, Barriers and Financial
       & Governance and made observations and recommendations based on our findings,
       to ascertain value for money and ensure the best outcomes for future events.\n"
+  - question: Our Expertise
+    answer-text: |
+      * Financial Audit
+      * Customer Feedback Development & Analysis
+      * Benchmarking & Best Practice
+      * Stakeholder Engagement
   video-url: 
-  left-color-name: 
-  right-color-name: 
+  left-color-name: yellow
+  right-color-name: green
   has-grey-background: 
 ---
 
