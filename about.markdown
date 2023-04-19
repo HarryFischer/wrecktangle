@@ -46,13 +46,14 @@ team-members:
   image-alt: Image of Jillian Wilson
 - name: Killian Carroll
   job-title: Director (FCA)
-  bio-text: 'With over 25 years’ experience as a senior financial professional, most
-    recently as a CFO and Board member for a high-profile PPP in the business tourism
-    sector, Killian was responsible for reporting to the board and managing the relationship  with
-    a syndicate of banks and external state agencies (OPW/NDFA). Not just someone
-    with a head for numbers, Killian has proven experience in strategic planning,
-    process improvement and building team culture. He also holds qualifications in
-    governance, internal auditing ISO & ESG. '
+  bio-text: "With over 25 years’ experience as a senior financial professional and
+    Board Director, including as a CFO and Board member for a high-profile PPP in
+    the business tourism sector, Killian has a demonstrable track record of achievement
+    across varied sectors and industries (tourism, retail, FMCG & PPP/PFA). \nKillian
+    has extensive experience with strategy conception, development and implementation,
+    cultural transformation, compliance, audit and business planning, and risk management.
+    \nIn addition, he holds qualifications in governance, internal auditing ISO &
+    ESG."
   image: "/uploads/Headshot-Killian-(1).jpg"
   image-alt: Image of Killian Carroll
 - name: Antoinette O’Connor
