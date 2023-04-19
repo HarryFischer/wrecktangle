@@ -25,13 +25,13 @@ content-block:
   has-grey-background: true
 testimonials:
 - quote-text: Wrecktangle have become an integral part in the concept design and strategic
-    development of the Theatre Of Light Project
+    development of the Theatre Of Light Project.
   quote-name: Daniel Gleeson
   quote-company: Theatre of Light
   quote-job: Founder
 - quote-text: 2020 brought acute challenges to the tourism model in Trinity. Wrecktangle
     devised a strategy to develop products that would deliver sustainable, incremental
-    revenue growth
+    revenue growth.
   quote-name: "​Tony Keohane"
   quote-company: Trinity College Dublin
   quote-job: Acting Commercial Director
