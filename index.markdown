@@ -35,12 +35,12 @@ testimonials:
   quote-name: "​Tony Keohane"
   quote-company: Trinity College Dublin
   quote-job: Acting Commercial Director
-- quote-text: Wrecktangle developed some fantastic content for our app platform. They
-    were also focused on delivering an innovative product that could evolve and remain
-    relevant for their client and the visitors in years to come
-  quote-name: Fearghal Kelly
-  quote-company: Digisoft
-  quote-job: CEO
+- quote-text: Wrecktangle brought a great breadth of experience across all commercial
+    and operational elements of the project. They delivered insights and recommendations
+    that were both rooted in best practice and relevant to our context.
+  quote-name: Elaine Mannion
+  quote-company: 'The Abbey Theatre '
+  quote-job: General Manager
 clients:
 - client-name: Theatre of Light
   client-logo: "/uploads/logo_theatre-of-light.png"
@@ -64,8 +64,8 @@ clients:
   client-logo: "/uploads/logo_bok.png"
 - client-name: DigiSoft.tv
   client-logo: "/uploads/logo_digisoft.tv.png"
-- client-name: Ticketsolve
-  client-logo: "/uploads/logo_ticketsolve.png"
+- client-name: The Abbey Theatre
+  client-logo: "/uploads/Abbey_logo_two_lines_grey_black.png"
 layout: home
 ---
 
