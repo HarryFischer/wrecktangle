@@ -7,6 +7,7 @@ categories:
 - experience
 tags:
 - Trinity College Dublin
+position: 0
 project-image: "/uploads/fallon-michael-cFrD6hBMTQI-unsplash.jpg"
 project-description: How can we re-imagine the Trinity Visitor Experience?
 content-block:
