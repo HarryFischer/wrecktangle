@@ -38,14 +38,10 @@ team-block:
 team-members:
 - name: Jillian Wilson
   job-title: Founder and Managing Director
-  bio-text: 'Jillian founded Wrecktangle in 2020. Working with executive teams in
-    some of Ireland’s top tier venues and experiences (The Abbey Theatre, Trinity
-    College Dublin, RDS, Theatre of Light), Jillian leads by delivering clear and
-    sustainable commercial strategies for Wrecktangle’s projects. She has driven and
-    delivered operations for two of the largest and most successful tourism venues
-    in Ireland: in Business Tourism, The Convention Centre Dublin (CCD) through mobilisation
-    to operational success; and  in Leisure Tourism, at Trinity College Dublin, and
-    The Book of Kells as Head of Tourism during a period of exceptional growth. '
+  bio-text: |-
+    An expert in driving revenue growth, optimizing operational efficiency, and developing strategic partnerships, Jillian has a passion for providing exceptional visitor experiences, and she excels in creating and executing revenue-generating plans, aligning cross-functional teams, and building strong, collaborative relationships with stakeholders.
+    Jillian founded Wrecktangle in 2020 and has worked with executive teams in some of Ireland’s top tier venues and experiences (The Abbey Theatre, Trinity College Dublin, RDS, Theatre of Light).
+    Previously she has driven and delivered operations for two of the largest and most successful tourism venues in Ireland: in Business Tourism, The Convention Centre Dublin (CCD) through mobilisation to operational success; and  in Leisure Tourism, at Trinity College Dublin, and The Book of Kells as Head of Tourism during a period of exceptional growth.
   image: "/uploads/jillian%20copy.jpg"
   image-alt: Image of Jillian Wilson
 - name: Killian Carroll
