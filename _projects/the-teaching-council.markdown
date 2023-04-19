@@ -1,7 +1,7 @@
 ---
 title: The Teaching Council
 date: 2023-04-18 14:15:00 Z
-position: 4
+position: 5
 project-image: "/uploads/F%C3%89ILTE%202022%20(24)-89e5ba.jpg"
 project-description: How can we determine if FÉILTE, our flagship annual event promoting
   teaching as a profession, is value for money and delivering on its purpose?
