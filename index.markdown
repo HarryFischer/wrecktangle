@@ -1,6 +1,5 @@
 ---
 title: Home
-published: false
 position: 0
 redirect_from:
 - "/contact"
