@@ -37,27 +37,26 @@ team-block:
   has-grey-background: 
 team-members:
 - name: Jillian Wilson
-  job-title: Founder and MD
+  job-title: Founder and Managing Director
   bio-text: 'Jillian founded Wrecktangle in 2020. Working with executive teams in
-    some of Ireland’s top tier venues and experiences (Trinity, RDS, Theatre of Light),
-    Jillian leads by delivering clear and sustainable commercial strategies for all
-    of Wrecktangle’s projects. Coming from a  senior executive-level background, Jillian
-    has driven and delivered operations for two of the largest and most successful
-    tourism venues in Ireland: in Business Tourism, The Convention Centre Dublin (CCD)
-    through mobilisation to operational success; and  in Leisure Tourism, at Trinity
-    College Dublin, and The Book of Kells as Head of Tourism during a period of exceptional
-    growth. – and yes, her efforts earned her an award or two!'
+    some of Ireland’s top tier venues and experiences (The Abbey Theatre, Trinity
+    College Dublin, RDS, Theatre of Light), Jillian leads by delivering clear and
+    sustainable commercial strategies for Wrecktangle’s projects. She has driven and
+    delivered operations for two of the largest and most successful tourism venues
+    in Ireland: in Business Tourism, The Convention Centre Dublin (CCD) through mobilisation
+    to operational success; and  in Leisure Tourism, at Trinity College Dublin, and
+    The Book of Kells as Head of Tourism during a period of exceptional growth. '
   image: "/uploads/jillian%20copy.jpg"
   image-alt: Image of Jillian Wilson
 - name: Killian Carroll
   job-title: Director (FCA)
-  bio-text: 'With over 25 years’ experience as a senior financial professional – most
+  bio-text: 'With over 25 years’ experience as a senior financial professional, most
     recently as a CFO and Board member for a high-profile PPP in the business tourism
-    sector – Killian was responsible for reporting to the board and managing the relationship  with
+    sector, Killian was responsible for reporting to the board and managing the relationship  with
     a syndicate of banks and external state agencies (OPW/NDFA). Not just someone
     with a head for numbers, Killian has proven experience in strategic planning,
-    process improvement and building team culture. To top it all off, he also holds
-    qualifications in governance, internal auditing ISO & ESG. '
+    process improvement and building team culture. He also holds qualifications in
+    governance, internal auditing ISO & ESG. '
   image: "/uploads/Headshot-Killian-(1).jpg"
   image-alt: Image of Killian Carroll
 - name: Antoinette O’Connor
